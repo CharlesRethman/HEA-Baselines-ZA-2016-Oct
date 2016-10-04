@@ -3,4 +3,4 @@
 
 # Excel, Calc temporary files
 ~$*.xl*
-.~lock.*
+.~lock.*.ods
