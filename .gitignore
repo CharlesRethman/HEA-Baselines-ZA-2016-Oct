@@ -1,6 +1,12 @@
 # QGIS temporary files
 *.qgs~
 
-# Excel, Calc temporary files
+# Excel lock files
 ~$*.xl*
-.~lock.*.ods
+
+# QGIS and CSV backup files
+*.qgs~
+*.csv~
+
+# Libre Office back up files
+.~lock*
