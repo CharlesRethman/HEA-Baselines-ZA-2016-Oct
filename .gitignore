@@ -1,2 +1,6 @@
 # QGIS temporary files
 *.qgs~
+
+# Excel, Calc temporary files
+~$*.xl*
+.~lock.*

@@ -76,12 +76,12 @@
         <property key="showFeatureCount" value="0"/>
       </customproperties>
     </layer-tree-layer>
-    <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="livezones20140916175207252" name="Limpopo Livelihood Zones">
+    <layer-tree-layer expanded="0" checked="Qt::Checked" id="livezones20140916175207252" name="Limpopo Livelihood Zones">
       <customproperties>
         <property key="showFeatureCount" value="0"/>
       </customproperties>
     </layer-tree-layer>
-    <layer-tree-layer expanded="0" checked="Qt::Checked" id="livezones20140916175155398" name="Mpumalanga Livelihood Zones">
+    <layer-tree-layer expanded="1" checked="Qt::Checked" id="livezones20140916175155398" name="Mpumalanga Livelihood Zones">
       <customproperties>
         <property key="showFeatureCount" value="0"/>
       </customproperties>
@@ -96,7 +96,7 @@
         <property key="showFeatureCount" value="0"/>
       </customproperties>
     </layer-tree-layer>
-    <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="livezones20140918113914885" name="Gauteng Livelihood Zones">
+    <layer-tree-layer expanded="0" checked="Qt::Checked" id="livezones20140918113914885" name="Gauteng Livelihood Zones">
       <customproperties>
         <property key="showFeatureCount" value="0"/>
       </customproperties>
@@ -106,12 +106,12 @@
         <property key="showFeatureCount" value="0"/>
       </customproperties>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="livezones20140916175129059" name="KwaZulu-Natal Livelihood Zones">
+    <layer-tree-layer expanded="0" checked="Qt::Checked" id="livezones20140916175129059" name="KwaZulu-Natal Livelihood Zones">
       <customproperties>
         <property key="showFeatureCount" value="1"/>
       </customproperties>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="livezones20140917103649344" name="Eastern Cape Livelihood Zones">
+    <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="livezones20140917103649344" name="Eastern Cape Livelihood Zones">
       <customproperties>
         <property key="showFeatureCount" value="0"/>
       </customproperties>
@@ -126,10 +126,10 @@
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>-44948.09944052775972523</xmin>
-      <ymin>131729.12156468880129978</ymin>
-      <xmax>151966.00006675827899016</xmax>
-      <ymax>254057.45212520338827744</ymax>
+      <xmin>-260383.04408537145354785</xmin>
+      <ymin>145936.11434998211916536</ymin>
+      <xmax>143775.20684373340918683</xmax>
+      <ymax>560310.95311988133471459</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -170,6 +170,8 @@
       <layer_coordinate_transform destAuthId="USER:100107" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="demog_sas20160219173457651"/>
       <layer_coordinate_transform destAuthId="USER:100107" srcAuthId="USER:100100" srcDatumTransform="-1" destDatumTransform="-1" layerid="demog_sas20160215161354993"/>
       <layer_coordinate_transform destAuthId="USER:100107" srcAuthId="USER:100100" srcDatumTransform="-1" destDatumTransform="-1" layerid="livezones_urban20141002125523242"/>
+      <layer_coordinate_transform destAuthId="USER:100107" srcAuthId="USER:100101" srcDatumTransform="-1" destDatumTransform="-1" layerid="livezones20140916175207252"/>
+      <layer_coordinate_transform destAuthId="USER:100107" srcAuthId="USER:100105" srcDatumTransform="-1" destDatumTransform="-1" layerid="livezones20140918113914885"/>
     </layer_coordinate_transform_info>
   </mapcanvas>
   <layer-tree-canvas>
@@ -324,13 +326,13 @@
         <legendlayerfile isInOverview="0" layerid="livezones_urban20141002125523242" visible="1"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Limpopo Livelihood Zones" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Limpopo Livelihood Zones" showFeatureCount="0">
       <filegroup open="false" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="livezones20140916175207252" visible="0"/>
+        <legendlayerfile isInOverview="0" layerid="livezones20140916175207252" visible="1"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Mpumalanga Livelihood Zones" showFeatureCount="0">
-      <filegroup open="false" hidden="false">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Mpumalanga Livelihood Zones" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
         <legendlayerfile isInOverview="0" layerid="livezones20140916175155398" visible="1"/>
       </filegroup>
     </legendlayer>
@@ -344,9 +346,9 @@
         <legendlayerfile isInOverview="0" layerid="livezones20140918111456071" visible="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Gauteng Livelihood Zones" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Gauteng Livelihood Zones" showFeatureCount="0">
       <filegroup open="false" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="livezones20140918113914885" visible="0"/>
+        <legendlayerfile isInOverview="0" layerid="livezones20140918113914885" visible="1"/>
       </filegroup>
     </legendlayer>
     <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Free State Livelihood Zones" showFeatureCount="0">
@@ -354,14 +356,14 @@
         <legendlayerfile isInOverview="0" layerid="livezones20140927140420118" visible="1"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="KwaZulu-Natal Livelihood Zones" showFeatureCount="1">
-      <filegroup open="true" hidden="false">
+    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="KwaZulu-Natal Livelihood Zones" showFeatureCount="1">
+      <filegroup open="false" hidden="false">
         <legendlayerfile isInOverview="0" layerid="livezones20140916175129059" visible="1"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Eastern Cape Livelihood Zones" showFeatureCount="0">
-      <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="livezones20140917103649344" visible="1"/>
+    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Eastern Cape Livelihood Zones" showFeatureCount="0">
+      <filegroup open="false" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="livezones20140917103649344" visible="0"/>
       </filegroup>
     </legendlayer>
     <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Western Cape Livelihood Zones" showFeatureCount="0">
@@ -5183,7 +5185,7 @@
       <annotationform>../../../livelihood_zones/national/maps</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
-      <attributeactions default="0"/>
+      <attributeactions default="-1"/>
       <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
         <columns/>
       </attributetableconfig>
@@ -10129,6 +10131,12 @@
       </globe>
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" readOnly="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <extent>
+        <xmin>-206231.125</xmin>
+        <ymin>-197818.46875</ymin>
+        <xmax>176681.5625</xmax>
+        <ymax>195938.65625</ymax>
+      </extent>
       <id>livezones20140916175155398</id>
       <datasource>dbname='albers_ea' host=Localhost port=5432 user='Charles' sslmode=disable key='gid' srid=201102 type=MultiPolygon table="za_mp"."livezones" (the_geom) sql=</datasource>
       <keywordList>
@@ -10843,7 +10851,7 @@
       <annotationform>../../../livelihood_zones/national/maps</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
-      <attributeactions default="0"/>
+      <attributeactions default="-1"/>
       <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
         <columns/>
       </attributetableconfig>

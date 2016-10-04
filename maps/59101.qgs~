@@ -768,7 +768,7 @@
         <ymax>0</ymax>
       </extent>
       <id>Raster20150909160708552</id>
-      <datasource>/Users/Charles/Documents/training/wahenga_academy/course_hea_va/module_3/hea_103/graphics/3.9_rainfall_arc.png</datasource>
+      <datasource>../../../../../training/wahenga_academy/course_hea_va/module_3/hea_103/graphics/3.9_rainfall_arc.png</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -816,7 +816,7 @@
         <ymax>-13.48551472512840022</ymax>
       </extent>
       <id>ShadedRelief20150428103937905</id>
-      <datasource>/Users/Shared/data/tiff/weogeo/weogeo_j113760/data/ShadedRelief.tif</datasource>
+      <datasource>../../../../../../../Shared/data/tiff/weogeo/weogeo_j113760/data/ShadedRelief.tif</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -1147,17 +1147,17 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform>/Users/Charles/Documents/hea_baselines/south_africa/livelihood_zones/national/maps</annotationform>
+      <annotationform>../../../livelihood_zones/national/maps</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions default="0"/>
       <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
         <columns/>
       </attributetableconfig>
-      <editform>/Users/Charles/Documents/hea_baselines/south_africa/livelihood_zones/national/maps</editform>
+      <editform>../../../livelihood_zones/national/maps</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath>/Users/Charles/Documents/hea_baselines/south_africa/baselines_surveys/2016_fs_zn/maps</editforminitfilepath>
+      <editforminitfilepath>../../2016_fs_zn/maps</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -1467,17 +1467,17 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform>/Users/Charles/Documents/hea_baselines/south_africa/livelihood_zones/national/maps</annotationform>
+      <annotationform>../../../livelihood_zones/national/maps</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions default="0"/>
       <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
         <columns/>
       </attributetableconfig>
-      <editform>/Users/Charles/Documents/hea_baselines/south_africa/livelihood_zones/national/maps</editform>
+      <editform>../../../livelihood_zones/national/maps</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath>/Users/Charles/Documents/hea_baselines/south_africa/baselines_surveys/2016_fs_zn/maps</editforminitfilepath>
+      <editforminitfilepath>../../2016_fs_zn/maps</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -1767,17 +1767,17 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform>/Users/Charles/Documents/hea_baselines/south_africa/livelihood_zones/national/maps</annotationform>
+      <annotationform>../../../livelihood_zones/national/maps</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions default="0"/>
       <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
         <columns/>
       </attributetableconfig>
-      <editform>/Users/Charles/Documents/hea_baselines/south_africa/livelihood_zones/national/maps</editform>
+      <editform>../../../livelihood_zones/national/maps</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath>/Users/Charles/Documents/hea_baselines/south_africa/baselines_surveys/2016_fs_zn/maps</editforminitfilepath>
+      <editforminitfilepath>../../2016_fs_zn/maps</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -2067,17 +2067,17 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform>/Users/Charles/Documents/hea_baselines/south_africa/livelihood_zones/national/maps</annotationform>
+      <annotationform>../../../livelihood_zones/national/maps</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions default="0"/>
       <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
         <columns/>
       </attributetableconfig>
-      <editform>/Users/Charles/Documents/hea_baselines/south_africa/livelihood_zones/national/maps</editform>
+      <editform>../../../livelihood_zones/national/maps</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath>/Users/Charles/Documents/hea_baselines/south_africa/baselines_surveys/2016_fs_zn/maps</editforminitfilepath>
+      <editforminitfilepath>../../2016_fs_zn/maps</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -4518,17 +4518,17 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform>/Users/Charles/Documents/hea_baselines/south_africa/livelihood_zones/province_zn/maps</annotationform>
+      <annotationform>../../../livelihood_zones/province_zn/maps</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions default="0"/>
       <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
         <columns/>
       </attributetableconfig>
-      <editform>/Users/Charles/Documents/hea_baselines/south_africa/livelihood_zones/province_zn/maps</editform>
+      <editform>../../../livelihood_zones/province_zn/maps</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath>/Users/Charles/Documents/hea_baselines/south_africa/baselines_surveys/2016_fs_zn/maps</editforminitfilepath>
+      <editforminitfilepath>../../2016_fs_zn/maps</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -4671,17 +4671,17 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform>/Users/Charles/Documents/hea_baselines/south_africa/baselines_surveys/2016_fs_zn/maps</annotationform>
+      <annotationform>../../2016_fs_zn/maps</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions default="-1"/>
       <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
         <columns/>
       </attributetableconfig>
-      <editform>/Users/Charles/Documents/hea_baselines/south_africa/baselines_surveys/2016_fs_zn/maps</editform>
+      <editform>../../2016_fs_zn/maps</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath>/Users/Charles/Documents/hea_baselines/south_africa/baselines_surveys/2016_fs_zn/maps</editforminitfilepath>
+      <editforminitfilepath>../../2016_fs_zn/maps</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -4701,7 +4701,7 @@
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" readOnly="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>demog_sas20160219173649316</id>
-      <datasource>/Users/Shared/data/gml/south_africa/demog_sas.gml</datasource>
+      <datasource>../../../../../../../Shared/data/gml/south_africa/demog_sas.gml</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -4827,17 +4827,17 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform>/Users/Charles/Documents/hea_baselines/south_africa/baselines_surveys/2016_fs_zn/maps</annotationform>
+      <annotationform>../../2016_fs_zn/maps</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions default="0"/>
       <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
         <columns/>
       </attributetableconfig>
-      <editform>/Users/Charles/Documents/hea_baselines/south_africa/baselines_surveys/2016_fs_zn/maps</editform>
+      <editform>../../2016_fs_zn/maps</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath>/Users/Charles/Documents/hea_baselines/south_africa/baselines_surveys/2016_fs_zn/maps</editforminitfilepath>
+      <editforminitfilepath>../../2016_fs_zn/maps</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -5180,17 +5180,17 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform>/Users/Charles/Documents/hea_baselines/south_africa/livelihood_zones/national/maps</annotationform>
+      <annotationform>../../../livelihood_zones/national/maps</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions default="0"/>
       <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
         <columns/>
       </attributetableconfig>
-      <editform>/Users/Charles/Documents/hea_baselines/south_africa/livelihood_zones/national/maps</editform>
+      <editform>../../../livelihood_zones/national/maps</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath>/Users/Charles/Documents/hea_baselines/south_africa/baselines_surveys/2016_fs_zn/maps</editforminitfilepath>
+      <editforminitfilepath>../../2016_fs_zn/maps</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -5462,17 +5462,17 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform>/Users/Charles/Documents/hea_baselines/south_africa/livelihood_zones/National/_national</annotationform>
+      <annotationform>../../../livelihood_zones/National/_national</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions default="0"/>
       <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
         <columns/>
       </attributetableconfig>
-      <editform>/Users/Charles/Documents/hea_baselines/south_africa/livelihood_zones/national/maps</editform>
+      <editform>../../../livelihood_zones/national/maps</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath>/Users/Charles/Documents/hea_baselines/south_africa/baselines_surveys/2016_fs_zn/maps</editforminitfilepath>
+      <editforminitfilepath>../../2016_fs_zn/maps</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -5809,17 +5809,17 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform>/Users/Charles/Documents/hea_baselines/south_africa/livelihood_zones/national/maps</annotationform>
+      <annotationform>../../../livelihood_zones/national/maps</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions default="0"/>
       <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
         <columns/>
       </attributetableconfig>
-      <editform>/Users/Charles/Documents/hea_baselines/south_africa/livelihood_zones/national/maps</editform>
+      <editform>../../../livelihood_zones/national/maps</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath>/Users/Charles/Documents/hea_baselines/south_africa/baselines_surveys/2016_fs_zn/maps</editforminitfilepath>
+      <editforminitfilepath>../../2016_fs_zn/maps</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -6062,17 +6062,17 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform>/Users/Charles/Documents/hea_baselines/south_africa/livelihood_zones/national/maps</annotationform>
+      <annotationform>../../../livelihood_zones/national/maps</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions default="0"/>
       <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
         <columns/>
       </attributetableconfig>
-      <editform>/Users/Charles/Documents/hea_baselines/south_africa/livelihood_zones/national/maps</editform>
+      <editform>../../../livelihood_zones/national/maps</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath>/Users/Charles/Documents/hea_baselines/south_africa/baselines_surveys/2016_fs_zn/maps</editforminitfilepath>
+      <editforminitfilepath>../../2016_fs_zn/maps</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -6481,17 +6481,17 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform>/Users/Charles/Documents/hea_baselines/south_africa/livelihood_zones/national/maps</annotationform>
+      <annotationform>../../../livelihood_zones/national/maps</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions default="0"/>
       <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
         <columns/>
       </attributetableconfig>
-      <editform>/Users/Charles/Documents/hea_baselines/south_africa/livelihood_zones/national/maps</editform>
+      <editform>../../../livelihood_zones/national/maps</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath>/Users/Charles/Documents/hea_baselines/south_africa/baselines_surveys/2016_fs_zn/maps</editforminitfilepath>
+      <editforminitfilepath>../../2016_fs_zn/maps</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -6762,17 +6762,17 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform>/Users/Charles/Documents/hea_baselines/south_africa/livelihood_zones/National/_national</annotationform>
+      <annotationform>../../../livelihood_zones/National/_national</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions default="0"/>
       <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
         <columns/>
       </attributetableconfig>
-      <editform>/Users/Charles/Documents/hea_baselines/south_africa/livelihood_zones/National/_national</editform>
+      <editform>../../../livelihood_zones/National/_national</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath>/Users/Charles/Documents/hea_baselines/south_africa/baselines_surveys/2016_fs_zn/maps</editforminitfilepath>
+      <editforminitfilepath>../../2016_fs_zn/maps</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -7193,17 +7193,17 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform>/Users/Charles/Documents/hea_baselines/south_africa/livelihood_zones/national/maps</annotationform>
+      <annotationform>../../../livelihood_zones/national/maps</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions default="0"/>
       <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
         <columns/>
       </attributetableconfig>
-      <editform>/Users/Charles/Documents/hea_baselines/south_africa/livelihood_zones/national/maps</editform>
+      <editform>../../../livelihood_zones/national/maps</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath>/Users/Charles/Documents/hea_baselines/south_africa/baselines_surveys/2016_fs_zn/maps</editforminitfilepath>
+      <editforminitfilepath>../../2016_fs_zn/maps</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -7486,17 +7486,17 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform>/Users/Charles/Documents/hea_baselines/south_africa/livelihood_zones/national/maps</annotationform>
+      <annotationform>../../../livelihood_zones/national/maps</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions default="0"/>
       <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
         <columns/>
       </attributetableconfig>
-      <editform>/Users/Charles/Documents/hea_baselines/south_africa/livelihood_zones/national/maps</editform>
+      <editform>../../../livelihood_zones/national/maps</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath>/Users/Charles/Documents/hea_baselines/south_africa/baselines_surveys/2016_fs_zn/maps</editforminitfilepath>
+      <editforminitfilepath>../../2016_fs_zn/maps</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -8701,17 +8701,17 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform>/Users/Charles/Documents/hea_baselines/south_africa/livelihood_zones/province_zn/maps</annotationform>
+      <annotationform>../../../livelihood_zones/province_zn/maps</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions default="0"/>
       <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
         <columns/>
       </attributetableconfig>
-      <editform>/Users/Charles/Documents/hea_baselines/south_africa/livelihood_zones/province_zn/maps</editform>
+      <editform>../../../livelihood_zones/province_zn/maps</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath>/Users/Charles/Documents/hea_baselines/south_africa/baselines_surveys/2016_fs_zn/maps</editforminitfilepath>
+      <editforminitfilepath>../../2016_fs_zn/maps</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -8966,17 +8966,17 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform>/Users/Charles/Documents/hea_baselines/south_africa/livelihood_zones/national/maps</annotationform>
+      <annotationform>../../../livelihood_zones/national/maps</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions default="0"/>
       <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
         <columns/>
       </attributetableconfig>
-      <editform>/Users/Charles/Documents/hea_baselines/south_africa/livelihood_zones/national/maps</editform>
+      <editform>../../../livelihood_zones/national/maps</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath>/Users/Charles/Documents/hea_baselines/south_africa/baselines_surveys/2016_fs_zn/maps</editforminitfilepath>
+      <editforminitfilepath>../../2016_fs_zn/maps</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -9579,17 +9579,17 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform>/Users/Charles/Documents/hea_baselines/south_africa/livelihood_zones/national/maps</annotationform>
+      <annotationform>../../../livelihood_zones/national/maps</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions default="0"/>
       <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
         <columns/>
       </attributetableconfig>
-      <editform>/Users/Charles/Documents/hea_baselines/south_africa/livelihood_zones/national/maps</editform>
+      <editform>../../../livelihood_zones/national/maps</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath>/Users/Charles/Documents/hea_baselines/south_africa/baselines_surveys/2016_fs_zn/maps</editforminitfilepath>
+      <editforminitfilepath>../../2016_fs_zn/maps</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -10100,17 +10100,17 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform>/Users/Charles/Documents/hea_baselines/south_africa/livelihood_zones/national/maps</annotationform>
+      <annotationform>../../../livelihood_zones/national/maps</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions default="0"/>
       <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
         <columns/>
       </attributetableconfig>
-      <editform>/Users/Charles/Documents/hea_baselines/south_africa/livelihood_zones/national/maps</editform>
+      <editform>../../../livelihood_zones/national/maps</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath>/Users/Charles/Documents/hea_baselines/south_africa/baselines_surveys/2016_fs_zn/maps</editforminitfilepath>
+      <editforminitfilepath>../../2016_fs_zn/maps</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -10840,17 +10840,17 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform>/Users/Charles/Documents/hea_baselines/south_africa/livelihood_zones/national/maps</annotationform>
+      <annotationform>../../../livelihood_zones/national/maps</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions default="0"/>
       <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
         <columns/>
       </attributetableconfig>
-      <editform>/Users/Charles/Documents/hea_baselines/south_africa/livelihood_zones/national/maps</editform>
+      <editform>../../../livelihood_zones/national/maps</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath>/Users/Charles/Documents/hea_baselines/south_africa/baselines_surveys/2016_fs_zn/maps</editforminitfilepath>
+      <editforminitfilepath>../../2016_fs_zn/maps</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -11505,17 +11505,17 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform>/Users/Charles/Documents/hea_baselines/south_africa/livelihood_zones/national/maps</annotationform>
+      <annotationform>../../../livelihood_zones/national/maps</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions default="0"/>
       <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
         <columns/>
       </attributetableconfig>
-      <editform>/Users/Charles/Documents/hea_baselines/south_africa/livelihood_zones/national/maps</editform>
+      <editform>../../../livelihood_zones/national/maps</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath>/Users/Charles/Documents/hea_baselines/south_africa/baselines_surveys/2016_fs_zn/maps</editforminitfilepath>
+      <editforminitfilepath>../../2016_fs_zn/maps</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -12358,17 +12358,17 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform>/Users/Charles/Documents/hea_baselines/south_africa/livelihood_zones/national/maps</annotationform>
+      <annotationform>../../../livelihood_zones/national/maps</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions default="0"/>
       <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
         <columns/>
       </attributetableconfig>
-      <editform>/Users/Charles/Documents/hea_baselines/south_africa/livelihood_zones/national/maps</editform>
+      <editform>../../../livelihood_zones/national/maps</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath>/Users/Charles/Documents/hea_baselines/south_africa/baselines_surveys/2016_fs_zn/maps</editforminitfilepath>
+      <editforminitfilepath>../../2016_fs_zn/maps</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -12849,17 +12849,17 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform>/Users/Charles/Documents/hea_baselines/south_africa/livelihood_zones/national/maps</annotationform>
+      <annotationform>../../../livelihood_zones/national/maps</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions default="0"/>
       <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
         <columns/>
       </attributetableconfig>
-      <editform>/Users/Charles/Documents/hea_baselines/south_africa/livelihood_zones/national/maps</editform>
+      <editform>../../../livelihood_zones/national/maps</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath>/Users/Charles/Documents/hea_baselines/south_africa/baselines_surveys/2016_fs_zn/maps</editforminitfilepath>
+      <editforminitfilepath>../../2016_fs_zn/maps</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -13972,17 +13972,17 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform>/Users/Charles/Documents/hea_baselines/south_africa/livelihood_zones/national/maps</annotationform>
+      <annotationform>../../../livelihood_zones/national/maps</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions default="0"/>
       <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
         <columns/>
       </attributetableconfig>
-      <editform>/Users/Charles/Documents/hea_baselines/south_africa/livelihood_zones/national/maps</editform>
+      <editform>../../../livelihood_zones/national/maps</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath>/Users/Charles/Documents/hea_baselines/south_africa/baselines_surveys/2016_fs_zn/maps</editforminitfilepath>
+      <editforminitfilepath>../../2016_fs_zn/maps</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -14365,17 +14365,17 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform>/Users/Charles/Documents/hea_baselines/south_africa/livelihood_zones/national/maps</annotationform>
+      <annotationform>../../../livelihood_zones/national/maps</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions default="0"/>
       <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
         <columns/>
       </attributetableconfig>
-      <editform>/Users/Charles/Documents/hea_baselines/south_africa/livelihood_zones/national/maps</editform>
+      <editform>../../../livelihood_zones/national/maps</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath>/Users/Charles/Documents/hea_baselines/south_africa/baselines_surveys/2016_fs_zn/maps</editforminitfilepath>
+      <editforminitfilepath>../../2016_fs_zn/maps</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -14870,17 +14870,17 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform>/Users/Charles/Documents/hea_baselines/south_africa/livelihood_zones/national/maps</annotationform>
+      <annotationform>../../../livelihood_zones/national/maps</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions default="0"/>
       <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
         <columns/>
       </attributetableconfig>
-      <editform>/Users/Charles/Documents/hea_baselines/south_africa/livelihood_zones/national/maps</editform>
+      <editform>../../../livelihood_zones/national/maps</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath>/Users/Charles/Documents/hea_baselines/south_africa/baselines_surveys/2016_fs_zn/maps</editforminitfilepath>
+      <editforminitfilepath>../../2016_fs_zn/maps</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -15389,17 +15389,17 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform>/Users/Charles/Documents/hea_baselines/south_africa/livelihood_zones/national/maps</annotationform>
+      <annotationform>../../../livelihood_zones/national/maps</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions default="0"/>
       <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
         <columns/>
       </attributetableconfig>
-      <editform>/Users/Charles/Documents/hea_baselines/south_africa/livelihood_zones/national/maps</editform>
+      <editform>../../../livelihood_zones/national/maps</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath>/Users/Charles/Documents/hea_baselines/south_africa/baselines_surveys/2016_fs_zn/maps</editforminitfilepath>
+      <editforminitfilepath>../../2016_fs_zn/maps</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -15787,17 +15787,17 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform>/Users/Charles/Documents/hea_baselines/south_africa/livelihood_zones/national/maps</annotationform>
+      <annotationform>../../../livelihood_zones/national/maps</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions default="0"/>
       <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
         <columns/>
       </attributetableconfig>
-      <editform>/Users/Charles/Documents/hea_baselines/south_africa/livelihood_zones/national/maps</editform>
+      <editform>../../../livelihood_zones/national/maps</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath>/Users/Charles/Documents/hea_baselines/south_africa/baselines_surveys/2016_fs_zn/maps</editforminitfilepath>
+      <editforminitfilepath>../../2016_fs_zn/maps</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -16134,17 +16134,17 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform>/Users/Charles/Documents/hea_baselines/south_africa/livelihood_zones/province_zn/maps</annotationform>
+      <annotationform>../../../livelihood_zones/province_zn/maps</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions default="0"/>
       <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
         <columns/>
       </attributetableconfig>
-      <editform>/Users/Charles/Documents/hea_baselines/south_africa/livelihood_zones/province_zn/maps</editform>
+      <editform>../../../livelihood_zones/province_zn/maps</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath>/Users/Charles/Documents/hea_baselines/south_africa/baselines_surveys/2016_fs_zn/maps</editforminitfilepath>
+      <editforminitfilepath>../../2016_fs_zn/maps</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -16503,17 +16503,17 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform>/Users/Charles/Documents/hea_baselines/south_africa/livelihood_zones/province_zn/maps</annotationform>
+      <annotationform>../../../livelihood_zones/province_zn/maps</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions default="0"/>
       <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
         <columns/>
       </attributetableconfig>
-      <editform>/Users/Charles/Documents/hea_baselines/south_africa/livelihood_zones/province_zn/maps</editform>
+      <editform>../../../livelihood_zones/province_zn/maps</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath>/Users/Charles/Documents/hea_baselines/south_africa/baselines_surveys/2016_fs_zn/maps</editforminitfilepath>
+      <editforminitfilepath>../../2016_fs_zn/maps</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -16795,17 +16795,17 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform>/Users/Charles/Documents/hea_baselines/south_africa/baselines_surveys/2016_fs_zn/maps</annotationform>
+      <annotationform>../../2016_fs_zn/maps</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions default="0"/>
       <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
         <columns/>
       </attributetableconfig>
-      <editform>/Users/Charles/Documents/hea_baselines/south_africa/baselines_surveys/2016_fs_zn/maps</editform>
+      <editform>../../2016_fs_zn/maps</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath>/Users/Charles/Documents/hea_baselines/south_africa/baselines_surveys/2016_fs_zn/maps</editforminitfilepath>
+      <editforminitfilepath>../../2016_fs_zn/maps</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
