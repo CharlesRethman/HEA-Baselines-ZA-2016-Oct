@@ -62,7 +62,7 @@
     <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="vw_sampled_20160220160216173604551" name="Sampled villages">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="demog_sas20160219173649316" name="Demog_sas">
+    <layer-tree-layer expanded="1" checked="Qt::Checked" id="demog_sas20160219173649316" name="Demog_sas">
       <customproperties/>
     </layer-tree-layer>
     <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="demog_sas20160219173457651" name="Demog_sas">
@@ -126,10 +126,10 @@
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>129552.06864270404912531</xmin>
-      <ymin>163882.23027471225941554</ymin>
-      <xmax>1078211.12454615416936576</xmax>
-      <ymax>759687.36417615786194801</ymax>
+      <xmin>595185.56770326662808657</xmin>
+      <ymin>479437.30276195681653917</ymin>
+      <xmax>617045.57888198527507484</xmax>
+      <ymax>511738.06031096004880965</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -150,12 +150,13 @@
       <layer_coordinate_transform destAuthId="USER:100100" srcAuthId="USER:100107" srcDatumTransform="-1" destDatumTransform="-1" layerid="livezones20140916175129059"/>
       <layer_coordinate_transform destAuthId="USER:100100" srcAuthId="USER:100100" srcDatumTransform="-1" destDatumTransform="-1" layerid="grid20140916173618057"/>
       <layer_coordinate_transform destAuthId="USER:100100" srcAuthId="USER:100102" srcDatumTransform="-1" destDatumTransform="-1" layerid="livezones20140916175155398"/>
-      <layer_coordinate_transform destAuthId="USER:100100" srcAuthId="USER:100100" srcDatumTransform="-1" destDatumTransform="-1" layerid="vw_sampled_centroids20160222222805082"/>
       <layer_coordinate_transform destAuthId="USER:100100" srcAuthId="USER:100103" srcDatumTransform="-1" destDatumTransform="-1" layerid="livezones20140916175142566"/>
+      <layer_coordinate_transform destAuthId="USER:100100" srcAuthId="USER:100100" srcDatumTransform="-1" destDatumTransform="-1" layerid="vw_sampled_centroids20160222222805082"/>
       <layer_coordinate_transform destAuthId="USER:100100" srcAuthId="USER:100100" srcDatumTransform="-1" destDatumTransform="-1" layerid="settlemt_towns20141016122322026"/>
       <layer_coordinate_transform destAuthId="USER:100100" srcAuthId="USER:100100" srcDatumTransform="-1" destDatumTransform="-1" layerid="vw_sampled_20160220160216173604551"/>
       <layer_coordinate_transform destAuthId="USER:100100" srcAuthId="USER:100101" srcDatumTransform="-1" destDatumTransform="-1" layerid="admin2_provs20150127153317162"/>
       <layer_coordinate_transform destAuthId="USER:100100" srcAuthId="USER:100106" srcDatumTransform="-1" destDatumTransform="-1" layerid="livezones20140927140420118"/>
+      <layer_coordinate_transform destAuthId="USER:100100" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="demog_sas20160219173649316"/>
       <layer_coordinate_transform destAuthId="USER:100100" srcAuthId="USER:100100" srcDatumTransform="-1" destDatumTransform="-1" layerid="infra_railways20141016122124065"/>
       <layer_coordinate_transform destAuthId="USER:100100" srcAuthId="USER:100100" srcDatumTransform="-1" destDatumTransform="-1" layerid="admin3_dists20150206151031498"/>
       <layer_coordinate_transform destAuthId="USER:100100" srcAuthId="USER:100100" srcDatumTransform="-1" destDatumTransform="-1" layerid="admin4_munics20150206151234955"/>
@@ -301,9 +302,9 @@
         <legendlayerfile isInOverview="0" layerid="vw_sampled_20160220160216173604551" visible="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Demog_sas" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Demog_sas" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="demog_sas20160219173649316" visible="0"/>
+        <legendlayerfile isInOverview="0" layerid="demog_sas20160219173649316" visible="1"/>
       </filegroup>
     </legendlayer>
     <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Demog_sas" showFeatureCount="0">
@@ -367,55 +368,6 @@
       </filegroup>
     </legendlayer>
   </legend>
-  <mapcanvas>
-    <units>meters</units>
-    <extent>
-      <xmin>-44948.09944052775972523</xmin>
-      <ymin>131729.12156468880129978</ymin>
-      <xmax>151966.00006675827899016</xmax>
-      <ymax>254057.45212520338827744</ymax>
-    </extent>
-    <rotation>0</rotation>
-    <projections>1</projections>
-    <destinationsrs>
-      <spatialrefsys>
-        <proj4>+proj=aea +lat_1=-27.51 +lat_2=-30.37 +lat_0=-28.94 +lon_0=30.73 +x_0=0 +y_0=0 +ellps=WGS84 +datum=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
-        <srsid>100107</srsid>
-        <srid>0</srid>
-        <authid>USER:100107</authid>
-        <description>201107 KwaZulu-Natal Albers Equal Area</description>
-        <projectionacronym>aea</projectionacronym>
-        <ellipsoidacronym>WGS84</ellipsoidacronym>
-        <geographicflag>false</geographicflag>
-      </spatialrefsys>
-    </destinationsrs>
-    <rendermaptile>0</rendermaptile>
-    <layer_coordinate_transform_info>
-      <layer_coordinate_transform destAuthId="USER:100107" srcAuthId="USER:100107" srcDatumTransform="-1" destDatumTransform="-1" layerid="livezones20140916175129059"/>
-      <layer_coordinate_transform destAuthId="USER:100107" srcAuthId="USER:100100" srcDatumTransform="-1" destDatumTransform="-1" layerid="grid20140916173618057"/>
-      <layer_coordinate_transform destAuthId="USER:100107" srcAuthId="USER:100108" srcDatumTransform="-1" destDatumTransform="-1" layerid="livezones20140917103649344"/>
-      <layer_coordinate_transform destAuthId="USER:100107" srcAuthId="USER:100102" srcDatumTransform="-1" destDatumTransform="-1" layerid="livezones20140916175155398"/>
-      <layer_coordinate_transform destAuthId="USER:100107" srcAuthId="USER:100100" srcDatumTransform="-1" destDatumTransform="-1" layerid="vw_sampled_centroids20160222222805082"/>
-      <layer_coordinate_transform destAuthId="USER:100107" srcAuthId="USER:100100" srcDatumTransform="-1" destDatumTransform="-1" layerid="vw_sampled_centroids20160218112445273"/>
-      <layer_coordinate_transform destAuthId="USER:100107" srcAuthId="USER:100100" srcDatumTransform="-1" destDatumTransform="-1" layerid="settlemt_towns20141016122322026"/>
-      <layer_coordinate_transform destAuthId="USER:100107" srcAuthId="USER:100100" srcDatumTransform="-1" destDatumTransform="-1" layerid="vw_sampled_20160220160216173604551"/>
-      <layer_coordinate_transform destAuthId="USER:100107" srcAuthId="USER:100101" srcDatumTransform="-1" destDatumTransform="-1" layerid="admin2_provs20150127153317162"/>
-      <layer_coordinate_transform destAuthId="USER:100107" srcAuthId="USER:100106" srcDatumTransform="-1" destDatumTransform="-1" layerid="livezones20140927140420118"/>
-      <layer_coordinate_transform destAuthId="USER:100107" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="demog_sas20160219173649316"/>
-      <layer_coordinate_transform destAuthId="USER:100107" srcAuthId="USER:100100" srcDatumTransform="-1" destDatumTransform="-1" layerid="vw_sampled_centroids20160222221517526"/>
-      <layer_coordinate_transform destAuthId="USER:100107" srcAuthId="USER:100100" srcDatumTransform="-1" destDatumTransform="-1" layerid="infra_railways20141016122124065"/>
-      <layer_coordinate_transform destAuthId="USER:100107" srcAuthId="USER:100100" srcDatumTransform="-1" destDatumTransform="-1" layerid="admin3_dists20150206151031498"/>
-      <layer_coordinate_transform destAuthId="USER:100107" srcAuthId="USER:100100" srcDatumTransform="-1" destDatumTransform="-1" layerid="admin4_munics20150206151234955"/>
-      <layer_coordinate_transform destAuthId="USER:100107" srcAuthId="USER:100100" srcDatumTransform="-1" destDatumTransform="-1" layerid="landcap_200720141002171835073"/>
-      <layer_coordinate_transform destAuthId="USER:100107" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="infra_tfares_osm20151212205144669"/>
-      <layer_coordinate_transform destAuthId="USER:100107" srcAuthId="USER:100100" srcDatumTransform="-1" destDatumTransform="-1" layerid="vw_sampled_eas20160219112108684"/>
-      <layer_coordinate_transform destAuthId="USER:100107" srcAuthId="USER:100100" srcDatumTransform="-1" destDatumTransform="-1" layerid="hydro_rivers20141016122058195"/>
-      <layer_coordinate_transform destAuthId="USER:100107" srcAuthId="USER:100101" srcDatumTransform="-1" destDatumTransform="-1" layerid="admin2_provs20150127152636327"/>
-      <layer_coordinate_transform destAuthId="USER:100107" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="demog_sas20160219173457651"/>
-      <layer_coordinate_transform destAuthId="USER:100107" srcAuthId="USER:100100" srcDatumTransform="-1" destDatumTransform="-1" layerid="demog_sas20160215161354993"/>
-      <layer_coordinate_transform destAuthId="USER:100107" srcAuthId="USER:100100" srcDatumTransform="-1" destDatumTransform="-1" layerid="livezones_urban20141002125523242"/>
-    </layer_coordinate_transform_info>
-  </mapcanvas>
   <Composer title="lz_survey_sites_2" visible="0">
     <Composition resizeToContentsMarginLeft="0" snapping="0" showPages="1" guidesVisible="1" resizeToContentsMarginTop="0" worldFileMap="" alignmentSnap="1" printResolution="200" paperWidth="297" gridVisible="0" snapGridOffsetX="0" smartGuides="1" snapGridOffsetY="0" resizeToContentsMarginRight="0" snapTolerancePixels="5" printAsRaster="0" generateWorldFile="0" paperHeight="210" numPages="1" snapGridResolution="10" resizeToContentsMarginBottom="0">
       <symbol alpha="1" clip_to_extent="1" type="fill" name="">
@@ -4696,7 +4648,7 @@
         </modelRendering>
       </globe>
     </maplayer>
-    <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" readOnly="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+    <maplayer simplifyAlgorithm="0" minimumScale="100000" maximumScale="1e+08" simplifyDrawingHints="1" readOnly="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>demog_sas20160219173649316</id>
       <datasource>../../../../../../../Shared/data/gml/south_africa/demog_sas.gml</datasource>
       <keywordList>
@@ -4781,14 +4733,14 @@
           <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
             <layer pass="0" class="SimpleFill" locked="0">
               <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="color" v="235,205,148,255"/>
+              <prop k="color" v="235,205,148,0"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
               <prop k="outline_color" v="0,0,0,255"/>
               <prop k="outline_style" v="solid"/>
-              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width" v="0.01"/>
               <prop k="outline_width_unit" v="MM"/>
               <prop k="style" v="solid"/>
             </layer>
@@ -4798,7 +4750,147 @@
         <sizescale scalemethod="diameter"/>
       </renderer-v2>
       <labeling type="simple"/>
-      <customproperties/>
+      <customproperties>
+        <property key="embeddedWidgets/count" value="0"/>
+        <property key="labeling" value="pal"/>
+        <property key="labeling/addDirectionSymbol" value="false"/>
+        <property key="labeling/angleOffset" value="0"/>
+        <property key="labeling/blendMode" value="0"/>
+        <property key="labeling/bufferBlendMode" value="0"/>
+        <property key="labeling/bufferColorA" value="255"/>
+        <property key="labeling/bufferColorB" value="255"/>
+        <property key="labeling/bufferColorG" value="255"/>
+        <property key="labeling/bufferColorR" value="255"/>
+        <property key="labeling/bufferDraw" value="false"/>
+        <property key="labeling/bufferJoinStyle" value="64"/>
+        <property key="labeling/bufferNoFill" value="false"/>
+        <property key="labeling/bufferSize" value="1"/>
+        <property key="labeling/bufferSizeInMapUnits" value="false"/>
+        <property key="labeling/bufferSizeMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/bufferTransp" value="0"/>
+        <property key="labeling/centroidInside" value="false"/>
+        <property key="labeling/centroidWhole" value="false"/>
+        <property key="labeling/decimals" value="3"/>
+        <property key="labeling/displayAll" value="false"/>
+        <property key="labeling/dist" value="0"/>
+        <property key="labeling/distInMapUnits" value="false"/>
+        <property key="labeling/distMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/drawLabels" value="false"/>
+        <property key="labeling/enabled" value="false"/>
+        <property key="labeling/fieldName" value=""/>
+        <property key="labeling/fitInPolygonOnly" value="false"/>
+        <property key="labeling/fontCapitals" value="0"/>
+        <property key="labeling/fontFamily" value=".SF NS Text"/>
+        <property key="labeling/fontItalic" value="false"/>
+        <property key="labeling/fontLetterSpacing" value="0"/>
+        <property key="labeling/fontLimitPixelSize" value="false"/>
+        <property key="labeling/fontMaxPixelSize" value="10000"/>
+        <property key="labeling/fontMinPixelSize" value="3"/>
+        <property key="labeling/fontSize" value="13"/>
+        <property key="labeling/fontSizeInMapUnits" value="false"/>
+        <property key="labeling/fontSizeMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/fontStrikeout" value="false"/>
+        <property key="labeling/fontUnderline" value="false"/>
+        <property key="labeling/fontWeight" value="50"/>
+        <property key="labeling/fontWordSpacing" value="0"/>
+        <property key="labeling/formatNumbers" value="false"/>
+        <property key="labeling/isExpression" value="true"/>
+        <property key="labeling/labelOffsetInMapUnits" value="true"/>
+        <property key="labeling/labelOffsetMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/labelPerPart" value="false"/>
+        <property key="labeling/leftDirectionSymbol" value="&lt;"/>
+        <property key="labeling/limitNumLabels" value="false"/>
+        <property key="labeling/maxCurvedCharAngleIn" value="20"/>
+        <property key="labeling/maxCurvedCharAngleOut" value="-20"/>
+        <property key="labeling/maxNumLabels" value="2000"/>
+        <property key="labeling/mergeLines" value="false"/>
+        <property key="labeling/minFeatureSize" value="0"/>
+        <property key="labeling/multilineAlign" value="0"/>
+        <property key="labeling/multilineHeight" value="1"/>
+        <property key="labeling/namedStyle" value=""/>
+        <property key="labeling/obstacle" value="true"/>
+        <property key="labeling/obstacleFactor" value="1"/>
+        <property key="labeling/obstacleType" value="0"/>
+        <property key="labeling/offsetType" value="0"/>
+        <property key="labeling/placeDirectionSymbol" value="0"/>
+        <property key="labeling/placement" value="1"/>
+        <property key="labeling/placementFlags" value="10"/>
+        <property key="labeling/plussign" value="false"/>
+        <property key="labeling/predefinedPositionOrder" value="TR,TL,BR,BL,R,L,TSR,BSR"/>
+        <property key="labeling/preserveRotation" value="true"/>
+        <property key="labeling/previewBkgrdColor" value="#ffffff"/>
+        <property key="labeling/priority" value="5"/>
+        <property key="labeling/quadOffset" value="4"/>
+        <property key="labeling/repeatDistance" value="0"/>
+        <property key="labeling/repeatDistanceMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/repeatDistanceUnit" value="1"/>
+        <property key="labeling/reverseDirectionSymbol" value="false"/>
+        <property key="labeling/rightDirectionSymbol" value=">"/>
+        <property key="labeling/scaleMax" value="10000000"/>
+        <property key="labeling/scaleMin" value="1"/>
+        <property key="labeling/scaleVisibility" value="false"/>
+        <property key="labeling/shadowBlendMode" value="6"/>
+        <property key="labeling/shadowColorB" value="0"/>
+        <property key="labeling/shadowColorG" value="0"/>
+        <property key="labeling/shadowColorR" value="0"/>
+        <property key="labeling/shadowDraw" value="false"/>
+        <property key="labeling/shadowOffsetAngle" value="135"/>
+        <property key="labeling/shadowOffsetDist" value="1"/>
+        <property key="labeling/shadowOffsetGlobal" value="true"/>
+        <property key="labeling/shadowOffsetMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shadowOffsetUnits" value="1"/>
+        <property key="labeling/shadowRadius" value="1.5"/>
+        <property key="labeling/shadowRadiusAlphaOnly" value="false"/>
+        <property key="labeling/shadowRadiusMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shadowRadiusUnits" value="1"/>
+        <property key="labeling/shadowScale" value="100"/>
+        <property key="labeling/shadowTransparency" value="30"/>
+        <property key="labeling/shadowUnder" value="0"/>
+        <property key="labeling/shapeBlendMode" value="0"/>
+        <property key="labeling/shapeBorderColorA" value="255"/>
+        <property key="labeling/shapeBorderColorB" value="128"/>
+        <property key="labeling/shapeBorderColorG" value="128"/>
+        <property key="labeling/shapeBorderColorR" value="128"/>
+        <property key="labeling/shapeBorderWidth" value="0"/>
+        <property key="labeling/shapeBorderWidthMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shapeBorderWidthUnits" value="1"/>
+        <property key="labeling/shapeDraw" value="false"/>
+        <property key="labeling/shapeFillColorA" value="255"/>
+        <property key="labeling/shapeFillColorB" value="255"/>
+        <property key="labeling/shapeFillColorG" value="255"/>
+        <property key="labeling/shapeFillColorR" value="255"/>
+        <property key="labeling/shapeJoinStyle" value="64"/>
+        <property key="labeling/shapeOffsetMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shapeOffsetUnits" value="1"/>
+        <property key="labeling/shapeOffsetX" value="0"/>
+        <property key="labeling/shapeOffsetY" value="0"/>
+        <property key="labeling/shapeRadiiMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shapeRadiiUnits" value="1"/>
+        <property key="labeling/shapeRadiiX" value="0"/>
+        <property key="labeling/shapeRadiiY" value="0"/>
+        <property key="labeling/shapeRotation" value="0"/>
+        <property key="labeling/shapeRotationType" value="0"/>
+        <property key="labeling/shapeSVGFile" value=""/>
+        <property key="labeling/shapeSizeMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shapeSizeType" value="0"/>
+        <property key="labeling/shapeSizeUnits" value="1"/>
+        <property key="labeling/shapeSizeX" value="0"/>
+        <property key="labeling/shapeSizeY" value="0"/>
+        <property key="labeling/shapeTransparency" value="0"/>
+        <property key="labeling/shapeType" value="0"/>
+        <property key="labeling/textColorA" value="255"/>
+        <property key="labeling/textColorB" value="0"/>
+        <property key="labeling/textColorG" value="0"/>
+        <property key="labeling/textColorR" value="0"/>
+        <property key="labeling/textTransp" value="0"/>
+        <property key="labeling/upsidedownLabels" value="0"/>
+        <property key="labeling/wrapChar" value=""/>
+        <property key="labeling/xOffset" value="0"/>
+        <property key="labeling/yOffset" value="0"/>
+        <property key="labeling/zIndex" value="0"/>
+        <property key="variableNames" value="_fields_"/>
+        <property key="variableValues" value=""/>
+      </customproperties>
       <blendMode>0</blendMode>
       <featureBlendMode>0</featureBlendMode>
       <layerTransparency>0</layerTransparency>
@@ -4824,18 +4916,81 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
+      <SingleCategoryDiagramRenderer diagramType="Histogram" sizeLegend="0" attributeLegend="1">
+        <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" sizeScale="0,0,0,0,0,0" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" lineSizeScale="0,0,0,0,0,0" sizeType="MM" lineSizeType="MM" minScaleDenominator="100000">
+          <fontProperties description=".SF NS Text,13,-1,5,50,0,0,0,0,0" style=""/>
+        </DiagramCategory>
+        <symbol alpha="1" clip_to_extent="1" type="marker" name="sizeSymbol">
+          <layer pass="0" class="SimpleMarker" locked="0">
+            <prop k="angle" v="0"/>
+            <prop k="color" v="255,0,0,255"/>
+            <prop k="horizontal_anchor_point" v="1"/>
+            <prop k="joinstyle" v="bevel"/>
+            <prop k="name" v="circle"/>
+            <prop k="offset" v="0,0"/>
+            <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="outline_color" v="0,0,0,255"/>
+            <prop k="outline_style" v="solid"/>
+            <prop k="outline_width" v="0"/>
+            <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+            <prop k="outline_width_unit" v="MM"/>
+            <prop k="scale_method" v="diameter"/>
+            <prop k="size" v="2"/>
+            <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+            <prop k="size_unit" v="MM"/>
+            <prop k="vertical_anchor_point" v="1"/>
+          </layer>
+        </symbol>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings yPosColumn="-1" showColumn="-1" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
       <annotationform>../../2016_fs_zn/maps</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
-      <attributeactions default="0"/>
+      <attributeactions default="-1"/>
       <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
-        <columns/>
+        <columns>
+          <column width="-1" hidden="0" type="field" name="fid"/>
+          <column width="-1" hidden="0" type="field" name="gid"/>
+          <column width="-1" hidden="0" type="field" name="sa_code"/>
+          <column width="-1" hidden="0" type="field" name="sp_code"/>
+          <column width="-1" hidden="0" type="field" name="sp_name"/>
+          <column width="-1" hidden="0" type="field" name="mp_code"/>
+          <column width="-1" hidden="0" type="field" name="mp_name"/>
+          <column width="-1" hidden="0" type="field" name="mn_mdb_c"/>
+          <column width="-1" hidden="0" type="field" name="mn_code"/>
+          <column width="-1" hidden="0" type="field" name="mn_name"/>
+          <column width="-1" hidden="0" type="field" name="dc_mdb_c"/>
+          <column width="-1" hidden="0" type="field" name="dc_code"/>
+          <column width="-1" hidden="0" type="field" name="dc_name"/>
+          <column width="-1" hidden="0" type="field" name="pr_mdb_c"/>
+          <column width="-1" hidden="0" type="field" name="pr_code"/>
+          <column width="-1" hidden="0" type="field" name="pr_name"/>
+          <column width="-1" hidden="0" type="field" name="lz_code"/>
+          <column width="-1" hidden="1" type="actions"/>
+        </columns>
       </attributetableconfig>
       <editform>../../2016_fs_zn/maps</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
       <editforminitfilepath>../../2016_fs_zn/maps</editforminitfilepath>
-      <editforminitcode><![CDATA[]]></editforminitcode>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+QGIS forms can have a Python function that is called when the form is
+opened.
+
+Use this function to add extra logic to your forms.
+
+Enter the name of the function in the "Python Init function"
+field.
+An example follows:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
       <widgets/>
@@ -11532,6 +11687,7 @@
       <SingleCategoryDiagramRenderer diagramType="Histogram" sizeLegend="0" attributeLegend="1">
         <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" sizeScale="0,0,0,0,0,0" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" lineSizeScale="0,0,0,0,0,0" sizeType="MM" lineSizeType="MM" minScaleDenominator="100000">
           <fontProperties description=".SF NS Text,13,-1,5,50,0,0,0,0,0" style=""/>
+          <attribute field="" color="#000000" label=""/>
         </DiagramCategory>
         <symbol alpha="1" clip_to_extent="1" type="marker" name="sizeSymbol">
           <layer pass="0" class="SimpleMarker" locked="0">
@@ -15881,6 +16037,7 @@ def my_form_open(dialog, layer, feature):
       <SingleCategoryDiagramRenderer diagramType="Histogram" sizeLegend="0" attributeLegend="1">
         <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" sizeScale="0,0,0,0,0,0" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" lineSizeScale="0,0,0,0,0,0" sizeType="MM" lineSizeType="MM" minScaleDenominator="100000">
           <fontProperties description=".SF NS Text,13,-1,5,50,0,0,0,0,0" style=""/>
+          <attribute field="" color="#000000" label=""/>
         </DiagramCategory>
         <symbol alpha="1" clip_to_extent="1" type="marker" name="sizeSymbol">
           <layer pass="0" class="SimpleMarker" locked="0">
@@ -16994,6 +17151,7 @@ def my_form_open(dialog, layer, feature):
     <WMSKeywordList type="QStringList">
       <value></value>
     </WMSKeywordList>
+    <WFSUrl type="QString"></WFSUrl>
     <Topol>
       <layer1_0 type="QString">livezones20140916175207252</layer1_0>
       <layer2_0 type="QString">No layer</layer2_0>
@@ -17001,15 +17159,14 @@ def my_form_open(dialog, layer, feature):
       <testCount type="int">1</testCount>
       <tolerance_0 type="QString">0</tolerance_0>
     </Topol>
-    <WFSUrl type="QString"></WFSUrl>
     <Paths>
       <Absolute type="bool">false</Absolute>
     </Paths>
     <WMSServiceTitle type="QString"></WMSServiceTitle>
     <WFSLayers type="QStringList"/>
+    <WMSRestrictedLayers type="QStringList"/>
     <WMSContactMail type="QString"></WMSContactMail>
     <WMSRestrictedComposers type="QStringList"/>
-    <WMSRestrictedLayers type="QStringList"/>
     <PositionPrecision>
       <DecimalPlaces type="int">2</DecimalPlaces>
       <Automatic type="bool">true</Automatic>

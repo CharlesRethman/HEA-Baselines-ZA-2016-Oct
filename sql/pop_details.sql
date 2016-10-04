@@ -1,3 +1,4 @@
+
 DROP FUNCTION IF EXISTS zaf.list_ages();
 
 CREATE OR REPLACE FUNCTION zaf.list_ages() RETURNS TABLE(tab JSON) AS $aa$
