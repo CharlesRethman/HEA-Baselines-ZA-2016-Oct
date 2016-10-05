@@ -10,3 +10,6 @@
 
 # Libre Office back up files
 .~lock*
+
+# OSX system folder files
+.DS_Store, .DS_STORE
