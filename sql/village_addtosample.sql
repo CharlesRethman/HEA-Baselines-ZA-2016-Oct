@@ -32,11 +32,11 @@ INSERT INTO zaf.tbl_sampled_villages (
 --		pr_mdb_c,
 		lz_code,
 		'hea' AS survey,
-		current_date AS sampled_date
+		date '2016-10-04' AS sampled_date
 	FROM
 		zaf.demog_sas 
 	WHERE 
-			lz_code = 59101
+			lz_code = 59104
 		AND 
-			(sp_code = 877088001 OR sp_code = 963008002 OR sp_code = 877099001 OR sp_code = 876043001 OR sp_code = 877120001 OR sp_code = 876042001 OR sp_code = 877083001 OR sp_code = 877033001 OR sp_code = 874026001 OR sp_code = 877064001 OR sp_code = 874014001 OR sp_code = 876033001) 
+			(sp_code = 860008001 OR sp_code = 860009002 OR sp_code = 860012001 OR sp_code = 860021001 OR sp_code = 860022001 OR sp_code = 860026001 OR sp_code = 860031001 OR sp_code = 860035001 OR sp_code = 860038001 OR sp_code = 860039001 OR sp_code = 860041001 OR sp_code = 860050001 ) 
 ;
