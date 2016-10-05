@@ -1,6 +1,6 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis projectname="Map for sampling in ZA:  (59101)" version="2.16.3">
-  <title>Map for sampling in ZA:  (59101)</title>
+<qgis projectname="Map for baselines assessment sampling in South Africa (Mpumalanga &amp; Limpopo):  Livelihood zone 59101" version="2.16.3">
+  <title>Map for baselines assessment sampling in South Africa (Mpumalanga &amp; Limpopo):  Livelihood zone 59101</title>
   <autotransaction active="0"/>
   <evaluateDefaultValues active="0"/>
   <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="">
@@ -126,10 +126,10 @@
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>515924.94471321359742433</xmin>
-      <ymin>215651.27716836158651859</ymin>
-      <xmax>603675.43477940338198096</xmax>
-      <ymax>272481.18142750998958945</ymax>
+      <xmin>596211.84510184184182435</xmin>
+      <ymin>279091.78942763613304123</ymin>
+      <xmax>683962.33516803162638098</xmax>
+      <ymax>335921.6936867845361121</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -17361,7 +17361,6 @@ def my_form_open(dialog, layer, feature):
     <WMSKeywordList type="QStringList">
       <value></value>
     </WMSKeywordList>
-    <WFSUrl type="QString"></WFSUrl>
     <Topol>
       <layer1_0 type="QString">livezones20140916175207252</layer1_0>
       <layer2_0 type="QString">No layer</layer2_0>
@@ -17369,14 +17368,15 @@ def my_form_open(dialog, layer, feature):
       <testCount type="int">1</testCount>
       <tolerance_0 type="QString">0</tolerance_0>
     </Topol>
+    <WFSUrl type="QString"></WFSUrl>
     <Paths>
       <Absolute type="bool">false</Absolute>
     </Paths>
     <WMSServiceTitle type="QString"></WMSServiceTitle>
     <WFSLayers type="QStringList"/>
-    <WMSRestrictedLayers type="QStringList"/>
     <WMSContactMail type="QString"></WMSContactMail>
     <WMSRestrictedComposers type="QStringList"/>
+    <WMSRestrictedLayers type="QStringList"/>
     <PositionPrecision>
       <DecimalPlaces type="int">2</DecimalPlaces>
       <Automatic type="bool">true</Automatic>
