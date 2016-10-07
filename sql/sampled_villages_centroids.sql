@@ -89,8 +89,7 @@ COPY
 			pop,
 			num_sas,
 			SUBSTRING(coord from (POSITION(' ' in coord) + 1) for 8) || ', ' || SUBSTRING(coord from (POSITION('(' in coord) + 1) for 7) AS approx_coord,
-			r.survey || ' - ' || village_name || ': ' || SUBSTRING(coord from (POSITION(' ' in coord) + 1) for 8) || ', ' ||
-			SUBSTRING(coord from (POSITION('(' in coord) + 1) for 7) AS village_and_coord
+			r.survey || ' - ' || village_name || ': ' || SUBSTRING(coord from (POSITION(' ' in coord) + 1) for 8) || ', ' || SUBSTRING(coord from (POSITION('(' in coord) + 1) for 7) AS village_and_coord
 		FROM
 			(
 				SELECT
@@ -191,4 +190,10 @@ COPY
 			municipality_name,
 			main_place_name,
 			village_name
-;
+	)
+TO
+	'/Users/Charles/Documents/hea_baselines/south_africa/baselines_surveys/2016_lp_mp/sampling/sampled_villages_centroids.csv'
+WITH (
+FORMAT CSV, DELIMITER ',', HEADER TRUE
+)
+	;
