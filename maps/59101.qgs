@@ -59,7 +59,7 @@
     <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="vw_sampled_eas20160219112108684" name="Vw_sampled_eas">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="vw_sampled_20160220160216173604551" name="Sampled villages">
+    <layer-tree-layer expanded="1" checked="Qt::Checked" id="vw_sampled_20160220160216173604551" name="Sampled villages">
       <customproperties/>
     </layer-tree-layer>
     <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="demog_sas20160219173649316" name="Demog_sas">
@@ -126,10 +126,10 @@
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>596211.84510184184182435</xmin>
-      <ymin>279091.78942763613304123</ymin>
-      <xmax>683962.33516803162638098</xmax>
-      <ymax>335921.6936867845361121</ymax>
+      <xmin>522962.04355205735191703</xmin>
+      <ymin>211066.50065214518690482</ymin>
+      <xmax>610712.53361824713647366</xmax>
+      <ymax>267896.40491129364818335</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -298,9 +298,9 @@
         <legendlayerfile isInOverview="0" layerid="vw_sampled_eas20160219112108684" visible="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Sampled villages" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Sampled villages" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="vw_sampled_20160220160216173604551" visible="0"/>
+        <legendlayerfile isInOverview="0" layerid="vw_sampled_20160220160216173604551" visible="1"/>
       </filegroup>
     </legendlayer>
     <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Demog_sas" showFeatureCount="0">
@@ -4497,6 +4497,12 @@
       </globe>
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="100000" maximumScale="1e+08" simplifyDrawingHints="1" readOnly="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <extent>
+        <xmin>16.69355773925779829</xmin>
+        <ymin>-34.8922309875487997</ymin>
+        <xmax>32.94772338867190342</xmax>
+        <ymax>-22.0770263671875</ymax>
+      </extent>
       <id>demog_sas20160219173457651</id>
       <datasource>dbname='gcs' host=Localhost port=5432 user='Charles' sslmode=disable key='gid' srid=4326 type=MultiPolygon table="zaf"."demog_sas" (the_geom) sql=</datasource>
       <keywordList>
@@ -5123,6 +5129,7 @@ def my_form_open(dialog, layer, feature):
       <SingleCategoryDiagramRenderer diagramType="Histogram" sizeLegend="0" attributeLegend="1">
         <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" sizeScale="0,0,0,0,0,0" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" lineSizeScale="0,0,0,0,0,0" sizeType="MM" lineSizeType="MM" minScaleDenominator="100000">
           <fontProperties description=".SF NS Text,13,-1,5,50,0,0,0,0,0" style=""/>
+          <attribute field="" color="#000000" label=""/>
         </DiagramCategory>
         <symbol alpha="1" clip_to_extent="1" type="marker" name="sizeSymbol">
           <layer pass="0" class="SimpleMarker" locked="0">
@@ -17361,6 +17368,7 @@ def my_form_open(dialog, layer, feature):
     <WMSKeywordList type="QStringList">
       <value></value>
     </WMSKeywordList>
+    <WFSUrl type="QString"></WFSUrl>
     <Topol>
       <layer1_0 type="QString">livezones20140916175207252</layer1_0>
       <layer2_0 type="QString">No layer</layer2_0>
@@ -17368,15 +17376,14 @@ def my_form_open(dialog, layer, feature):
       <testCount type="int">1</testCount>
       <tolerance_0 type="QString">0</tolerance_0>
     </Topol>
-    <WFSUrl type="QString"></WFSUrl>
     <Paths>
       <Absolute type="bool">false</Absolute>
     </Paths>
     <WMSServiceTitle type="QString"></WMSServiceTitle>
     <WFSLayers type="QStringList"/>
+    <WMSRestrictedLayers type="QStringList"/>
     <WMSContactMail type="QString"></WMSContactMail>
     <WMSRestrictedComposers type="QStringList"/>
-    <WMSRestrictedLayers type="QStringList"/>
     <PositionPrecision>
       <DecimalPlaces type="int">2</DecimalPlaces>
       <Automatic type="bool">true</Automatic>
