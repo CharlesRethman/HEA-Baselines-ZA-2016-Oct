@@ -126,10 +126,10 @@
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>522962.04355205735191703</xmin>
-      <ymin>211066.50065214518690482</ymin>
-      <xmax>610712.53361824713647366</xmax>
-      <ymax>267896.40491129364818335</ymax>
+      <xmin>555342.96248351444955915</xmin>
+      <ymin>273389.96755883062724024</ymin>
+      <xmax>691087.07280791585799307</xmax>
+      <ymax>426370.61728532635606825</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -1720,7 +1720,7 @@
       <annotationform>../../../livelihood_zones/national/maps</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
-      <attributeactions default="0"/>
+      <attributeactions default="-1"/>
       <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
         <columns/>
       </attributetableconfig>
@@ -16669,7 +16669,7 @@ def my_form_open(dialog, layer, feature):
       <annotationform>../../../livelihood_zones/province_zn/maps</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
-      <attributeactions default="0"/>
+      <attributeactions default="-1"/>
       <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
         <columns/>
       </attributetableconfig>
@@ -16714,7 +16714,7 @@ def my_form_open(dialog, layer, feature):
         </spatialrefsys>
       </srs>
       <provider encoding="System">postgres</provider>
-      <previewExpression></previewExpression>
+      <previewExpression>COALESCE( "village_name", '&lt;NULL>' )</previewExpression>
       <vectorjoins/>
       <layerDependencies/>
       <expressionfields/>
@@ -17038,9 +17038,25 @@ def my_form_open(dialog, layer, feature):
       <annotationform>../../../livelihood_zones/province_zn/maps</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
-      <attributeactions default="0"/>
-      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
-        <columns/>
+      <attributeactions default="-1"/>
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="&quot;district_name&quot;" sortOrder="0">
+        <columns>
+          <column width="-1" hidden="0" type="field" name="village_code"/>
+          <column width="-1" hidden="0" type="field" name="village_name"/>
+          <column width="-1" hidden="0" type="field" name="main_place_name"/>
+          <column width="-1" hidden="0" type="field" name="main_place_code"/>
+          <column width="-1" hidden="0" type="field" name="municipality_name"/>
+          <column width="-1" hidden="0" type="field" name="municipality_code"/>
+          <column width="-1" hidden="0" type="field" name="district_name"/>
+          <column width="-1" hidden="0" type="field" name="district_code"/>
+          <column width="-1" hidden="0" type="field" name="province_name"/>
+          <column width="-1" hidden="0" type="field" name="province_code"/>
+          <column width="-1" hidden="0" type="field" name="centroid"/>
+          <column width="-1" hidden="0" type="field" name="approx_coord"/>
+          <column width="-1" hidden="0" type="field" name="survey"/>
+          <column width="-1" hidden="0" type="field" name="sampled_date"/>
+          <column width="-1" hidden="1" type="actions"/>
+        </columns>
       </attributetableconfig>
       <editform>../../../livelihood_zones/province_zn/maps</editform>
       <editforminit/>
