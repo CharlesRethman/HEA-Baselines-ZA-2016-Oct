@@ -1,6 +1,6 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis projectname="Map for baselines assessment sampling in South Africa (Mpumalanga &amp; Limpopo):  Livelihood zone 59101" version="2.16.3">
-  <title>Map for baselines assessment sampling in South Africa (Mpumalanga &amp; Limpopo):  Livelihood zone 59101</title>
+<qgis projectname="Map for baselines assessment sampling in South Africa (Mpumalanga &amp; Limpopo):  Livelihood zone 59104" version="2.16.3">
+  <title>Map for baselines assessment sampling in South Africa (Mpumalanga &amp; Limpopo):  Livelihood zone 59104</title>
   <autotransaction active="0"/>
   <evaluateDefaultValues active="0"/>
   <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="">
@@ -126,10 +126,10 @@
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>59359.43500710582156898</xmin>
-      <ymin>86032.16080883360700682</ymin>
-      <xmax>103794.81429990084143355</xmax>
-      <ymax>113895.61438463837839663</ymax>
+      <xmin>31138.19483800620946568</xmin>
+      <ymin>-52828.41965577265364118</ymin>
+      <xmax>78106.82802052523766179</xmax>
+      <ymax>-24367.51928578820297844</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -367,7 +367,7 @@
       </filegroup>
     </legendlayer>
   </legend>
-  <Composer title="lz_survey_sites_1" visible="1">
+  <Composer title="lz_survey_sites_2" visible="0">
     <Composition resizeToContentsMarginLeft="0" snapping="0" showPages="1" guidesVisible="1" resizeToContentsMarginTop="0" worldFileMap="" alignmentSnap="1" printResolution="200" paperWidth="210" gridVisible="0" snapGridOffsetX="0" smartGuides="1" snapGridOffsetY="0" resizeToContentsMarginRight="0" snapTolerancePixels="5" printAsRaster="0" generateWorldFile="0" paperHeight="297" numPages="1" snapGridResolution="10" resizeToContentsMarginBottom="0">
       <symbol alpha="1" clip_to_extent="1" type="fill" name="">
         <layer pass="0" class="SimpleFill" locked="0">
@@ -387,13 +387,13 @@
       <ComposerLabel valign="32" marginX="1" marginY="1" labelText="Prepared by CW Rethman (PGP 1287)&#xa;Projection: Albers Equal Area, SPs: -24.56 &amp; -26.92, LOC: 30.3" htmlState="0" halign="1">
         <LabelFont description="Helvetica Neue,7,-1,5,50,0,0,0,0,0" style=""/>
         <FontColor red="0" blue="0" green="0"/>
-        <ComposerItem pagey="274.245" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="18.1871" y="274.245" visibility="1" zValue="4" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="103.562" outlineWidth="0.3" excludeFromExports="0" uuid="{ef04255a-ec47-4335-8d3b-28f3f300ddae}" height="8.63019" itemRotation="0" frame="true" pagex="18.1871">
+        <ComposerItem pagey="185.427" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="16.3078" y="185.427" visibility="1" zValue="4" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="77.1686" outlineWidth="0.3" excludeFromExports="0" uuid="{a02905ec-b932-42a8-92df-6c3e80bdd471}" height="8.63019" itemRotation="0" frame="true" pagex="16.3078">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
         </ComposerItem>
       </ComposerLabel>
-      <ComposerLegend symbolWidth="4" title="Legend" rasterBorderWidth="0" titleAlignment="1" map="0" wmsLegendWidth="50" rasterBorderColor="0,0,0,255" wrapChar="" fontColor="#000000" columnCount="1" wmsLegendHeight="25" columnSpace="2" symbolHeight="2" equalColumnWidth="0" resizeToContents="1" splitLayer="0" boxSpace="1.5" rasterBorder="1">
+      <ComposerLegend symbolWidth="4" title="Legend" rasterBorderWidth="0" titleAlignment="1" map="0" wmsLegendWidth="50" rasterBorderColor="0,0,0,255" wrapChar="" fontColor="#000000" columnCount="3" wmsLegendHeight="25" columnSpace="2" symbolHeight="2" equalColumnWidth="0" resizeToContents="1" splitLayer="1" boxSpace="1.5" rasterBorder="1">
         <styles>
           <style marginBottom="1.5" name="title">
             <styleFont description="Helvetica Neue,8,-1,5,50,0,0,0,0,0" style=""/>
@@ -458,23 +458,23 @@
             <customproperties/>
           </layer-tree-layer>
         </layer-tree-group>
-        <ComposerItem pagey="94.7691" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="18.1371" y="94.7691" visibility="1" zValue="3" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="72.2313" outlineWidth="0.2" excludeFromExports="0" uuid="{1f992a46-b992-4b8b-947d-d8c50641e6e0}" height="151.55" itemRotation="0" frame="true" pagex="18.1371">
+        <ComposerItem pagey="224.347" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="16.2578" y="224.347" visibility="1" zValue="3" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="175.217" outlineWidth="0.2" excludeFromExports="0" uuid="{191a8cf5-6932-4933-ac91-d5c94e4769b6}" height="57.6547" itemRotation="0" frame="true" pagex="16.2578">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
         </ComposerItem>
       </ComposerLegend>
-      <ComposerLabel valign="32" marginX="1" marginY="1" labelText="59101: Lowveld open access cattle and other income (ZALOC) Livelihood Zone" htmlState="0" halign="1">
+      <ComposerLabel valign="32" marginX="1" marginY="1" labelText="59201: Lowveld open access mixed farming (ZALCM) Livelihood Zone - Mpumalanga Section" htmlState="0" halign="1">
         <LabelFont description="Helvetica Neue,18,-1,5,50,0,0,0,0,0" style=""/>
         <FontColor red="0" blue="0" green="0"/>
-        <ComposerItem pagey="247.519" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="18.1371" y="247.519" visibility="1" zValue="2" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="84.7629" outlineWidth="0.2" excludeFromExports="0" uuid="{59350f07-2567-48da-af52-c198bb4ae2a6}" height="25.2578" itemRotation="0" frame="true" pagex="18.1371">
+        <ComposerItem pagey="195.842" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="16.2578" y="195.842" visibility="1" zValue="2" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="100.026" outlineWidth="0.2" excludeFromExports="0" uuid="{49edb893-07b7-4dc1-b13a-ce12a74df278}" height="25.936" itemRotation="0" frame="true" pagex="16.2578">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
         </ComposerItem>
       </ComposerLabel>
       <ComposerMap followPreset="false" mapRotation="0" keepLayerSet="false" followPresetName="" id="0" previewMode="Cache" drawCanvasItems="true">
-        <Extent ymin="-23848.22202134254621342" xmin="-8847.07628769041912165" ymax="232407.16627885616617277" xmax="159302.92388382274657488"/>
+        <Extent ymin="-82340.40396043754299171" xmin="29337.53762286316487007" ymax="134278.37042725423816592" xmax="173337.53776974321226589"/>
         <LayerSet/>
         <Grid/>
         <ComposerMapGrid rightAnnotationDirection="0" gridFramePenColor="0,0,0,255" show="0" bottomAnnotationPosition="1" annotationPrecision="3" showAnnotation="0" topFrameDivisions="0" uuid="{bf685dd9-fc08-4d71-82c7-277bbb738ce5}" leftAnnotationDirection="0" topAnnotationPosition="1" rightAnnotationDisplay="0" offsetX="0" offsetY="0" rightFrameDivisions="0" gridStyle="0" annotationFontColor="0,0,0,255" intervalX="0" gridFrameSideFlags="15" intervalY="0" bottomAnnotationDirection="0" leftAnnotationDisplay="0" leftFrameDivisions="0" frameFillColor1="255,255,255,255" annotationExpression="" frameFillColor2="0,0,0,255" crossLength="3" gridFramePenThickness="0.5" bottomAnnotationDisplay="0" unit="0" topAnnotationDisplay="0" leftAnnotationPosition="1" blendMode="0" gridFrameStyle="0" rightAnnotationPosition="1" gridFrameWidth="2" name="Grid 1" annotationFormat="0" bottomFrameDivisions="0" topAnnotationDirection="0" frameAnnotationDistance="1">
@@ -526,7 +526,181 @@
           <annotationFontProperties description="Helvetica Neue,13,-1,5,50,0,0,0,0,0" style=""/>
         </ComposerMapGrid>
         <AtlasMap scalingMode="2" atlasDriven="0" margin="0.10000000000000001"/>
-        <ComposerItem pagey="13.8356" page="1" id="" lastValidViewScaleFactor="2.08385" positionMode="0" positionLock="false" x="17.0137" y="13.8356" visibility="1" zValue="1" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="177.959" outlineWidth="0.3" excludeFromExports="0" uuid="{a01f6106-20a7-48cc-a6d5-0d5fcb37c0d2}" height="271.204" itemRotation="0" frame="true" pagex="17.0137">
+        <ComposerItem pagey="12.8352" page="1" id="" lastValidViewScaleFactor="2.03727" positionMode="0" positionLock="false" x="14.5748" y="12.8352" visibility="1" zValue="1" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="180.85" outlineWidth="0.3" excludeFromExports="0" uuid="{9cd39a55-2199-41e9-9dfd-9c14f6daab97}" height="272.053" itemRotation="0" frame="true" pagex="14.5748">
+          <FrameColor alpha="255" red="0" blue="0" green="0"/>
+          <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+          <customproperties/>
+        </ComposerItem>
+      </ComposerMap>
+      <customproperties>
+        <property key="imageCropMarginBottom" value="0"/>
+        <property key="imageCropMarginLeft" value="0"/>
+        <property key="imageCropMarginRight" value="0"/>
+        <property key="imageCropMarginTop" value="0"/>
+        <property key="imageCropToContents" value="false"/>
+      </customproperties>
+    </Composition>
+  </Composer>
+  <Composer title="lz_survey_sites_1" visible="0">
+    <Composition resizeToContentsMarginLeft="0" snapping="0" showPages="1" guidesVisible="1" resizeToContentsMarginTop="0" worldFileMap="" alignmentSnap="1" printResolution="200" paperWidth="210" gridVisible="0" snapGridOffsetX="0" smartGuides="1" snapGridOffsetY="0" resizeToContentsMarginRight="0" snapTolerancePixels="5" printAsRaster="0" generateWorldFile="0" paperHeight="297" numPages="1" snapGridResolution="10" resizeToContentsMarginBottom="0">
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="color" v="255,255,255,255"/>
+          <prop k="joinstyle" v="miter"/>
+          <prop k="offset" v="0,0"/>
+          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="offset_unit" v="MM"/>
+          <prop k="outline_color" v="0,0,0,255"/>
+          <prop k="outline_style" v="no"/>
+          <prop k="outline_width" v="0.26"/>
+          <prop k="outline_width_unit" v="MM"/>
+          <prop k="style" v="solid"/>
+        </layer>
+      </symbol>
+      <ComposerLabel valign="32" marginX="1" marginY="1" labelText="Prepared by CW Rethman (PGP 1287)&#xa;Projection: Albers Equal Area, SPs: -22.67 &amp; -24.88, LOC: 29.29" htmlState="0" halign="1">
+        <LabelFont description="Helvetica Neue,7,-1,5,50,0,0,0,0,0" style=""/>
+        <FontColor red="0" blue="0" green="0"/>
+        <ComposerItem pagey="216.373" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="16.782" y="216.373" visibility="1" zValue="4" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="103.562" outlineWidth="0.3" excludeFromExports="0" uuid="{ef04255a-ec47-4335-8d3b-28f3f300ddae}" height="8.63019" itemRotation="0" frame="true" pagex="16.782">
+          <FrameColor alpha="255" red="0" blue="0" green="0"/>
+          <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+          <customproperties/>
+        </ComposerItem>
+      </ComposerLabel>
+      <ComposerLegend symbolWidth="4" title="Legend" rasterBorderWidth="0" titleAlignment="1" map="0" wmsLegendWidth="50" rasterBorderColor="0,0,0,255" wrapChar="" fontColor="#000000" columnCount="3" wmsLegendHeight="25" columnSpace="2" symbolHeight="2" equalColumnWidth="0" resizeToContents="1" splitLayer="1" boxSpace="1.5" rasterBorder="1">
+        <styles>
+          <style marginBottom="1.5" name="title">
+            <styleFont description="Helvetica Neue,8,-1,5,50,0,0,0,0,0" style=""/>
+          </style>
+          <style marginTop="1" name="group">
+            <styleFont description="Helvetica Neue,6,-1,5,50,0,0,0,0,0" style=""/>
+          </style>
+          <style marginTop="1" name="subgroup">
+            <styleFont description="Helvetica Neue,6,-1,5,50,0,0,0,0,0" style=""/>
+          </style>
+          <style marginTop="1" name="symbol">
+            <styleFont description="Helvetica Neue,13,-1,5,50,0,0,0,0,0" style=""/>
+          </style>
+          <style marginTop="1" marginLeft="2" name="symbolLabel">
+            <styleFont description="Helvetica Neue,6,-1,5,50,0,0,0,0,0" style=""/>
+          </style>
+        </styles>
+        <layer-tree-group expanded="1" checked="Qt::Checked" name="">
+          <customproperties/>
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="admin2_provs20150127152636327" name="Admin2_provs">
+            <customproperties>
+              <property key="legend/title-style" value="hidden"/>
+            </customproperties>
+          </layer-tree-layer>
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="admin2_provs20150127153317162" name="Admin2_provs">
+            <customproperties>
+              <property key="legend/title-style" value="hidden"/>
+            </customproperties>
+          </layer-tree-layer>
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="admin3_dists20150206151031498" name="District boundaries">
+            <customproperties/>
+          </layer-tree-layer>
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="admin4_munics20150206151234955" name="Local municipality boundaries">
+            <customproperties/>
+          </layer-tree-layer>
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="settlemt_towns20141016122322026" name="Places and Infrastructure">
+            <customproperties>
+              <property key="legend/node-order" value="0,1"/>
+            </customproperties>
+          </layer-tree-layer>
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="vw_sampled_centroids20160222222805082" name="Sampled villages">
+            <customproperties/>
+          </layer-tree-layer>
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="infra_tfares_osm20151212205144669" name="Roads and thoroughfares">
+            <customproperties>
+              <property key="legend/node-order" value="0,3,5,7"/>
+            </customproperties>
+          </layer-tree-layer>
+          <layer-tree-layer expanded="0" checked="Qt::Checked" id="infra_railways20141016122124065" name="Railways">
+            <customproperties/>
+          </layer-tree-layer>
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="hydro_rivers20141016122058195" name="Hydro_rivers">
+            <customproperties>
+              <property key="legend/node-order" value="3"/>
+              <property key="legend/title-label" value="Hydrography"/>
+            </customproperties>
+          </layer-tree-layer>
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="landcap_200720141002171835073" name="Dams and water bodies">
+            <customproperties/>
+          </layer-tree-layer>
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="livezones20140916175207252" name="Limpopo Livelihood Zones">
+            <customproperties/>
+          </layer-tree-layer>
+        </layer-tree-group>
+        <ComposerItem pagey="226.428" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="16.732" y="226.428" visibility="1" zValue="3" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="176.536" outlineWidth="0.2" excludeFromExports="0" uuid="{1f992a46-b992-4b8b-947d-d8c50641e6e0}" height="57.6547" itemRotation="0" frame="true" pagex="16.732">
+          <FrameColor alpha="255" red="0" blue="0" green="0"/>
+          <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+          <customproperties/>
+        </ComposerItem>
+      </ComposerLegend>
+      <ComposerLabel valign="32" marginX="1" marginY="1" labelText="59201: Lowveld open access mixed farming (ZALCM) Livelihood Zone - Limpopo Section" htmlState="0" halign="1">
+        <LabelFont description="Helvetica Neue,18,-1,5,50,0,0,0,0,0" style=""/>
+        <FontColor red="0" blue="0" green="0"/>
+        <ComposerItem pagey="15.848" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="16.732" y="15.848" visibility="1" zValue="2" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="103.662" outlineWidth="0.2" excludeFromExports="0" uuid="{59350f07-2567-48da-af52-c198bb4ae2a6}" height="25.2578" itemRotation="0" frame="true" pagex="16.732">
+          <FrameColor alpha="255" red="0" blue="0" green="0"/>
+          <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+          <customproperties/>
+        </ComposerItem>
+      </ComposerLabel>
+      <ComposerMap followPreset="false" mapRotation="0" keepLayerSet="false" followPresetName="" id="0" previewMode="Cache" drawCanvasItems="true">
+        <Extent ymin="-57556.56496753908140818" xmin="39624.90730220769910375" ymax="158498.49174614835646935" xmax="185224.90745071970741265"/>
+        <LayerSet/>
+        <Grid/>
+        <ComposerMapGrid rightAnnotationDirection="0" gridFramePenColor="0,0,0,255" show="0" bottomAnnotationPosition="1" annotationPrecision="3" showAnnotation="0" topFrameDivisions="0" uuid="{bf685dd9-fc08-4d71-82c7-277bbb738ce5}" leftAnnotationDirection="0" topAnnotationPosition="1" rightAnnotationDisplay="0" offsetX="0" offsetY="0" rightFrameDivisions="0" gridStyle="0" annotationFontColor="0,0,0,255" intervalX="0" gridFrameSideFlags="15" intervalY="0" bottomAnnotationDirection="0" leftAnnotationDisplay="0" leftFrameDivisions="0" frameFillColor1="255,255,255,255" annotationExpression="" frameFillColor2="0,0,0,255" crossLength="3" gridFramePenThickness="0.5" bottomAnnotationDisplay="0" unit="0" topAnnotationDisplay="0" leftAnnotationPosition="1" blendMode="0" gridFrameStyle="0" rightAnnotationPosition="1" gridFrameWidth="2" name="Grid 1" annotationFormat="0" bottomFrameDivisions="0" topAnnotationDirection="0" frameAnnotationDistance="1">
+          <lineStyle>
+            <symbol alpha="1" clip_to_extent="1" type="line" name="">
+              <layer pass="0" class="SimpleLine" locked="0">
+                <prop k="capstyle" v="square"/>
+                <prop k="customdash" v="5;2"/>
+                <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+                <prop k="customdash_unit" v="MM"/>
+                <prop k="draw_inside_polygon" v="0"/>
+                <prop k="joinstyle" v="bevel"/>
+                <prop k="line_color" v="0,0,0,255"/>
+                <prop k="line_style" v="solid"/>
+                <prop k="line_width" v="0"/>
+                <prop k="line_width_unit" v="MM"/>
+                <prop k="offset" v="0"/>
+                <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+                <prop k="offset_unit" v="MM"/>
+                <prop k="use_custom_dash" v="0"/>
+                <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+              </layer>
+            </symbol>
+          </lineStyle>
+          <markerStyle>
+            <symbol alpha="1" clip_to_extent="1" type="marker" name="">
+              <layer pass="0" class="SimpleMarker" locked="0">
+                <prop k="angle" v="0"/>
+                <prop k="color" v="0,0,0,255"/>
+                <prop k="horizontal_anchor_point" v="1"/>
+                <prop k="joinstyle" v="bevel"/>
+                <prop k="name" v="circle"/>
+                <prop k="offset" v="0,0"/>
+                <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+                <prop k="offset_unit" v="MM"/>
+                <prop k="outline_color" v="0,0,0,255"/>
+                <prop k="outline_style" v="solid"/>
+                <prop k="outline_width" v="0"/>
+                <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+                <prop k="outline_width_unit" v="MM"/>
+                <prop k="scale_method" v="area"/>
+                <prop k="size" v="2"/>
+                <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+                <prop k="size_unit" v="MM"/>
+                <prop k="vertical_anchor_point" v="1"/>
+              </layer>
+            </symbol>
+          </markerStyle>
+          <annotationFontProperties description="Helvetica Neue,13,-1,5,50,0,0,0,0,0" style=""/>
+        </ComposerMapGrid>
+        <AtlasMap scalingMode="2" atlasDriven="0" margin="0.10000000000000001"/>
+        <ComposerItem pagey="14.898" page="1" id="" lastValidViewScaleFactor="2.03727" positionMode="0" positionLock="false" x="14.6107" y="14.898" visibility="1" zValue="1" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="182.765" outlineWidth="0.3" excludeFromExports="0" uuid="{a01f6106-20a7-48cc-a6d5-0d5fcb37c0d2}" height="271.204" itemRotation="0" frame="true" pagex="14.6107">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
