@@ -12,4 +12,4 @@
 .~lock*
 
 # OSX system folder files
-.DS_Store, .DS_STORE
+.DS_Store
