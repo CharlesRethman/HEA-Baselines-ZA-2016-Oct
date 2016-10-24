@@ -178,93 +178,93 @@ FROM
       FROM
          zaf.vw_pop_breakdown
 
-UNION SELECT
-   lz_code,
-   5 AS num_hh,
-   (round(pc_u5 * 5, 1))::text || ' (' || (round(pc_u5 * 5, 0))::text || ')' AS "u5",
-   (round("pc_5-19" * 5, 1))::text || ' (' || (round("pc_5-19" * 5, 0))::text || ')' AS "5-19",
-   (round(pc_adult_m * 5, 1))::text || ' (' || (round(pc_adult_m * 5, 0))::text || ')' AS adult_m,
-   (round(pc_adult_f * 5, 1))::text || ' (' || (round(pc_adult_f * 5, 0))::text || ')' AS adult_f,
-   (round(pc_elder * 5, 1))::text || ' (' || (round(pc_elder * 5, 0))::text || ')' AS elder
-FROM
-   zaf.vw_pop_breakdown
+      UNION SELECT
+         lz_code,
+         5 AS num_hh,
+         (round(pc_u5 * 5, 1))::text || ' (' || (round(pc_u5 * 5, 0))::text || ')' AS "u5",
+         (round("pc_5-19" * 5, 1))::text || ' (' || (round("pc_5-19" * 5, 0))::text || ')' AS "5-19",
+         (round(pc_adult_m * 5, 1))::text || ' (' || (round(pc_adult_m * 5, 0))::text || ')' AS adult_m,
+         (round(pc_adult_f * 5, 1))::text || ' (' || (round(pc_adult_f * 5, 0))::text || ')' AS adult_f,
+         (round(pc_elder * 5, 1))::text || ' (' || (round(pc_elder * 5, 0))::text || ')' AS elder
+      FROM
+         zaf.vw_pop_breakdown
 
-UNION SELECT
-   lz_code,
-   6 AS num_hh,
-   (round(pc_u5 * 6, 1))::text || ' (' || (round(pc_u5 * 6, 0))::text || ')' AS "u5",
-   (round("pc_5-19" * 6, 1))::text || ' (' || (round("pc_5-19" * 6, 0))::text || ')' AS "5-19",
-   (round(pc_adult_m * 6, 1))::text || ' (' || (round(pc_adult_m * 6, 0))::text || ')' AS adult_m,
-   (round(pc_adult_f * 6, 1))::text || ' (' || (round(pc_adult_f * 6, 0))::text || ')' AS adult_f,
-   (round(pc_elder * 6, 1))::text || ' (' || (round(pc_elder * 6, 0))::text || ')' AS elder
-FROM
-   zaf.vw_pop_breakdown
+      UNION SELECT
+         lz_code,
+         6 AS num_hh,
+         (round(pc_u5 * 6, 1))::text || ' (' || (round(pc_u5 * 6, 0))::text || ')' AS "u5",
+         (round("pc_5-19" * 6, 1))::text || ' (' || (round("pc_5-19" * 6, 0))::text || ')' AS "5-19",
+         (round(pc_adult_m * 6, 1))::text || ' (' || (round(pc_adult_m * 6, 0))::text || ')' AS adult_m,
+         (round(pc_adult_f * 6, 1))::text || ' (' || (round(pc_adult_f * 6, 0))::text || ')' AS adult_f,
+         (round(pc_elder * 6, 1))::text || ' (' || (round(pc_elder * 6, 0))::text || ')' AS elder
+      FROM
+         zaf.vw_pop_breakdown
 
-UNION SELECT
-   lz_code,
-   7 AS num_hh,
-   (round(pc_u5 * 7, 1))::text || ' (' || (round(pc_u5 * 7, 0))::text || ')' AS "u5",
-   (round("pc_5-19" * 7, 1))::text || ' (' || (round("pc_5-19" * 7, 0))::text || ')' AS "5-19",
-   (round(pc_adult_m * 7, 1))::text || ' (' || (round(pc_adult_m * 7, 0))::text || ')' AS adult_m,
-   (round(pc_adult_f * 7, 1))::text || ' (' || (round(pc_adult_f * 7, 0))::text || ')' AS adult_f,
-   (round(pc_elder * 7, 1))::text || ' (' || (round(pc_elder * 7, 0))::text || ')' AS elder
-FROM
-   zaf.vw_pop_breakdown
+      UNION SELECT
+         lz_code,
+         7 AS num_hh,
+         (round(pc_u5 * 7, 1))::text || ' (' || (round(pc_u5 * 7, 0))::text || ')' AS "u5",
+         (round("pc_5-19" * 7, 1))::text || ' (' || (round("pc_5-19" * 7, 0))::text || ')' AS "5-19",
+         (round(pc_adult_m * 7, 1))::text || ' (' || (round(pc_adult_m * 7, 0))::text || ')' AS adult_m,
+         (round(pc_adult_f * 7, 1))::text || ' (' || (round(pc_adult_f * 7, 0))::text || ')' AS adult_f,
+         (round(pc_elder * 7, 1))::text || ' (' || (round(pc_elder * 7, 0))::text || ')' AS elder
+      FROM
+         zaf.vw_pop_breakdown
 
-UNION SELECT
-   lz_code,
-   8 AS num_hh,
-   (round(pc_u5 * 8, 1))::text || ' (' || (round(pc_u5 * 8, 0))::text || ')' AS "u5",
-   (round("pc_5-19" * 8, 1))::text || ' (' || (round("pc_5-19" * 8, 0))::text || ')' AS "5-19",
-   (round(pc_adult_m * 8, 1))::text || ' (' || (round(pc_adult_m * 8, 0))::text || ')' AS adult_m,
-   (round(pc_adult_f * 8, 1))::text || ' (' || (round(pc_adult_f * 8, 0))::text || ')' AS adult_f,
-   (round(pc_elder * 8, 1))::text || ' (' || (round(pc_elder * 8, 0))::text || ')' AS elder
-FROM
-   zaf.vw_pop_breakdown
+      UNION SELECT
+         lz_code,
+         8 AS num_hh,
+         (round(pc_u5 * 8, 1))::text || ' (' || (round(pc_u5 * 8, 0))::text || ')' AS "u5",
+         (round("pc_5-19" * 8, 1))::text || ' (' || (round("pc_5-19" * 8, 0))::text || ')' AS "5-19",
+         (round(pc_adult_m * 8, 1))::text || ' (' || (round(pc_adult_m * 8, 0))::text || ')' AS adult_m,
+         (round(pc_adult_f * 8, 1))::text || ' (' || (round(pc_adult_f * 8, 0))::text || ')' AS adult_f,
+         (round(pc_elder * 8, 1))::text || ' (' || (round(pc_elder * 8, 0))::text || ')' AS elder
+      FROM
+         zaf.vw_pop_breakdown
 
-UNION SELECT
-   lz_code,
-   9 AS num_hh,
-   (round(pc_u5 * 9, 1))::text || ' (' || (round(pc_u5 * 9, 0))::text || ')' AS "u5",
-   (round("pc_5-19" * 9, 1))::text || ' (' || (round("pc_5-19" * 9, 0))::text || ')' AS "5-19",
-   (round(pc_adult_m * 9, 1))::text || ' (' || (round(pc_adult_m * 9, 0))::text || ')' AS adult_m,
-   (round(pc_adult_f * 9, 1))::text || ' (' || (round(pc_adult_f * 9, 0))::text || ')' AS adult_f,
-   (round(pc_elder * 9, 1))::text || ' (' || (round(pc_elder * 9, 0))::text || ')' AS elder
-FROM
-   zaf.vw_pop_breakdown
+      UNION SELECT
+         lz_code,
+         9 AS num_hh,
+         (round(pc_u5 * 9, 1))::text || ' (' || (round(pc_u5 * 9, 0))::text || ')' AS "u5",
+         (round("pc_5-19" * 9, 1))::text || ' (' || (round("pc_5-19" * 9, 0))::text || ')' AS "5-19",
+         (round(pc_adult_m * 9, 1))::text || ' (' || (round(pc_adult_m * 9, 0))::text || ')' AS adult_m,
+         (round(pc_adult_f * 9, 1))::text || ' (' || (round(pc_adult_f * 9, 0))::text || ')' AS adult_f,
+         (round(pc_elder * 9, 1))::text || ' (' || (round(pc_elder * 9, 0))::text || ')' AS elder
+      FROM
+         zaf.vw_pop_breakdown
 
-UNION SELECT
-   lz_code,
-   10 AS num_hh,
-   (round(pc_u5 * 10, 1))::text || ' (' || (round(pc_u5 * 10, 0))::text || ')' AS "u5",
-   (round("pc_5-19" * 10, 1))::text || ' (' || (round("pc_5-19" * 10, 0))::text || ')' AS "5-19",
-   (round(pc_adult_m * 10, 1))::text || ' (' || (round(pc_adult_m * 10, 0))::text || ')' AS adult_m,
-   (round(pc_adult_f * 10, 1))::text || ' (' || (round(pc_adult_f * 10, 0))::text || ')' AS adult_f,
-   (round(pc_elder * 10, 1))::text || ' (' || (round(pc_elder * 10, 0))::text || ')' AS elder
-FROM
-   zaf.vw_pop_breakdown
+      UNION SELECT
+         lz_code,
+         10 AS num_hh,
+         (round(pc_u5 * 10, 1))::text || ' (' || (round(pc_u5 * 10, 0))::text || ')' AS "u5",
+         (round("pc_5-19" * 10, 1))::text || ' (' || (round("pc_5-19" * 10, 0))::text || ')' AS "5-19",
+         (round(pc_adult_m * 10, 1))::text || ' (' || (round(pc_adult_m * 10, 0))::text || ')' AS adult_m,
+         (round(pc_adult_f * 10, 1))::text || ' (' || (round(pc_adult_f * 10, 0))::text || ')' AS adult_f,
+         (round(pc_elder * 10, 1))::text || ' (' || (round(pc_elder * 10, 0))::text || ')' AS elder
+      FROM
+         zaf.vw_pop_breakdown
 
-UNION SELECT
-   lz_code,
-   11 AS num_hh,
-   (round(pc_u5 * 11, 1))::text || ' (' || (round(pc_u5 * 11, 0))::text || ')' AS "u5",
-   (round("pc_5-19" * 11, 1))::text || ' (' || (round("pc_5-19" * 11, 0))::text || ')' AS "5-19",
-   (round(pc_adult_m * 11, 1))::text || ' (' || (round(pc_adult_m * 11, 0))::text || ')' AS adult_m,
-   (round(pc_adult_f * 11, 1))::text || ' (' || (round(pc_adult_f * 11, 0))::text || ')' AS adult_f,
-   (round(pc_elder * 11, 1))::text || ' (' || (round(pc_elder * 11, 0))::text || ')' AS elder
-FROM
-   zaf.vw_pop_breakdown
+      UNION SELECT
+         lz_code,
+         11 AS num_hh,
+         (round(pc_u5 * 11, 1))::text || ' (' || (round(pc_u5 * 11, 0))::text || ')' AS "u5",
+         (round("pc_5-19" * 11, 1))::text || ' (' || (round("pc_5-19" * 11, 0))::text || ')' AS "5-19",
+         (round(pc_adult_m * 11, 1))::text || ' (' || (round(pc_adult_m * 11, 0))::text || ')' AS adult_m,
+         (round(pc_adult_f * 11, 1))::text || ' (' || (round(pc_adult_f * 11, 0))::text || ')' AS adult_f,
+         (round(pc_elder * 11, 1))::text || ' (' || (round(pc_elder * 11, 0))::text || ')' AS elder
+      FROM
+         zaf.vw_pop_breakdown
 
-UNION SELECT
-   lz_code,
-   12 AS num_hh,
-   '-------' AS "u5",
-   '-------' AS "5-19",
-   '-------' AS adult_m,
-   '-------' AS adult_f,
-   '-------' AS elder
-FROM
-   zaf.vw_pop_breakdown
+      UNION SELECT
+         lz_code,
+         12 AS num_hh,
+         '-------' AS "u5",
+         '-------' AS "5-19",
+         '-------' AS adult_m,
+         '-------' AS adult_f,
+         '-------' AS elder
+      FROM
+         zaf.vw_pop_breakdown
 
    ) AS f
 ORDER BY
