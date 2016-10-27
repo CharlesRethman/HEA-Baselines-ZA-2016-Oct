@@ -1,14 +1,14 @@
 DELETE FROM
 	zaf.tbl_sampled_villages 
 WHERE 
-		village_code = 877088001
+		village_code = 872002001
 	OR
-		village_code = 963008002
+		village_code = 872013001
 	OR 
-		village_code = 877099001
+		village_code = 983048001
 	OR 
-		village_code = 876043001
-	OR 
+		village_code = 983043001
+/*	OR 
 		village_code = 877120001
 	OR
 		village_code = 876042001
@@ -23,6 +23,6 @@ WHERE
 	OR
 		village_code = 874014001
 	OR
-		village_code = 876033001
+		village_code = 876033001*/
 ;
 
