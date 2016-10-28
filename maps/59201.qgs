@@ -359,7 +359,7 @@
       </filegroup>
     </legendlayer>
   </legend>
-  <Composer title="lz_survey_sites_2" visible="0">
+  <Composer title="lz_survey_sites_2" visible="1">
     <Composition resizeToContentsMarginLeft="0" snapping="0" showPages="1" guidesVisible="1" resizeToContentsMarginTop="0" worldFileMap="" alignmentSnap="1" printResolution="200" paperWidth="210" gridVisible="0" snapGridOffsetX="0" smartGuides="1" snapGridOffsetY="0" resizeToContentsMarginRight="0" snapTolerancePixels="5" printAsRaster="0" generateWorldFile="0" paperHeight="297" numPages="1" snapGridResolution="10" resizeToContentsMarginBottom="0">
       <symbol alpha="1" clip_to_extent="1" type="fill" name="">
         <layer pass="0" class="SimpleFill" locked="0">
@@ -518,7 +518,7 @@
           <annotationFontProperties description="Helvetica Neue,13,-1,5,50,0,0,0,0,0" style=""/>
         </ComposerMapGrid>
         <AtlasMap scalingMode="2" atlasDriven="0" margin="0.10000000000000001"/>
-        <ComposerItem pagey="12.8352" page="1" id="" lastValidViewScaleFactor="1.8323" positionMode="0" positionLock="false" x="14.5748" y="12.8352" visibility="1" zValue="1" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="180.85" outlineWidth="0.3" excludeFromExports="0" uuid="{9cd39a55-2199-41e9-9dfd-9c14f6daab97}" height="272.053" itemRotation="0" frame="true" pagex="14.5748">
+        <ComposerItem pagey="12.8352" page="1" id="" lastValidViewScaleFactor="1.8354" positionMode="0" positionLock="false" x="14.5748" y="12.8352" visibility="1" zValue="1" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="180.85" outlineWidth="0.3" excludeFromExports="0" uuid="{9cd39a55-2199-41e9-9dfd-9c14f6daab97}" height="272.053" itemRotation="0" frame="true" pagex="14.5748">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
@@ -692,7 +692,7 @@
           <annotationFontProperties description="Helvetica Neue,13,-1,5,50,0,0,0,0,0" style=""/>
         </ComposerMapGrid>
         <AtlasMap scalingMode="2" atlasDriven="0" margin="0.10000000000000001"/>
-        <ComposerItem pagey="14.898" page="1" id="" lastValidViewScaleFactor="1.8323" positionMode="0" positionLock="false" x="14.6107" y="14.898" visibility="1" zValue="1" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="182.765" outlineWidth="0.3" excludeFromExports="0" uuid="{a01f6106-20a7-48cc-a6d5-0d5fcb37c0d2}" height="271.204" itemRotation="0" frame="true" pagex="14.6107">
+        <ComposerItem pagey="14.898" page="1" id="" lastValidViewScaleFactor="1.8354" positionMode="0" positionLock="false" x="14.6107" y="14.898" visibility="1" zValue="1" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="182.765" outlineWidth="0.3" excludeFromExports="0" uuid="{a01f6106-20a7-48cc-a6d5-0d5fcb37c0d2}" height="271.204" itemRotation="0" frame="true" pagex="14.6107">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>

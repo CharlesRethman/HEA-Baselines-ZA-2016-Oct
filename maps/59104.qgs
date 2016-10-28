@@ -518,7 +518,7 @@
           <annotationFontProperties description="Helvetica Neue,13,-1,5,50,0,0,0,0,0" style=""/>
         </ComposerMapGrid>
         <AtlasMap scalingMode="2" atlasDriven="0" margin="0.10000000000000001"/>
-        <ComposerItem pagey="14.8982" page="1" id="" lastValidViewScaleFactor="1.8323" positionMode="0" positionLock="false" x="14.6107" y="14.8982" visibility="1" zValue="1" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="182.765" outlineWidth="0.3" excludeFromExports="0" uuid="{a01f6106-20a7-48cc-a6d5-0d5fcb37c0d2}" height="271.204" itemRotation="0" frame="true" pagex="14.6107">
+        <ComposerItem pagey="14.8982" page="1" id="" lastValidViewScaleFactor="1.8354" positionMode="0" positionLock="false" x="14.6107" y="14.8982" visibility="1" zValue="1" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="182.765" outlineWidth="0.3" excludeFromExports="0" uuid="{a01f6106-20a7-48cc-a6d5-0d5fcb37c0d2}" height="271.204" itemRotation="0" frame="true" pagex="14.6107">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
