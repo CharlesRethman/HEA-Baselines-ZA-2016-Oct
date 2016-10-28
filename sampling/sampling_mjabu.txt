@@ -1,0 +1,100 @@
+﻿     village_name     | village_code | lz_code |  survey   | sampled_date
+----------------------+--------------+---------+-----------+--------------
+ Bonanza Gold Mine SP |    875001001 |   59101 | continuum | 2016-10-04
+ Buyisonto SP         |    877083001 |   59101 | hea       | 2016-10-04
+ Hlanganani SP        |    877120001 |   59101 | hea       | 2016-10-04
+ Humulani             |    963008002 |   59101 | hea       | 2016-10-04
+ Jerusalem SP         |    874018001 |   59101 | continuum | 2016-10-04
+ Kgapamadi SP         |    877020001 |   59101 | continuum | 2016-10-04
+ Khumbula SP          |    874027001 |   59101 | continuum | 2016-10-04
+ KwaZibukwane SP      |    876028001 |   59101 | continuum | 2016-10-04
+ Lundi SP             |    874019001 |   59101 | continuum | 2016-10-04
+ Madaneni SP          |    876042001 |   59101 | hea       | 2016-10-04
+ Magogeni SP          |    876043001 |   59101 | hea       | 2016-10-04
+ Mahukule A SP        |    874002001 |   59101 | continuum | 2016-10-04
+ Malekutu SP          |    874026001 |   59101 | hea       | 2016-10-04
+ Matsavana SP         |    877099001 |   59101 | hea       | 2016-10-04
+ Middelplaas SP       |    876033001 |   59101 | hea       | 2016-10-04
+ Mohlabeng            |    963014001 |   59101 | continuum | 2016-10-04
+ Msogwaba SP          |    874054001 |   59101 | continuum | 2016-10-04
+ New Line SP          |    877033001 |   59101 | hea       | 2016-10-04
+ Ntunda SP            |    876035001 |   59101 | continuum | 2016-10-04
+ Phola SP             |    874014001 |   59101 | hea       | 2016-10-04
+ Thabakgolo SP        |    877095001 |   59101 | continuum | 2016-10-04
+ Utlha A SP           |    877064001 |   59101 | hea       | 2016-10-04
+ Zoeknog A SP         |    877088001 |   59101 | hea       | 2016-10-04
+ Betty's Goed SP      |    860039001 |   59104 | hea       | 2016-10-04
+ Dundonald SP         |    860035001 |   59104 | hea       | 2016-10-04
+ Embhuleni SP         |    860011001 |   59104 | continuum | 2016-10-04
+ Enkhaba SP           |    860022001 |   59104 | hea       | 2016-10-04
+ Etjelembube SP       |    860031001 |   59104 | hea       | 2016-10-04
+ Fernie SP            |    860050001 |   59104 | hea       | 2016-10-04
+ Holeka SP            |    860038001 |   59104 | both      | 2016-10-04
+ Kalwerskraal SP      |    860026001 |   59104 | hea       | 2016-10-04
+ Los-my-cherry        |    860009002 |   59104 | hea       | 2016-10-04
+ Mafumulo SP          |    860041001 |   59104 | hea       | 2016-10-04
+ Malahleka SP         |    860012001 |   59104 | hea       | 2016-10-04
+ Mbejeka SP B         |    860008001 |   59104 | hea       | 2016-10-04
+ Nhlaba SP            |    860021001 |   59104 | hea       | 2016-10-04
+ Basani SP            |    960042001 |   59201 | continuum | 2016-10-04
+ Botshabelo SP        |    960056001 |   59201 | hea       | 2016-10-04
+ Bungeni SP           |    968101001 |   59201 | continuum | 2016-10-04
+ Chavani SP           |    968102001 |   59201 | continuum | 2016-10-04
+ Dingledayle SP       |    877062001 |   59201 | hea       | 2016-10-04
+ Folovhodwe SP        |    965044001 |   59201 | continuum | 2016-10-04
+ Godide SP            |    877070001 |   59201 | continuum | 2016-10-04
+ Hasane SP            |    966214001 |   59201 | continuum | 2016-10-04
+ Ka-Xihoko SP         |    962034001 |   59201 | hea       | 2016-10-04
+ KaMakoxa SP          |    960017001 |   59201 | continuum | 2016-10-04
+ KaMatsotsosela SP    |    960078001 |   59201 | hea       | 2016-10-04
+ KaMininginisi SP1    |    960004001 |   59201 | hea       | 2016-10-04
+ Ludlow SP            |    877047001 |   59201 | hea       | 2016-10-04
+ Mahale  SP           |    963004001 |   59201 | continuum | 2016-10-04
+ Makuleke SP          |    966083001 |   59201 | continuum | 2016-10-04
+ Mananga SP           |    876056001 |   59201 | continuum | 2016-10-04
+ Mavele SP            |    962035001 |   59201 | continuum | 2016-10-04
+ Mbuzini SP           |    876054001 |   59201 | hea       | 2016-10-04
+ Mgobode SP           |    876050001 |   59201 | hea       | 2016-10-04
+ Motupa SP            |    962026001 |   59201 | continuum | 2016-10-04
+ Mtititi SP           |    966215001 |   59201 | continuum | 2016-10-04
+ Nsikazi SP           |    874025001 |   59201 | both      | 2016-10-04
+ Phongololo SP        |    961024001 |   59201 | continuum | 2016-10-04
+ Sereni               |    968122004 |   59201 | hea       | 2016-10-04
+ Shamfana SP          |    961043001 |   59201 | continuum | 2016-10-04
+ Somerset SP          |    877126001 |   59201 | hea       | 2016-10-04
+ Tsakani SP           |    877021001 |   59201 | continuum | 2016-10-04
+ Tshipise SP          |    965035001 |   59201 | hea       | 2016-10-04
+ Tshitale             |    968093001 |   59201 | continuum | 2016-10-04
+ Tshitale SP          |    973014001 |   59201 | continuum | 2016-10-04
+ eMakhazeni B SP      |    877131001 |   59201 | continuum | 2016-10-04
+ Allemansdrift C      |    872031001 |   59205 | hea       | 2016-10-04
+ Kameelpoort SP       |    872049001 |   59205 | hea       | 2016-10-04
+ Kwaggafontein A      |    871006001 |   59205 | hea       | 2016-10-04
+ Kwaggafontein F      |    871006005 |   59205 | continuum | 2016-10-04
+ Loding SP            |    872022002 |   59205 | hea       | 2016-10-04
+ Madubaduba SP        |    872033001 |   59205 | continuum | 2016-10-04
+ Matlala Ramoshebo SP |    983063001 |   59205 | hea       | 2016-10-04
+ Mmamethlake SP       |    872019001 |   59205 | hea       | 2016-10-04
+ Mpheleng SP          |    984051001 |   59205 | hea       | 2016-10-04
+ Phaphamang           |    872036002 |   59205 | hea       | 2016-10-04
+ Phukukane SP         |    984062001 |   59205 | hea       | 2016-10-04
+ Pieterskraal B       |    872046001 |   59205 | hea       | 2016-10-04
+ Thabakhubedu SP      |    984073001 |   59205 | hea       | 2016-10-04
+ Thabana SP           |    872017001 |   59205 | continuum | 2016-10-04
+ Waterval A           |    872040001 |   59205 | hea       | 2016-10-04
+ Zakheni              |    871016001 |   59205 | continuum | 2016-10-04
+ Bhundu SP            |    871004001 |   59303 | continuum | 2016-10-04
+ Daggakraal SP        |    863005001 |   59303 | both      | 2016-10-04
+ Koedoespoort SP      |    872011001 |   59303 | hea       | 2016-10-04
+ KwaNgema SP          |    862006001 |   59303 | both      | 2016-10-04
+ Lefiso SP            |    872001001 |   59303 | continuum | 2016-10-04
+ Malebitsa SP         |    983035001 |   59303 | both      | 2016-10-04
+ Marapyane SP         |    872008001 |   59303 | hea       | 2016-10-04
+ Matlerekeng SP       |    983061001 |   59303 | hea       | 2016-10-04
+ Saul Mkhizeville SP  |    862005001 |   59303 | hea       | 2016-10-04
+ Seabe SP             |    872007001 |   59303 | hea       | 2016-10-04
+ Spitspunt SP         |    983051001 |   59303 | hea       | 2016-10-04
+ Tshikanosi SP        |    983062001 |   59303 | hea       | 2016-10-04
+ Uitvlugt SP          |    983042001 |   59303 | hea       | 2016-10-04
+ Vlakpoort            |    863005003 |   59303 | hea       | 2016-10-04
+(97 rows)
