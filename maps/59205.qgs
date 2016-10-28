@@ -520,7 +520,7 @@
           <annotationFontProperties description="Helvetica Neue,13,-1,5,50,0,0,0,0,0" style=""/>
         </ComposerMapGrid>
         <AtlasMap scalingMode="2" atlasDriven="0" margin="0.10000000000000001"/>
-        <ComposerItem pagey="13.8356" page="1" id="" lastValidViewScaleFactor="2.42101" positionMode="0" positionLock="false" x="17.0137" y="13.8356" visibility="1" zValue="1" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="263.378" outlineWidth="0.3" excludeFromExports="0" uuid="{a01f6106-20a7-48cc-a6d5-0d5fcb37c0d2}" height="183.866" itemRotation="0" frame="true" pagex="17.0137">
+        <ComposerItem pagey="13.8356" page="1" id="" lastValidViewScaleFactor="2.42511" positionMode="0" positionLock="false" x="17.0137" y="13.8356" visibility="1" zValue="1" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="263.378" outlineWidth="0.3" excludeFromExports="0" uuid="{a01f6106-20a7-48cc-a6d5-0d5fcb37c0d2}" height="183.866" itemRotation="0" frame="true" pagex="17.0137">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
