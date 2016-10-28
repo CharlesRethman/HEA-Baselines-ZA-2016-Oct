@@ -360,7 +360,7 @@
       </filegroup>
     </legendlayer>
   </legend>
-  <Composer title="lz_survey_sites_1" visible="0">
+  <Composer title="lz_survey_sites_1" visible="1">
     <Composition resizeToContentsMarginLeft="0" snapping="0" showPages="1" guidesVisible="1" resizeToContentsMarginTop="0" worldFileMap="" alignmentSnap="1" printResolution="200" paperWidth="210" gridVisible="0" snapGridOffsetX="0" smartGuides="1" snapGridOffsetY="0" resizeToContentsMarginRight="0" snapTolerancePixels="5" printAsRaster="0" generateWorldFile="0" paperHeight="297" numPages="1" snapGridResolution="10" resizeToContentsMarginBottom="0">
       <symbol alpha="1" clip_to_extent="1" type="fill" name="">
         <layer pass="0" class="SimpleFill" locked="0">
@@ -536,6 +536,12 @@
   </Composer>
   <projectlayers>
     <maplayer simplifyAlgorithm="0" minimumScale="100000" maximumScale="1e+08" simplifyDrawingHints="1" readOnly="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <extent>
+        <xmin>-805095</xmin>
+        <ymin>-719840.75</ymin>
+        <xmax>776240.25</xmax>
+        <ymax>702378.8125</ymax>
+      </extent>
       <id>Demog_sas_copy20161027160317945</id>
       <datasource>dbname='albers_ea' host=Localhost port=5432 user='Charles' sslmode=disable key='gid' srid=201100 type=MultiPolygon table="zaf"."demog_sas" (the_geom) sql=</datasource>
       <keywordList>
