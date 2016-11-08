@@ -1,0 +1,320 @@
+ ea_code  |  sp_code  |       sp_name        | mp_code |        mp_name        | mn_code |     mn_name     | dc_code | dc_mdb_code |      dc_name       |  pr_name   |  survey   
+----------+-----------+----------------------+---------+-----------------------+---------+-----------------+---------+-------------+--------------------+------------+-----------
+ 97310028 | 973014001 | Tshitale SP          |  973014 | Tshitale              |     973 | Molemole        |     935 | DC35        | Capricorn          | Limpopo    | continuum
+ 98310213 | 983035001 | Malebitsa SP         |  983035 | Malebitsa             |     983 | Ephraim Mogale  |     947 | DC47        | Greater Sekhukhune | Limpopo    | both
+ 98310214 | 983035001 | Malebitsa SP         |  983035 | Malebitsa             |     983 | Ephraim Mogale  |     947 | DC47        | Greater Sekhukhune | Limpopo    | both
+ 98310215 | 983035001 | Malebitsa SP         |  983035 | Malebitsa             |     983 | Ephraim Mogale  |     947 | DC47        | Greater Sekhukhune | Limpopo    | both
+ 98310216 | 983035001 | Malebitsa SP         |  983035 | Malebitsa             |     983 | Ephraim Mogale  |     947 | DC47        | Greater Sekhukhune | Limpopo    | both
+ 98310217 | 983035001 | Malebitsa SP         |  983035 | Malebitsa             |     983 | Ephraim Mogale  |     947 | DC47        | Greater Sekhukhune | Limpopo    | both
+ 98310218 | 983035001 | Malebitsa SP         |  983035 | Malebitsa             |     983 | Ephraim Mogale  |     947 | DC47        | Greater Sekhukhune | Limpopo    | both
+ 98310219 | 983035001 | Malebitsa SP         |  983035 | Malebitsa             |     983 | Ephraim Mogale  |     947 | DC47        | Greater Sekhukhune | Limpopo    | both
+ 96310161 | 963014001 | Mohlabeng            |  963014 | Ga-Mashishimale       |     963 | Ba-Phalaborwa   |     933 | DC33        | Mopani             | Limpopo    | continuum
+ 96310165 | 963014001 | Mohlabeng            |  963014 | Ga-Mashishimale       |     963 | Ba-Phalaborwa   |     933 | DC33        | Mopani             | Limpopo    | continuum
+ 96310166 | 963014001 | Mohlabeng            |  963014 | Ga-Mashishimale       |     963 | Ba-Phalaborwa   |     933 | DC33        | Mopani             | Limpopo    | continuum
+ 96310167 | 963014001 | Mohlabeng            |  963014 | Ga-Mashishimale       |     963 | Ba-Phalaborwa   |     933 | DC33        | Mopani             | Limpopo    | continuum
+ 96310296 | 963004001 | Mahale  SP           |  963004 | Mahale                |     963 | Ba-Phalaborwa   |     933 | DC33        | Mopani             | Limpopo    | continuum
+ 96310302 | 963004001 | Mahale  SP           |  963004 | Mahale                |     963 | Ba-Phalaborwa   |     933 | DC33        | Mopani             | Limpopo    | continuum
+ 96310305 | 963004001 | Mahale  SP           |  963004 | Mahale                |     963 | Ba-Phalaborwa   |     933 | DC33        | Mopani             | Limpopo    | continuum
+ 96010193 | 960042001 | Basani SP            |  960042 | Basani                |     960 | Greater Giyani  |     933 | DC33        | Mopani             | Limpopo    | continuum
+ 96010207 | 960042001 | Basani SP            |  960042 | Basani                |     960 | Greater Giyani  |     933 | DC33        | Mopani             | Limpopo    | continuum
+ 96010210 | 960042001 | Basani SP            |  960042 | Basani                |     960 | Greater Giyani  |     933 | DC33        | Mopani             | Limpopo    | continuum
+ 96010215 | 960042001 | Basani SP            |  960042 | Basani                |     960 | Greater Giyani  |     933 | DC33        | Mopani             | Limpopo    | continuum
+ 96010396 | 960017001 | KaMakoxa SP          |  960017 | KaMakoxa              |     960 | Greater Giyani  |     933 | DC33        | Mopani             | Limpopo    | continuum
+ 96010400 | 960017001 | KaMakoxa SP          |  960017 | KaMakoxa              |     960 | Greater Giyani  |     933 | DC33        | Mopani             | Limpopo    | continuum
+ 96010401 | 960017001 | KaMakoxa SP          |  960017 | KaMakoxa              |     960 | Greater Giyani  |     933 | DC33        | Mopani             | Limpopo    | continuum
+ 96010406 | 960017001 | KaMakoxa SP          |  960017 | KaMakoxa              |     960 | Greater Giyani  |     933 | DC33        | Mopani             | Limpopo    | continuum
+ 96010408 | 960017001 | KaMakoxa SP          |  960017 | KaMakoxa              |     960 | Greater Giyani  |     933 | DC33        | Mopani             | Limpopo    | continuum
+ 96010414 | 960017001 | KaMakoxa SP          |  960017 | KaMakoxa              |     960 | Greater Giyani  |     933 | DC33        | Mopani             | Limpopo    | continuum
+ 96110386 | 961024001 | Phongololo SP        |  961024 | Phongololo            |     961 | Greater Letaba  |     933 | DC33        | Mopani             | Limpopo    | continuum
+ 96110387 | 961024001 | Phongololo SP        |  961024 | Phongololo            |     961 | Greater Letaba  |     933 | DC33        | Mopani             | Limpopo    | continuum
+ 96110388 | 961024001 | Phongololo SP        |  961024 | Phongololo            |     961 | Greater Letaba  |     933 | DC33        | Mopani             | Limpopo    | continuum
+ 96110389 | 961024001 | Phongololo SP        |  961024 | Phongololo            |     961 | Greater Letaba  |     933 | DC33        | Mopani             | Limpopo    | continuum
+ 96110390 | 961024001 | Phongololo SP        |  961024 | Phongololo            |     961 | Greater Letaba  |     933 | DC33        | Mopani             | Limpopo    | continuum
+ 96110370 | 961043001 | Shamfana SP          |  961043 | Shamfana              |     961 | Greater Letaba  |     933 | DC33        | Mopani             | Limpopo    | continuum
+ 96110371 | 961043001 | Shamfana SP          |  961043 | Shamfana              |     961 | Greater Letaba  |     933 | DC33        | Mopani             | Limpopo    | continuum
+ 96110372 | 961043001 | Shamfana SP          |  961043 | Shamfana              |     961 | Greater Letaba  |     933 | DC33        | Mopani             | Limpopo    | continuum
+ 96210692 | 962035001 | Mavele SP            |  962035 | Mavele                |     962 | Greater Tzaneen |     933 | DC33        | Mopani             | Limpopo    | continuum
+ 96210693 | 962035001 | Mavele SP            |  962035 | Mavele                |     962 | Greater Tzaneen |     933 | DC33        | Mopani             | Limpopo    | continuum
+ 96210694 | 962035001 | Mavele SP            |  962035 | Mavele                |     962 | Greater Tzaneen |     933 | DC33        | Mopani             | Limpopo    | continuum
+ 96210695 | 962035001 | Mavele SP            |  962035 | Mavele                |     962 | Greater Tzaneen |     933 | DC33        | Mopani             | Limpopo    | continuum
+ 96210696 | 962035001 | Mavele SP            |  962035 | Mavele                |     962 | Greater Tzaneen |     933 | DC33        | Mopani             | Limpopo    | continuum
+ 96210697 | 962035001 | Mavele SP            |  962035 | Mavele                |     962 | Greater Tzaneen |     933 | DC33        | Mopani             | Limpopo    | continuum
+ 96210700 | 962035001 | Mavele SP            |  962035 | Mavele                |     962 | Greater Tzaneen |     933 | DC33        | Mopani             | Limpopo    | continuum
+ 96210701 | 962035001 | Mavele SP            |  962035 | Mavele                |     962 | Greater Tzaneen |     933 | DC33        | Mopani             | Limpopo    | continuum
+ 96210702 | 962035001 | Mavele SP            |  962035 | Mavele                |     962 | Greater Tzaneen |     933 | DC33        | Mopani             | Limpopo    | continuum
+ 96210703 | 962035001 | Mavele SP            |  962035 | Mavele                |     962 | Greater Tzaneen |     933 | DC33        | Mopani             | Limpopo    | continuum
+ 96210534 | 962026001 | Motupa SP            |  962026 | Motupa                |     962 | Greater Tzaneen |     933 | DC33        | Mopani             | Limpopo    | continuum
+ 96210535 | 962026001 | Motupa SP            |  962026 | Motupa                |     962 | Greater Tzaneen |     933 | DC33        | Mopani             | Limpopo    | continuum
+ 96210536 | 962026001 | Motupa SP            |  962026 | Motupa                |     962 | Greater Tzaneen |     933 | DC33        | Mopani             | Limpopo    | continuum
+ 96210537 | 962026001 | Motupa SP            |  962026 | Motupa                |     962 | Greater Tzaneen |     933 | DC33        | Mopani             | Limpopo    | continuum
+ 96210538 | 962026001 | Motupa SP            |  962026 | Motupa                |     962 | Greater Tzaneen |     933 | DC33        | Mopani             | Limpopo    | continuum
+ 96210539 | 962026001 | Motupa SP            |  962026 | Motupa                |     962 | Greater Tzaneen |     933 | DC33        | Mopani             | Limpopo    | continuum
+ 96210540 | 962026001 | Motupa SP            |  962026 | Motupa                |     962 | Greater Tzaneen |     933 | DC33        | Mopani             | Limpopo    | continuum
+ 96210541 | 962026001 | Motupa SP            |  962026 | Motupa                |     962 | Greater Tzaneen |     933 | DC33        | Mopani             | Limpopo    | continuum
+ 96210542 | 962026001 | Motupa SP            |  962026 | Motupa                |     962 | Greater Tzaneen |     933 | DC33        | Mopani             | Limpopo    | continuum
+ 96210543 | 962026001 | Motupa SP            |  962026 | Motupa                |     962 | Greater Tzaneen |     933 | DC33        | Mopani             | Limpopo    | continuum
+ 96210544 | 962026001 | Motupa SP            |  962026 | Motupa                |     962 | Greater Tzaneen |     933 | DC33        | Mopani             | Limpopo    | continuum
+ 96210686 | 962026001 | Motupa SP            |  962026 | Motupa                |     962 | Greater Tzaneen |     933 | DC33        | Mopani             | Limpopo    | continuum
+ 96810471 | 968101001 | Bungeni SP           |  968101 | Bungeni               |     968 | Makhado         |     934 | DC34        | Vhembe             | Limpopo    | continuum
+ 96810472 | 968101001 | Bungeni SP           |  968101 | Bungeni               |     968 | Makhado         |     934 | DC34        | Vhembe             | Limpopo    | continuum
+ 96810474 | 968101001 | Bungeni SP           |  968101 | Bungeni               |     968 | Makhado         |     934 | DC34        | Vhembe             | Limpopo    | continuum
+ 96810475 | 968101001 | Bungeni SP           |  968101 | Bungeni               |     968 | Makhado         |     934 | DC34        | Vhembe             | Limpopo    | continuum
+ 96810476 | 968101001 | Bungeni SP           |  968101 | Bungeni               |     968 | Makhado         |     934 | DC34        | Vhembe             | Limpopo    | continuum
+ 96810477 | 968101001 | Bungeni SP           |  968101 | Bungeni               |     968 | Makhado         |     934 | DC34        | Vhembe             | Limpopo    | continuum
+ 96810487 | 968101001 | Bungeni SP           |  968101 | Bungeni               |     968 | Makhado         |     934 | DC34        | Vhembe             | Limpopo    | continuum
+ 96810488 | 968101001 | Bungeni SP           |  968101 | Bungeni               |     968 | Makhado         |     934 | DC34        | Vhembe             | Limpopo    | continuum
+ 96810489 | 968101001 | Bungeni SP           |  968101 | Bungeni               |     968 | Makhado         |     934 | DC34        | Vhembe             | Limpopo    | continuum
+ 96810490 | 968101001 | Bungeni SP           |  968101 | Bungeni               |     968 | Makhado         |     934 | DC34        | Vhembe             | Limpopo    | continuum
+ 96810547 | 968101001 | Bungeni SP           |  968101 | Bungeni               |     968 | Makhado         |     934 | DC34        | Vhembe             | Limpopo    | continuum
+ 96810194 | 968102001 | Chavani SP           |  968102 | Chavani               |     968 | Makhado         |     934 | DC34        | Vhembe             | Limpopo    | continuum
+ 96810203 | 968102001 | Chavani SP           |  968102 | Chavani               |     968 | Makhado         |     934 | DC34        | Vhembe             | Limpopo    | continuum
+ 96810504 | 968102001 | Chavani SP           |  968102 | Chavani               |     968 | Makhado         |     934 | DC34        | Vhembe             | Limpopo    | continuum
+ 96810505 | 968102001 | Chavani SP           |  968102 | Chavani               |     968 | Makhado         |     934 | DC34        | Vhembe             | Limpopo    | continuum
+ 96810506 | 968102001 | Chavani SP           |  968102 | Chavani               |     968 | Makhado         |     934 | DC34        | Vhembe             | Limpopo    | continuum
+ 96810507 | 968102001 | Chavani SP           |  968102 | Chavani               |     968 | Makhado         |     934 | DC34        | Vhembe             | Limpopo    | continuum
+ 96810508 | 968102001 | Chavani SP           |  968102 | Chavani               |     968 | Makhado         |     934 | DC34        | Vhembe             | Limpopo    | continuum
+ 96810509 | 968102001 | Chavani SP           |  968102 | Chavani               |     968 | Makhado         |     934 | DC34        | Vhembe             | Limpopo    | continuum
+ 96810510 | 968102001 | Chavani SP           |  968102 | Chavani               |     968 | Makhado         |     934 | DC34        | Vhembe             | Limpopo    | continuum
+ 96810511 | 968102001 | Chavani SP           |  968102 | Chavani               |     968 | Makhado         |     934 | DC34        | Vhembe             | Limpopo    | continuum
+ 96810512 | 968102001 | Chavani SP           |  968102 | Chavani               |     968 | Makhado         |     934 | DC34        | Vhembe             | Limpopo    | continuum
+ 96810546 | 968102001 | Chavani SP           |  968102 | Chavani               |     968 | Makhado         |     934 | DC34        | Vhembe             | Limpopo    | continuum
+ 96810609 | 968093001 | Tshitale             |  968093 | Mpheni                |     968 | Makhado         |     934 | DC34        | Vhembe             | Limpopo    | continuum
+ 96810610 | 968093001 | Tshitale             |  968093 | Mpheni                |     968 | Makhado         |     934 | DC34        | Vhembe             | Limpopo    | continuum
+ 96810611 | 968093001 | Tshitale             |  968093 | Mpheni                |     968 | Makhado         |     934 | DC34        | Vhembe             | Limpopo    | continuum
+ 96810612 | 968093001 | Tshitale             |  968093 | Mpheni                |     968 | Makhado         |     934 | DC34        | Vhembe             | Limpopo    | continuum
+ 96810619 | 968093001 | Tshitale             |  968093 | Mpheni                |     968 | Makhado         |     934 | DC34        | Vhembe             | Limpopo    | continuum
+ 96810621 | 968093001 | Tshitale             |  968093 | Mpheni                |     968 | Makhado         |     934 | DC34        | Vhembe             | Limpopo    | continuum
+ 96810622 | 968093001 | Tshitale             |  968093 | Mpheni                |     968 | Makhado         |     934 | DC34        | Vhembe             | Limpopo    | continuum
+ 96810623 | 968093001 | Tshitale             |  968093 | Mpheni                |     968 | Makhado         |     934 | DC34        | Vhembe             | Limpopo    | continuum
+ 96810624 | 968093001 | Tshitale             |  968093 | Mpheni                |     968 | Makhado         |     934 | DC34        | Vhembe             | Limpopo    | continuum
+ 96810626 | 968093001 | Tshitale             |  968093 | Mpheni                |     968 | Makhado         |     934 | DC34        | Vhembe             | Limpopo    | continuum
+ 96810628 | 968093001 | Tshitale             |  968093 | Mpheni                |     968 | Makhado         |     934 | DC34        | Vhembe             | Limpopo    | continuum
+ 96810629 | 968093001 | Tshitale             |  968093 | Mpheni                |     968 | Makhado         |     934 | DC34        | Vhembe             | Limpopo    | continuum
+ 96510196 | 965044001 | Folovhodwe SP        |  965044 | Folovhodwe            |     965 | Mutale          |     934 | DC34        | Vhembe             | Limpopo    | continuum
+ 96510197 | 965044001 | Folovhodwe SP        |  965044 | Folovhodwe            |     965 | Mutale          |     934 | DC34        | Vhembe             | Limpopo    | continuum
+ 96510198 | 965044001 | Folovhodwe SP        |  965044 | Folovhodwe            |     965 | Mutale          |     934 | DC34        | Vhembe             | Limpopo    | continuum
+ 96510199 | 965044001 | Folovhodwe SP        |  965044 | Folovhodwe            |     965 | Mutale          |     934 | DC34        | Vhembe             | Limpopo    | continuum
+ 96510200 | 965044001 | Folovhodwe SP        |  965044 | Folovhodwe            |     965 | Mutale          |     934 | DC34        | Vhembe             | Limpopo    | continuum
+ 96510201 | 965044001 | Folovhodwe SP        |  965044 | Folovhodwe            |     965 | Mutale          |     934 | DC34        | Vhembe             | Limpopo    | continuum
+ 96510229 | 965044001 | Folovhodwe SP        |  965044 | Folovhodwe            |     965 | Mutale          |     934 | DC34        | Vhembe             | Limpopo    | continuum
+ 96610026 | 966214001 | Hasane SP            |  966214 | Hasane                |     966 | Thulamela       |     934 | DC34        | Vhembe             | Limpopo    | continuum
+ 96610027 | 966214001 | Hasane SP            |  966214 | Hasane                |     966 | Thulamela       |     934 | DC34        | Vhembe             | Limpopo    | continuum
+ 96610028 | 966214001 | Hasane SP            |  966214 | Hasane                |     966 | Thulamela       |     934 | DC34        | Vhembe             | Limpopo    | continuum
+ 96610029 | 966214001 | Hasane SP            |  966214 | Hasane                |     966 | Thulamela       |     934 | DC34        | Vhembe             | Limpopo    | continuum
+ 96610030 | 966214001 | Hasane SP            |  966214 | Hasane                |     966 | Thulamela       |     934 | DC34        | Vhembe             | Limpopo    | continuum
+ 96610636 | 966083001 | Makuleke SP          |  966083 | Makuleke              |     966 | Thulamela       |     934 | DC34        | Vhembe             | Limpopo    | continuum
+ 96610637 | 966083001 | Makuleke SP          |  966083 | Makuleke              |     966 | Thulamela       |     934 | DC34        | Vhembe             | Limpopo    | continuum
+ 96610638 | 966083001 | Makuleke SP          |  966083 | Makuleke              |     966 | Thulamela       |     934 | DC34        | Vhembe             | Limpopo    | continuum
+ 96610639 | 966083001 | Makuleke SP          |  966083 | Makuleke              |     966 | Thulamela       |     934 | DC34        | Vhembe             | Limpopo    | continuum
+ 96610640 | 966083001 | Makuleke SP          |  966083 | Makuleke              |     966 | Thulamela       |     934 | DC34        | Vhembe             | Limpopo    | continuum
+ 96610641 | 966083001 | Makuleke SP          |  966083 | Makuleke              |     966 | Thulamela       |     934 | DC34        | Vhembe             | Limpopo    | continuum
+ 96610642 | 966083001 | Makuleke SP          |  966083 | Makuleke              |     966 | Thulamela       |     934 | DC34        | Vhembe             | Limpopo    | continuum
+ 96610051 | 966215001 | Mtititi SP           |  966215 | Mtititi               |     966 | Thulamela       |     934 | DC34        | Vhembe             | Limpopo    | continuum
+ 96610053 | 966215001 | Mtititi SP           |  966215 | Mtititi               |     966 | Thulamela       |     934 | DC34        | Vhembe             | Limpopo    | continuum
+ 96610054 | 966215001 | Mtititi SP           |  966215 | Mtititi               |     966 | Thulamela       |     934 | DC34        | Vhembe             | Limpopo    | continuum
+ 87710371 | 877070001 | Godide SP            |  877070 | Godide                |     877 | Bushbuckridge   |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87710373 | 877070001 | Godide SP            |  877070 | Godide                |     877 | Bushbuckridge   |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87710781 | 877070001 | Godide SP            |  877070 | Godide                |     877 | Bushbuckridge   |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87710782 | 877070001 | Godide SP            |  877070 | Godide                |     877 | Bushbuckridge   |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87710783 | 877070001 | Godide SP            |  877070 | Godide                |     877 | Bushbuckridge   |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87710784 | 877070001 | Godide SP            |  877070 | Godide                |     877 | Bushbuckridge   |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87710785 | 877070001 | Godide SP            |  877070 | Godide                |     877 | Bushbuckridge   |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87710794 | 877070001 | Godide SP            |  877070 | Godide                |     877 | Bushbuckridge   |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87710806 | 877070001 | Godide SP            |  877070 | Godide                |     877 | Bushbuckridge   |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87710975 | 877020001 | Kgapamadi SP         |  877020 | Kgapamadi             |     877 | Bushbuckridge   |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87710976 | 877020001 | Kgapamadi SP         |  877020 | Kgapamadi             |     877 | Bushbuckridge   |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87710979 | 877020001 | Kgapamadi SP         |  877020 | Kgapamadi             |     877 | Bushbuckridge   |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87710982 | 877020001 | Kgapamadi SP         |  877020 | Kgapamadi             |     877 | Bushbuckridge   |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87711021 | 877020001 | Kgapamadi SP         |  877020 | Kgapamadi             |     877 | Bushbuckridge   |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87711022 | 877020001 | Kgapamadi SP         |  877020 | Kgapamadi             |     877 | Bushbuckridge   |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87711023 | 877020001 | Kgapamadi SP         |  877020 | Kgapamadi             |     877 | Bushbuckridge   |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87711024 | 877020001 | Kgapamadi SP         |  877020 | Kgapamadi             |     877 | Bushbuckridge   |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87710328 | 877095001 | Thabakgolo SP        |  877095 | Thabakgolo            |     877 | Bushbuckridge   |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87710513 | 877095001 | Thabakgolo SP        |  877095 | Thabakgolo            |     877 | Bushbuckridge   |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87710514 | 877095001 | Thabakgolo SP        |  877095 | Thabakgolo            |     877 | Bushbuckridge   |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87710516 | 877095001 | Thabakgolo SP        |  877095 | Thabakgolo            |     877 | Bushbuckridge   |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87710518 | 877095001 | Thabakgolo SP        |  877095 | Thabakgolo            |     877 | Bushbuckridge   |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87710519 | 877095001 | Thabakgolo SP        |  877095 | Thabakgolo            |     877 | Bushbuckridge   |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87710520 | 877095001 | Thabakgolo SP        |  877095 | Thabakgolo            |     877 | Bushbuckridge   |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87710585 | 877095001 | Thabakgolo SP        |  877095 | Thabakgolo            |     877 | Bushbuckridge   |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87710589 | 877095001 | Thabakgolo SP        |  877095 | Thabakgolo            |     877 | Bushbuckridge   |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87710632 | 877095001 | Thabakgolo SP        |  877095 | Thabakgolo            |     877 | Bushbuckridge   |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87710973 | 877021001 | Tsakani SP           |  877021 | Tsakani               |     877 | Bushbuckridge   |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87710974 | 877021001 | Tsakani SP           |  877021 | Tsakani               |     877 | Bushbuckridge   |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87710977 | 877021001 | Tsakani SP           |  877021 | Tsakani               |     877 | Bushbuckridge   |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87710978 | 877021001 | Tsakani SP           |  877021 | Tsakani               |     877 | Bushbuckridge   |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87710980 | 877021001 | Tsakani SP           |  877021 | Tsakani               |     877 | Bushbuckridge   |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87710981 | 877021001 | Tsakani SP           |  877021 | Tsakani               |     877 | Bushbuckridge   |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87710983 | 877021001 | Tsakani SP           |  877021 | Tsakani               |     877 | Bushbuckridge   |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87710984 | 877021001 | Tsakani SP           |  877021 | Tsakani               |     877 | Bushbuckridge   |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87710985 | 877021001 | Tsakani SP           |  877021 | Tsakani               |     877 | Bushbuckridge   |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87710986 | 877021001 | Tsakani SP           |  877021 | Tsakani               |     877 | Bushbuckridge   |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87710987 | 877021001 | Tsakani SP           |  877021 | Tsakani               |     877 | Bushbuckridge   |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87710988 | 877021001 | Tsakani SP           |  877021 | Tsakani               |     877 | Bushbuckridge   |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87710989 | 877021001 | Tsakani SP           |  877021 | Tsakani               |     877 | Bushbuckridge   |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87710990 | 877021001 | Tsakani SP           |  877021 | Tsakani               |     877 | Bushbuckridge   |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87710991 | 877021001 | Tsakani SP           |  877021 | Tsakani               |     877 | Bushbuckridge   |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87710997 | 877021001 | Tsakani SP           |  877021 | Tsakani               |     877 | Bushbuckridge   |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87711027 | 877021001 | Tsakani SP           |  877021 | Tsakani               |     877 | Bushbuckridge   |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87710121 | 877131001 | eMakhazeni B SP      |  877131 | eMakhazeni B          |     877 | Bushbuckridge   |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87710122 | 877131001 | eMakhazeni B SP      |  877131 | eMakhazeni B          |     877 | Bushbuckridge   |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87710123 | 877131001 | eMakhazeni B SP      |  877131 | eMakhazeni B          |     877 | Bushbuckridge   |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87710124 | 877131001 | eMakhazeni B SP      |  877131 | eMakhazeni B          |     877 | Bushbuckridge   |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87710125 | 877131001 | eMakhazeni B SP      |  877131 | eMakhazeni B          |     877 | Bushbuckridge   |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87710126 | 877131001 | eMakhazeni B SP      |  877131 | eMakhazeni B          |     877 | Bushbuckridge   |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87710127 | 877131001 | eMakhazeni B SP      |  877131 | eMakhazeni B          |     877 | Bushbuckridge   |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87710128 | 877131001 | eMakhazeni B SP      |  877131 | eMakhazeni B          |     877 | Bushbuckridge   |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87710129 | 877131001 | eMakhazeni B SP      |  877131 | eMakhazeni B          |     877 | Bushbuckridge   |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87710130 | 877131001 | eMakhazeni B SP      |  877131 | eMakhazeni B          |     877 | Bushbuckridge   |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87410867 | 874018001 | Jerusalem SP         |  874018 | Jerusalem             |     874 | Mbombela        |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87410868 | 874018001 | Jerusalem SP         |  874018 | Jerusalem             |     874 | Mbombela        |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87410869 | 874018001 | Jerusalem SP         |  874018 | Jerusalem             |     874 | Mbombela        |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87410870 | 874018001 | Jerusalem SP         |  874018 | Jerusalem             |     874 | Mbombela        |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87410871 | 874018001 | Jerusalem SP         |  874018 | Jerusalem             |     874 | Mbombela        |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87410872 | 874018001 | Jerusalem SP         |  874018 | Jerusalem             |     874 | Mbombela        |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87410873 | 874018001 | Jerusalem SP         |  874018 | Jerusalem             |     874 | Mbombela        |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87410874 | 874018001 | Jerusalem SP         |  874018 | Jerusalem             |     874 | Mbombela        |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87410875 | 874018001 | Jerusalem SP         |  874018 | Jerusalem             |     874 | Mbombela        |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87410876 | 874018001 | Jerusalem SP         |  874018 | Jerusalem             |     874 | Mbombela        |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87410877 | 874018001 | Jerusalem SP         |  874018 | Jerusalem             |     874 | Mbombela        |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87410878 | 874018001 | Jerusalem SP         |  874018 | Jerusalem             |     874 | Mbombela        |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87410880 | 874018001 | Jerusalem SP         |  874018 | Jerusalem             |     874 | Mbombela        |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87410881 | 874018001 | Jerusalem SP         |  874018 | Jerusalem             |     874 | Mbombela        |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87410883 | 874018001 | Jerusalem SP         |  874018 | Jerusalem             |     874 | Mbombela        |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87410891 | 874018001 | Jerusalem SP         |  874018 | Jerusalem             |     874 | Mbombela        |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87410909 | 874018001 | Jerusalem SP         |  874018 | Jerusalem             |     874 | Mbombela        |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87410916 | 874018001 | Jerusalem SP         |  874018 | Jerusalem             |     874 | Mbombela        |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87410793 | 874027001 | Khumbula SP          |  874027 | Khumbula              |     874 | Mbombela        |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87410795 | 874027001 | Khumbula SP          |  874027 | Khumbula              |     874 | Mbombela        |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87410796 | 874027001 | Khumbula SP          |  874027 | Khumbula              |     874 | Mbombela        |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87410797 | 874027001 | Khumbula SP          |  874027 | Khumbula              |     874 | Mbombela        |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87410798 | 874027001 | Khumbula SP          |  874027 | Khumbula              |     874 | Mbombela        |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87410799 | 874027001 | Khumbula SP          |  874027 | Khumbula              |     874 | Mbombela        |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87410801 | 874027001 | Khumbula SP          |  874027 | Khumbula              |     874 | Mbombela        |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87410802 | 874027001 | Khumbula SP          |  874027 | Khumbula              |     874 | Mbombela        |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87410803 | 874027001 | Khumbula SP          |  874027 | Khumbula              |     874 | Mbombela        |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87410805 | 874027001 | Khumbula SP          |  874027 | Khumbula              |     874 | Mbombela        |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87410806 | 874027001 | Khumbula SP          |  874027 | Khumbula              |     874 | Mbombela        |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87410807 | 874027001 | Khumbula SP          |  874027 | Khumbula              |     874 | Mbombela        |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87410808 | 874027001 | Khumbula SP          |  874027 | Khumbula              |     874 | Mbombela        |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87410857 | 874019001 | Lundi SP             |  874019 | Lundi                 |     874 | Mbombela        |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87410859 | 874019001 | Lundi SP             |  874019 | Lundi                 |     874 | Mbombela        |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87410860 | 874019001 | Lundi SP             |  874019 | Lundi                 |     874 | Mbombela        |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87410861 | 874019001 | Lundi SP             |  874019 | Lundi                 |     874 | Mbombela        |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87410862 | 874019001 | Lundi SP             |  874019 | Lundi                 |     874 | Mbombela        |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87410863 | 874019001 | Lundi SP             |  874019 | Lundi                 |     874 | Mbombela        |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87410864 | 874019001 | Lundi SP             |  874019 | Lundi                 |     874 | Mbombela        |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87410865 | 874019001 | Lundi SP             |  874019 | Lundi                 |     874 | Mbombela        |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87410866 | 874019001 | Lundi SP             |  874019 | Lundi                 |     874 | Mbombela        |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87411123 | 874002001 | Mahukule A SP        |  874002 | Mahukule A            |     874 | Mbombela        |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87411125 | 874002001 | Mahukule A SP        |  874002 | Mahukule A            |     874 | Mbombela        |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87410336 | 874054001 | Msogwaba SP          |  874054 | Msogwaba              |     874 | Mbombela        |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87410411 | 874054001 | Msogwaba SP          |  874054 | Msogwaba              |     874 | Mbombela        |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87410412 | 874054001 | Msogwaba SP          |  874054 | Msogwaba              |     874 | Mbombela        |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87410415 | 874054001 | Msogwaba SP          |  874054 | Msogwaba              |     874 | Mbombela        |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87410416 | 874054001 | Msogwaba SP          |  874054 | Msogwaba              |     874 | Mbombela        |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87410417 | 874054001 | Msogwaba SP          |  874054 | Msogwaba              |     874 | Mbombela        |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87410418 | 874054001 | Msogwaba SP          |  874054 | Msogwaba              |     874 | Mbombela        |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87410419 | 874054001 | Msogwaba SP          |  874054 | Msogwaba              |     874 | Mbombela        |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87410420 | 874054001 | Msogwaba SP          |  874054 | Msogwaba              |     874 | Mbombela        |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87410421 | 874054001 | Msogwaba SP          |  874054 | Msogwaba              |     874 | Mbombela        |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87410422 | 874054001 | Msogwaba SP          |  874054 | Msogwaba              |     874 | Mbombela        |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87410423 | 874054001 | Msogwaba SP          |  874054 | Msogwaba              |     874 | Mbombela        |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87410424 | 874054001 | Msogwaba SP          |  874054 | Msogwaba              |     874 | Mbombela        |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87410425 | 874054001 | Msogwaba SP          |  874054 | Msogwaba              |     874 | Mbombela        |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87410485 | 874054001 | Msogwaba SP          |  874054 | Msogwaba              |     874 | Mbombela        |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87410486 | 874054001 | Msogwaba SP          |  874054 | Msogwaba              |     874 | Mbombela        |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87410487 | 874054001 | Msogwaba SP          |  874054 | Msogwaba              |     874 | Mbombela        |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87410488 | 874054001 | Msogwaba SP          |  874054 | Msogwaba              |     874 | Mbombela        |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87410569 | 874054001 | Msogwaba SP          |  874054 | Msogwaba              |     874 | Mbombela        |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87410570 | 874054001 | Msogwaba SP          |  874054 | Msogwaba              |     874 | Mbombela        |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87410571 | 874054001 | Msogwaba SP          |  874054 | Msogwaba              |     874 | Mbombela        |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87410572 | 874054001 | Msogwaba SP          |  874054 | Msogwaba              |     874 | Mbombela        |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87410573 | 874054001 | Msogwaba SP          |  874054 | Msogwaba              |     874 | Mbombela        |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87410574 | 874054001 | Msogwaba SP          |  874054 | Msogwaba              |     874 | Mbombela        |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87410590 | 874054001 | Msogwaba SP          |  874054 | Msogwaba              |     874 | Mbombela        |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87410591 | 874054001 | Msogwaba SP          |  874054 | Msogwaba              |     874 | Mbombela        |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87410721 | 874025001 | Nsikazi SP           |  874025 | Nsikazi               |     874 | Mbombela        |     832 | DC32        | Ehlanzeni          | Mpumalanga | both
+ 87410722 | 874025001 | Nsikazi SP           |  874025 | Nsikazi               |     874 | Mbombela        |     832 | DC32        | Ehlanzeni          | Mpumalanga | both
+ 87610401 | 876028001 | KwaZibukwane SP      |  876028 | KwaZibukwane          |     876 | Nkomazi         |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87610402 | 876028001 | KwaZibukwane SP      |  876028 | KwaZibukwane          |     876 | Nkomazi         |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87610403 | 876028001 | KwaZibukwane SP      |  876028 | KwaZibukwane          |     876 | Nkomazi         |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87610405 | 876028001 | KwaZibukwane SP      |  876028 | KwaZibukwane          |     876 | Nkomazi         |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87610406 | 876028001 | KwaZibukwane SP      |  876028 | KwaZibukwane          |     876 | Nkomazi         |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87610407 | 876028001 | KwaZibukwane SP      |  876028 | KwaZibukwane          |     876 | Nkomazi         |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87610408 | 876028001 | KwaZibukwane SP      |  876028 | KwaZibukwane          |     876 | Nkomazi         |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87610001 | 876056001 | Mananga SP           |  876056 | Mananga               |     876 | Nkomazi         |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87610002 | 876056001 | Mananga SP           |  876056 | Mananga               |     876 | Nkomazi         |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87610003 | 876056001 | Mananga SP           |  876056 | Mananga               |     876 | Nkomazi         |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87610004 | 876056001 | Mananga SP           |  876056 | Mananga               |     876 | Nkomazi         |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87610164 | 876035001 | Ntunda SP            |  876035 | Ntunda                |     876 | Nkomazi         |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87610165 | 876035001 | Ntunda SP            |  876035 | Ntunda                |     876 | Nkomazi         |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87610166 | 876035001 | Ntunda SP            |  876035 | Ntunda                |     876 | Nkomazi         |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87610167 | 876035001 | Ntunda SP            |  876035 | Ntunda                |     876 | Nkomazi         |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87610168 | 876035001 | Ntunda SP            |  876035 | Ntunda                |     876 | Nkomazi         |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87610169 | 876035001 | Ntunda SP            |  876035 | Ntunda                |     876 | Nkomazi         |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87510057 | 875001001 | Bonanza Gold Mine SP |  875001 | Bonanza Gold Mine     |     875 | Umjindi         |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 87510059 | 875001001 | Bonanza Gold Mine SP |  875001 | Bonanza Gold Mine     |     875 | Umjindi         |     832 | DC32        | Ehlanzeni          | Mpumalanga | continuum
+ 86010343 | 860011001 | Embhuleni SP         |  860011 | Embhuleni             |     860 | Albert Luthuli  |     830 | DC30        | Gert Sibande       | Mpumalanga | continuum
+ 86010138 | 860038001 | Holeka SP            |  860038 | Holeka                |     860 | Albert Luthuli  |     830 | DC30        | Gert Sibande       | Mpumalanga | both
+ 86010139 | 860038001 | Holeka SP            |  860038 | Holeka                |     860 | Albert Luthuli  |     830 | DC30        | Gert Sibande       | Mpumalanga | both
+ 86010140 | 860038001 | Holeka SP            |  860038 | Holeka                |     860 | Albert Luthuli  |     830 | DC30        | Gert Sibande       | Mpumalanga | both
+ 86010141 | 860038001 | Holeka SP            |  860038 | Holeka                |     860 | Albert Luthuli  |     830 | DC30        | Gert Sibande       | Mpumalanga | both
+ 86010142 | 860038001 | Holeka SP            |  860038 | Holeka                |     860 | Albert Luthuli  |     830 | DC30        | Gert Sibande       | Mpumalanga | both
+ 86010143 | 860038001 | Holeka SP            |  860038 | Holeka                |     860 | Albert Luthuli  |     830 | DC30        | Gert Sibande       | Mpumalanga | both
+ 86010144 | 860038001 | Holeka SP            |  860038 | Holeka                |     860 | Albert Luthuli  |     830 | DC30        | Gert Sibande       | Mpumalanga | both
+ 86210101 | 862006001 | KwaNgema SP          |  862006 | KwaNgema              |     862 | Mkhondo         |     830 | DC30        | Gert Sibande       | Mpumalanga | both
+ 86210175 | 862006001 | KwaNgema SP          |  862006 | KwaNgema              |     862 | Mkhondo         |     830 | DC30        | Gert Sibande       | Mpumalanga | both
+ 86310147 | 863005001 | Daggakraal SP        |  863005 | Daggakraal            |     863 | Pixley Ka Seme  |     830 | DC30        | Gert Sibande       | Mpumalanga | both
+ 86310148 | 863005001 | Daggakraal SP        |  863005 | Daggakraal            |     863 | Pixley Ka Seme  |     830 | DC30        | Gert Sibande       | Mpumalanga | both
+ 86310150 | 863005001 | Daggakraal SP        |  863005 | Daggakraal            |     863 | Pixley Ka Seme  |     830 | DC30        | Gert Sibande       | Mpumalanga | both
+ 87210434 | 872001001 | Lefiso SP            |  872001 | Lefiso                |     872 | Dr JS Moroka    |     831 | DC31        | Nkangala           | Mpumalanga | continuum
+ 87210469 | 872001001 | Lefiso SP            |  872001 | Lefiso                |     872 | Dr JS Moroka    |     831 | DC31        | Nkangala           | Mpumalanga | continuum
+ 87210470 | 872001001 | Lefiso SP            |  872001 | Lefiso                |     872 | Dr JS Moroka    |     831 | DC31        | Nkangala           | Mpumalanga | continuum
+ 87210471 | 872001001 | Lefiso SP            |  872001 | Lefiso                |     872 | Dr JS Moroka    |     831 | DC31        | Nkangala           | Mpumalanga | continuum
+ 87210472 | 872001001 | Lefiso SP            |  872001 | Lefiso                |     872 | Dr JS Moroka    |     831 | DC31        | Nkangala           | Mpumalanga | continuum
+ 87210475 | 872001001 | Lefiso SP            |  872001 | Lefiso                |     872 | Dr JS Moroka    |     831 | DC31        | Nkangala           | Mpumalanga | continuum
+ 87210476 | 872001001 | Lefiso SP            |  872001 | Lefiso                |     872 | Dr JS Moroka    |     831 | DC31        | Nkangala           | Mpumalanga | continuum
+ 87210477 | 872001001 | Lefiso SP            |  872001 | Lefiso                |     872 | Dr JS Moroka    |     831 | DC31        | Nkangala           | Mpumalanga | continuum
+ 87210090 | 872033001 | Madubaduba SP        |  872033 | Madubaduba            |     872 | Dr JS Moroka    |     831 | DC31        | Nkangala           | Mpumalanga | continuum
+ 87210091 | 872033001 | Madubaduba SP        |  872033 | Madubaduba            |     872 | Dr JS Moroka    |     831 | DC31        | Nkangala           | Mpumalanga | continuum
+ 87210092 | 872033001 | Madubaduba SP        |  872033 | Madubaduba            |     872 | Dr JS Moroka    |     831 | DC31        | Nkangala           | Mpumalanga | continuum
+ 87210093 | 872033001 | Madubaduba SP        |  872033 | Madubaduba            |     872 | Dr JS Moroka    |     831 | DC31        | Nkangala           | Mpumalanga | continuum
+ 87210094 | 872033001 | Madubaduba SP        |  872033 | Madubaduba            |     872 | Dr JS Moroka    |     831 | DC31        | Nkangala           | Mpumalanga | continuum
+ 87210095 | 872033001 | Madubaduba SP        |  872033 | Madubaduba            |     872 | Dr JS Moroka    |     831 | DC31        | Nkangala           | Mpumalanga | continuum
+ 87210096 | 872033001 | Madubaduba SP        |  872033 | Madubaduba            |     872 | Dr JS Moroka    |     831 | DC31        | Nkangala           | Mpumalanga | continuum
+ 87210097 | 872033001 | Madubaduba SP        |  872033 | Madubaduba            |     872 | Dr JS Moroka    |     831 | DC31        | Nkangala           | Mpumalanga | continuum
+ 87210332 | 872017001 | Thabana SP           |  872017 | Thabana               |     872 | Dr JS Moroka    |     831 | DC31        | Nkangala           | Mpumalanga | continuum
+ 87210333 | 872017001 | Thabana SP           |  872017 | Thabana               |     872 | Dr JS Moroka    |     831 | DC31        | Nkangala           | Mpumalanga | continuum
+ 87210334 | 872017001 | Thabana SP           |  872017 | Thabana               |     872 | Dr JS Moroka    |     831 | DC31        | Nkangala           | Mpumalanga | continuum
+ 87210335 | 872017001 | Thabana SP           |  872017 | Thabana               |     872 | Dr JS Moroka    |     831 | DC31        | Nkangala           | Mpumalanga | continuum
+ 87210336 | 872017001 | Thabana SP           |  872017 | Thabana               |     872 | Dr JS Moroka    |     831 | DC31        | Nkangala           | Mpumalanga | continuum
+ 87210385 | 872017001 | Thabana SP           |  872017 | Thabana               |     872 | Dr JS Moroka    |     831 | DC31        | Nkangala           | Mpumalanga | continuum
+ 87210386 | 872017001 | Thabana SP           |  872017 | Thabana               |     872 | Dr JS Moroka    |     831 | DC31        | Nkangala           | Mpumalanga | continuum
+ 87110057 | 871004001 | Bhundu SP            |  871004 | Bhundu                |     871 | Thembisile      |     831 | DC31        | Nkangala           | Mpumalanga | continuum
+ 87110060 | 871004001 | Bhundu SP            |  871004 | Bhundu                |     871 | Thembisile      |     831 | DC31        | Nkangala           | Mpumalanga | continuum
+ 87110068 | 871004001 | Bhundu SP            |  871004 | Bhundu                |     871 | Thembisile      |     831 | DC31        | Nkangala           | Mpumalanga | continuum
+ 87110075 | 871004001 | Bhundu SP            |  871004 | Bhundu                |     871 | Thembisile      |     831 | DC31        | Nkangala           | Mpumalanga | continuum
+ 87110082 | 871004001 | Bhundu SP            |  871004 | Bhundu                |     871 | Thembisile      |     831 | DC31        | Nkangala           | Mpumalanga | continuum
+ 87110086 | 871004001 | Bhundu SP            |  871004 | Bhundu                |     871 | Thembisile      |     831 | DC31        | Nkangala           | Mpumalanga | continuum
+ 87110092 | 871004001 | Bhundu SP            |  871004 | Bhundu                |     871 | Thembisile      |     831 | DC31        | Nkangala           | Mpumalanga | continuum
+ 87110096 | 871004001 | Bhundu SP            |  871004 | Bhundu                |     871 | Thembisile      |     831 | DC31        | Nkangala           | Mpumalanga | continuum
+ 87110231 | 871016001 | Zakheni              |  871016 | KwaMhlanga Crossroads |     871 | Thembisile      |     831 | DC31        | Nkangala           | Mpumalanga | continuum
+ 87110232 | 871016001 | Zakheni              |  871016 | KwaMhlanga Crossroads |     871 | Thembisile      |     831 | DC31        | Nkangala           | Mpumalanga | continuum
+ 87110233 | 871016001 | Zakheni              |  871016 | KwaMhlanga Crossroads |     871 | Thembisile      |     831 | DC31        | Nkangala           | Mpumalanga | continuum
+ 87110234 | 871016001 | Zakheni              |  871016 | KwaMhlanga Crossroads |     871 | Thembisile      |     831 | DC31        | Nkangala           | Mpumalanga | continuum
+ 87110235 | 871016001 | Zakheni              |  871016 | KwaMhlanga Crossroads |     871 | Thembisile      |     831 | DC31        | Nkangala           | Mpumalanga | continuum
+ 87110236 | 871016001 | Zakheni              |  871016 | KwaMhlanga Crossroads |     871 | Thembisile      |     831 | DC31        | Nkangala           | Mpumalanga | continuum
+ 87110237 | 871016001 | Zakheni              |  871016 | KwaMhlanga Crossroads |     871 | Thembisile      |     831 | DC31        | Nkangala           | Mpumalanga | continuum
+ 87110241 | 871016001 | Zakheni              |  871016 | KwaMhlanga Crossroads |     871 | Thembisile      |     831 | DC31        | Nkangala           | Mpumalanga | continuum
+ 87110289 | 871016001 | Zakheni              |  871016 | KwaMhlanga Crossroads |     871 | Thembisile      |     831 | DC31        | Nkangala           | Mpumalanga | continuum
+ 87110290 | 871016001 | Zakheni              |  871016 | KwaMhlanga Crossroads |     871 | Thembisile      |     831 | DC31        | Nkangala           | Mpumalanga | continuum
+ 87110027 | 871006005 | Kwaggafontein F      |  871006 | Kwaggafontein         |     871 | Thembisile      |     831 | DC31        | Nkangala           | Mpumalanga | continuum
+ 87110030 | 871006005 | Kwaggafontein F      |  871006 | Kwaggafontein         |     871 | Thembisile      |     831 | DC31        | Nkangala           | Mpumalanga | continuum
+ 87110031 | 871006005 | Kwaggafontein F      |  871006 | Kwaggafontein         |     871 | Thembisile      |     831 | DC31        | Nkangala           | Mpumalanga | continuum
+ 87110032 | 871006005 | Kwaggafontein F      |  871006 | Kwaggafontein         |     871 | Thembisile      |     831 | DC31        | Nkangala           | Mpumalanga | continuum
+ 87110033 | 871006005 | Kwaggafontein F      |  871006 | Kwaggafontein         |     871 | Thembisile      |     831 | DC31        | Nkangala           | Mpumalanga | continuum
+ 87110034 | 871006005 | Kwaggafontein F      |  871006 | Kwaggafontein         |     871 | Thembisile      |     831 | DC31        | Nkangala           | Mpumalanga | continuum
+ 87110035 | 871006005 | Kwaggafontein F      |  871006 | Kwaggafontein         |     871 | Thembisile      |     831 | DC31        | Nkangala           | Mpumalanga | continuum
+(316 rows)
+
