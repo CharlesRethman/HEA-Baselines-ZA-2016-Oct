@@ -360,8 +360,8 @@
       </filegroup>
     </legendlayer>
   </legend>
-  <Composer title="lz_survey_sites_1" visible="0">
-    <Composition resizeToContentsMarginLeft="0" snapping="0" showPages="1" guidesVisible="1" resizeToContentsMarginTop="0" worldFileMap="" alignmentSnap="1" printResolution="200" paperWidth="210" gridVisible="0" snapGridOffsetX="0" smartGuides="1" snapGridOffsetY="0" resizeToContentsMarginRight="0" snapTolerancePixels="5" printAsRaster="0" generateWorldFile="0" paperHeight="297" numPages="1" snapGridResolution="10" resizeToContentsMarginBottom="0">
+  <Composer title="lz_survey_sites_1" visible="1">
+    <Composition resizeToContentsMarginLeft="0" snapping="0" showPages="1" guidesVisible="1" resizeToContentsMarginTop="0" worldFileMap="" alignmentSnap="1" printResolution="200" paperWidth="210" gridVisible="0" snapGridOffsetX="0" smartGuides="1" snapGridOffsetY="0" resizeToContentsMarginRight="0" snapTolerancePixels="5" printAsRaster="1" generateWorldFile="0" paperHeight="297" numPages="1" snapGridResolution="10" resizeToContentsMarginBottom="0">
       <symbol alpha="1" clip_to_extent="1" type="fill" name="">
         <layer pass="0" class="SimpleFill" locked="0">
           <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
@@ -377,10 +377,22 @@
           <prop k="style" v="solid"/>
         </layer>
       </symbol>
+      <ComposerScaleBar lineCapStyle="square" style="Single Box" numMapUnitsPerScaleBarUnit="1000" segmentSizeMode="0" alignment="0" numSegments="5" segmentMillimeters="14.3442" lineJoinStyle="miter" minBarWidth="50" numUnitsPerSegment="5000" units="1" labelBarSpace="2" outlineWidth="0.3" numSegmentsLeft="5" maxBarWidth="150" height="1" boxContentSpace="0.5" mapId="0" unitLabel="km">
+        <scaleBarFont description="Helvetica Neue,7,-1,5,50,0,0,0,0,0" style="Light"/>
+        <fillColor alpha="255" red="0" blue="0" green="0"/>
+        <fillColor2 alpha="255" red="255" blue="255" green="255"/>
+        <strokeColor alpha="255" red="0" blue="0" green="0"/>
+        <textColor alpha="255" red="0" blue="0" green="0"/>
+        <ComposerItem pagey="275.873" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="101.655" y="275.873" visibility="1" zValue="13" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="93.8707" outlineWidth="0.3" excludeFromExports="0" uuid="{fedea091-2e16-4a13-bb9c-3c53ed162f6c}" height="9.37969" itemRotation="0" frame="false" pagex="101.655">
+          <FrameColor alpha="255" red="0" blue="0" green="0"/>
+          <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+          <customproperties/>
+        </ComposerItem>
+      </ComposerScaleBar>
       <ComposerLabel valign="32" marginX="1" marginY="1" labelText="Prepared by CW Rethman (PGP 1287)&#xa;Projection: Albers Equal Area, SPs: -24.56 &amp; -26.92, LOC: 30.3" htmlState="0" halign="1">
         <LabelFont description="Helvetica Neue,7,-1,5,50,0,0,0,0,0" style=""/>
         <FontColor red="0" blue="0" green="0"/>
-        <ComposerItem pagey="44.4826" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="15.6107" y="44.4826" visibility="1" zValue="4" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="103.562" outlineWidth="0.3" excludeFromExports="0" uuid="{ef04255a-ec47-4335-8d3b-28f3f300ddae}" height="8.63019" itemRotation="0" frame="true" pagex="15.6107">
+        <ComposerItem pagey="267.312" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="100.574" y="267.312" visibility="1" zValue="4" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="95.1705" outlineWidth="0.3" excludeFromExports="0" uuid="{ef04255a-ec47-4335-8d3b-28f3f300ddae}" height="16.8716" itemRotation="0" frame="true" pagex="100.574">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
@@ -391,16 +403,16 @@
           <style marginBottom="1.5" name="title">
             <styleFont description="Helvetica Neue,8,-1,5,50,0,0,0,0,0" style=""/>
           </style>
-          <style marginTop="1" name="group">
+          <style marginTop="0.8" name="group">
             <styleFont description="Helvetica Neue,6,-1,5,50,0,0,0,0,0" style=""/>
           </style>
-          <style marginTop="1" name="subgroup">
+          <style marginTop="0.8" name="subgroup">
             <styleFont description="Helvetica Neue,6,-1,5,50,0,0,0,0,0" style=""/>
           </style>
-          <style marginTop="1" name="symbol">
+          <style marginTop="0.5" name="symbol">
             <styleFont description="Helvetica Neue,13,-1,5,50,0,0,0,0,0" style=""/>
           </style>
-          <style marginTop="1" marginLeft="2" name="symbolLabel">
+          <style marginTop="0.5" marginLeft="2" name="symbolLabel">
             <styleFont description="Helvetica Neue,6,-1,5,50,0,0,0,0,0" style=""/>
           </style>
         </styles>
@@ -422,6 +434,9 @@
           <layer-tree-layer expanded="1" checked="Qt::Checked" id="admin4_munics20150206151234955" name="Local municipality boundaries">
             <customproperties/>
           </layer-tree-layer>
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="Demog_sas_copy20161027165739097" name="Enumeration Small Areas">
+            <customproperties/>
+          </layer-tree-layer>
           <layer-tree-layer expanded="1" checked="Qt::Checked" id="settlemt_towns20141016122322026" name="Places and Infrastructure">
             <customproperties>
               <property key="legend/node-order" value="0,1"/>
@@ -432,7 +447,7 @@
           </layer-tree-layer>
           <layer-tree-layer expanded="1" checked="Qt::Checked" id="infra_tfares_osm20151212205144669" name="Roads and thoroughfares">
             <customproperties>
-              <property key="legend/node-order" value="0,3,5,7"/>
+              <property key="legend/node-order" value="0,7,3,5,27"/>
             </customproperties>
           </layer-tree-layer>
           <layer-tree-layer expanded="0" checked="Qt::Checked" id="infra_railways20141016122124065" name="Railways">
@@ -451,7 +466,7 @@
             <customproperties/>
           </layer-tree-layer>
         </layer-tree-group>
-        <ComposerItem pagey="131.602" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="15.5607" y="131.602" visibility="1" zValue="3" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="72.2313" outlineWidth="0.2" excludeFromExports="0" uuid="{1f992a46-b992-4b8b-947d-d8c50641e6e0}" height="152.75" itemRotation="0" frame="true" pagex="15.5607">
+        <ComposerItem pagey="146.684" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="15.5607" y="146.684" visibility="1" zValue="3" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="72.2313" outlineWidth="0.2" excludeFromExports="0" uuid="{1f992a46-b992-4b8b-947d-d8c50641e6e0}" height="137.55" itemRotation="0" frame="true" pagex="15.5607">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
@@ -519,7 +534,7 @@
           <annotationFontProperties description="Helvetica Neue,13,-1,5,50,0,0,0,0,0" style=""/>
         </ComposerMapGrid>
         <AtlasMap scalingMode="2" atlasDriven="0" margin="0.10000000000000001"/>
-        <ComposerItem pagey="14.8982" page="1" id="" lastValidViewScaleFactor="8.53416" positionMode="0" positionLock="false" x="14.6107" y="14.8982" visibility="1" zValue="1" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="182.765" outlineWidth="0.3" excludeFromExports="0" uuid="{a01f6106-20a7-48cc-a6d5-0d5fcb37c0d2}" height="271.204" itemRotation="0" frame="true" pagex="14.6107">
+        <ComposerItem pagey="14.8982" page="1" id="" lastValidViewScaleFactor="2.13354" positionMode="0" positionLock="false" x="14.6107" y="14.8982" visibility="1" zValue="1" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="182.765" outlineWidth="0.3" excludeFromExports="0" uuid="{a01f6106-20a7-48cc-a6d5-0d5fcb37c0d2}" height="271.204" itemRotation="0" frame="true" pagex="14.6107">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
@@ -1965,7 +1980,7 @@ def my_form_open(dialog, layer, feature):
         <property key="labeling/multilineHeight" value="1"/>
         <property key="labeling/namedStyle" value="Light Italic"/>
         <property key="labeling/obstacle" value="true"/>
-        <property key="labeling/obstacleFactor" value="2"/>
+        <property key="labeling/obstacleFactor" value="0.8"/>
         <property key="labeling/obstacleType" value="0"/>
         <property key="labeling/offsetType" value="0"/>
         <property key="labeling/placeDirectionSymbol" value="0"/>
@@ -1975,7 +1990,7 @@ def my_form_open(dialog, layer, feature):
         <property key="labeling/predefinedPositionOrder" value="TR,TL,BR,BL,R,L,TSR,BSR"/>
         <property key="labeling/preserveRotation" value="true"/>
         <property key="labeling/previewBkgrdColor" value="#ffffff"/>
-        <property key="labeling/priority" value="10"/>
+        <property key="labeling/priority" value="4"/>
         <property key="labeling/quadOffset" value="4"/>
         <property key="labeling/repeatDistance" value="0"/>
         <property key="labeling/repeatDistanceMapUnitMaxScale" value="0"/>
@@ -2335,8 +2350,8 @@ def my_form_open(dialog, layer, feature):
         <property key="labeling/multilineHeight" value="1"/>
         <property key="labeling/namedStyle" value="Light Italic"/>
         <property key="labeling/obstacle" value="true"/>
-        <property key="labeling/obstacleFactor" value="2"/>
-        <property key="labeling/obstacleType" value="0"/>
+        <property key="labeling/obstacleFactor" value="1.2"/>
+        <property key="labeling/obstacleType" value="1"/>
         <property key="labeling/offsetType" value="0"/>
         <property key="labeling/placeDirectionSymbol" value="0"/>
         <property key="labeling/placement" value="4"/>
@@ -2345,7 +2360,7 @@ def my_form_open(dialog, layer, feature):
         <property key="labeling/predefinedPositionOrder" value="TR,TL,BR,BL,R,L,TSR,BSR"/>
         <property key="labeling/preserveRotation" value="true"/>
         <property key="labeling/previewBkgrdColor" value="#ffffff"/>
-        <property key="labeling/priority" value="10"/>
+        <property key="labeling/priority" value="6"/>
         <property key="labeling/quadOffset" value="4"/>
         <property key="labeling/repeatDistance" value="0"/>
         <property key="labeling/repeatDistanceMapUnitMaxScale" value="0"/>
@@ -16338,7 +16353,7 @@ def my_form_open(dialog, layer, feature):
         <property key="labeling/multilineHeight" value="1"/>
         <property key="labeling/namedStyle" value="Regular"/>
         <property key="labeling/obstacle" value="true"/>
-        <property key="labeling/obstacleFactor" value="0"/>
+        <property key="labeling/obstacleFactor" value="1.58"/>
         <property key="labeling/obstacleType" value="0"/>
         <property key="labeling/offsetType" value="0"/>
         <property key="labeling/placeDirectionSymbol" value="0"/>
@@ -16348,7 +16363,7 @@ def my_form_open(dialog, layer, feature):
         <property key="labeling/predefinedPositionOrder" value="TR,TL,BR,BL,R,L,TSR,BSR"/>
         <property key="labeling/preserveRotation" value="true"/>
         <property key="labeling/previewBkgrdColor" value="#ffffff"/>
-        <property key="labeling/priority" value="0"/>
+        <property key="labeling/priority" value="8"/>
         <property key="labeling/quadOffset" value="4"/>
         <property key="labeling/repeatDistance" value="0"/>
         <property key="labeling/repeatDistanceMapUnitMaxScale" value="0"/>

@@ -573,7 +573,7 @@
         <fillColor2 alpha="255" red="255" blue="255" green="255"/>
         <strokeColor alpha="255" red="0" blue="0" green="0"/>
         <textColor alpha="255" red="0" blue="0" green="0"/>
-        <ComposerItem pagey="219.319" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="122.577" y="219.319" visibility="1" zValue="9" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="69.8776" outlineWidth="0.3" excludeFromExports="0" uuid="{675e6d67-8505-47eb-854b-6d6c1b74d494}" height="8.93" itemRotation="0" frame="false" pagex="122.577">
+        <ComposerItem pagey="219.319" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="122.577" y="219.319" visibility="1" zValue="5" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="69.8776" outlineWidth="0.3" excludeFromExports="0" uuid="{675e6d67-8505-47eb-854b-6d6c1b74d494}" height="8.93" itemRotation="0" frame="false" pagex="122.577">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
@@ -2182,7 +2182,7 @@ def my_form_open(dialog, layer, feature):
         <property key="labeling/multilineHeight" value="1"/>
         <property key="labeling/namedStyle" value="Light Italic"/>
         <property key="labeling/obstacle" value="true"/>
-        <property key="labeling/obstacleFactor" value="2"/>
+        <property key="labeling/obstacleFactor" value="0.8"/>
         <property key="labeling/obstacleType" value="0"/>
         <property key="labeling/offsetType" value="0"/>
         <property key="labeling/placeDirectionSymbol" value="0"/>
@@ -2192,7 +2192,7 @@ def my_form_open(dialog, layer, feature):
         <property key="labeling/predefinedPositionOrder" value="TR,TL,BR,BL,R,L,TSR,BSR"/>
         <property key="labeling/preserveRotation" value="true"/>
         <property key="labeling/previewBkgrdColor" value="#ffffff"/>
-        <property key="labeling/priority" value="10"/>
+        <property key="labeling/priority" value="4"/>
         <property key="labeling/quadOffset" value="4"/>
         <property key="labeling/repeatDistance" value="0"/>
         <property key="labeling/repeatDistanceMapUnitMaxScale" value="0"/>
@@ -2552,7 +2552,7 @@ def my_form_open(dialog, layer, feature):
         <property key="labeling/multilineHeight" value="1"/>
         <property key="labeling/namedStyle" value="Light Italic"/>
         <property key="labeling/obstacle" value="true"/>
-        <property key="labeling/obstacleFactor" value="2"/>
+        <property key="labeling/obstacleFactor" value="1.2"/>
         <property key="labeling/obstacleType" value="0"/>
         <property key="labeling/offsetType" value="0"/>
         <property key="labeling/placeDirectionSymbol" value="0"/>
@@ -2562,7 +2562,7 @@ def my_form_open(dialog, layer, feature):
         <property key="labeling/predefinedPositionOrder" value="TR,TL,BR,BL,R,L,TSR,BSR"/>
         <property key="labeling/preserveRotation" value="true"/>
         <property key="labeling/previewBkgrdColor" value="#ffffff"/>
-        <property key="labeling/priority" value="10"/>
+        <property key="labeling/priority" value="6"/>
         <property key="labeling/quadOffset" value="4"/>
         <property key="labeling/repeatDistance" value="0"/>
         <property key="labeling/repeatDistanceMapUnitMaxScale" value="0"/>
@@ -16537,7 +16537,7 @@ def my_form_open(dialog, layer, feature):
         <property key="labeling/multilineHeight" value="1"/>
         <property key="labeling/namedStyle" value="Regular"/>
         <property key="labeling/obstacle" value="true"/>
-        <property key="labeling/obstacleFactor" value="0"/>
+        <property key="labeling/obstacleFactor" value="1.6"/>
         <property key="labeling/obstacleType" value="0"/>
         <property key="labeling/offsetType" value="0"/>
         <property key="labeling/placeDirectionSymbol" value="0"/>
@@ -16547,7 +16547,7 @@ def my_form_open(dialog, layer, feature):
         <property key="labeling/predefinedPositionOrder" value="TR,TL,BR,BL,R,L,TSR,BSR"/>
         <property key="labeling/preserveRotation" value="true"/>
         <property key="labeling/previewBkgrdColor" value="#ffffff"/>
-        <property key="labeling/priority" value="0"/>
+        <property key="labeling/priority" value="8"/>
         <property key="labeling/quadOffset" value="4"/>
         <property key="labeling/repeatDistance" value="0"/>
         <property key="labeling/repeatDistanceMapUnitMaxScale" value="0"/>
