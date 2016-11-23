@@ -177,53 +177,60 @@ CREATE VIEW zaf.vw_pop_age_pyramid AS
          m.lz_code = n.lz_code
 ;
 
-SELECT
-   lz_code AS lz,
-   'male' AS gender,
-   round("pc_u5_m", 6) AS "u5",
-   round("pc_10-14_m", 6) AS "10-14",
-   round("pc_15-19_m", 6) AS "15-19",
-   round("pc_20-24_m", 6) AS "20-24",
-   round("pc_25-29_m", 6) AS "25-29",
-   round("pc_30-34_m", 6) AS "30-34",
-   round("pc_35-39_m", 6) AS "35-39",
-   round("pc_40-44_m", 6) AS "40-44",
-   round("pc_45-49_m", 6) AS "45-49",
-   round("pc_50-54_m", 6) AS "50-54",
-   round("pc_55-59_m", 6) AS "55-59",
-   round("pc_60-64_m", 6) AS "60-64",
-   round("pc_65-69_m", 6) AS "65-69",
-   round("pc_70-74_m", 6) AS "70-74",
-   round("pc_75-79_m", 6) AS "75-79",
-   round("pc_80-85_m", 6) AS "80-84",
-   round("pc_85+_m", 6) AS "85+"
-FROM
-   zaf.vw_pop_age_pyramid
+COPY (
+   SELECT
+      lz_code AS lz,
+      'male' AS gender,
+      round("pc_u5_m" * -1, 6) AS "u5",
+      round("pc_10-14_m" * -1, 6) AS "10-14",
+      round("pc_15-19_m" * -1, 6) AS "15-19",
+      round("pc_20-24_m" * -1, 6) AS "20-24",
+      round("pc_25-29_m" * -1, 6) AS "25-29",
+      round("pc_30-34_m" * -1, 6) AS "30-34",
+      round("pc_35-39_m" * -1, 6) AS "35-39",
+      round("pc_40-44_m" * -1, 6) AS "40-44",
+      round("pc_45-49_m" * -1, 6) AS "45-49",
+      round("pc_50-54_m" * -1, 6) AS "50-54",
+      round("pc_55-59_m" * -1, 6) AS "55-59",
+      round("pc_60-64_m" * -1, 6) AS "60-64",
+      round("pc_65-69_m" * -1, 6) AS "65-69",
+      round("pc_70-74_m" * -1, 6) AS "70-74",
+      round("pc_75-79_m" * -1, 6) AS "75-79",
+      round("pc_80-85_m" * -1, 6) AS "80-84",
+      round("pc_85+_m" * -1, 6) AS "85+"
+   FROM
+      zaf.vw_pop_age_pyramid
 
-UNION SELECT
-   lz_code AS lz,
-   'female' AS gender,
-   round("pc_u5_f", 6) AS "u5",
-   round("pc_10-14_f", 6) AS "10-14",
-   round("pc_15-19_f", 6) AS "15-19",
-   round("pc_20-24_f", 6) AS "20-24",
-   round("pc_25-29_f", 6) AS "25-29",
-   round("pc_30-34_f", 6) AS "30-34",
-   round("pc_35-39_f", 6) AS "35-39",
-   round("pc_40-44_f", 6) AS "40-44",
-   round("pc_45-49_f", 6) AS "45-49",
-   round("pc_50-54_f", 6) AS "50-54",
-   round("pc_55-59_f", 6) AS "55-59",
-   round("pc_60-64_f", 6) AS "60-64",
-   round("pc_65-69_f", 6) AS "65-69",
-   round("pc_70-74_f", 6) AS "70-74",
-   round("pc_75-79_f", 6) AS "75-79",
-   round("pc_80-85_f", 6) AS "80-84",
-   round("pc_85+_f", 6) AS "85+"
-FROM
-   zaf.vw_pop_age_pyramid
+   UNION SELECT
+      lz_code AS lz,
+      'female' AS gender,
+      round("pc_u5_f", 6) AS "u5",
+      round("pc_10-14_f", 6) AS "10-14",
+      round("pc_15-19_f", 6) AS "15-19",
+      round("pc_20-24_f", 6) AS "20-24",
+      round("pc_25-29_f", 6) AS "25-29",
+      round("pc_30-34_f", 6) AS "30-34",
+      round("pc_35-39_f", 6) AS "35-39",
+      round("pc_40-44_f", 6) AS "40-44",
+      round("pc_45-49_f", 6) AS "45-49",
+      round("pc_50-54_f", 6) AS "50-54",
+      round("pc_55-59_f", 6) AS "55-59",
+      round("pc_60-64_f", 6) AS "60-64",
+      round("pc_65-69_f", 6) AS "65-69",
+      round("pc_70-74_f", 6) AS "70-74",
+      round("pc_75-79_f", 6) AS "75-79",
+      round("pc_80-85_f", 6) AS "80-84",
+      round("pc_85+_f", 6) AS "85+"
+   FROM
+      zaf.vw_pop_age_pyramid
 
-ORDER BY
-   lz,
-   gender
+   ORDER BY
+      lz,
+      gender
+)
+TO
+	'/Users/Charles/Documents/hea_baselines/south_africa/baselines_surveys/2016_lp_mp/reports/pop_age_pyramid.csv'
+WITH (
+	FORMAT CSV, DELIMITER ',', HEADER TRUE
+)
 ;
