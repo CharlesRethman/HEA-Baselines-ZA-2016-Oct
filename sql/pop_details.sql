@@ -1,26 +1,21 @@
 
 DROP FUNCTION IF EXISTS zaf.list_ages();
 
-CREATE OR REPLACE FUNCTION zaf.list_ages() RETURNS TABLE(tab JSON) AS $aa$
-DECLARE
-   query_str TEXT := '';
-   result TEXT := '';
-   r RECORD;
-BEGIN
-   FOR r IN
-      (SELECT DISTINCT age FROM zaf.tbl_pop_proj ORDER BY 1)
-   LOOP
-      query_str := query_str || '"'  || r.age || '"' || ' integer, ';
-   END LOOP;
---   RAISE NOTICE 'Query here is %', query_str;
-   result := 'SELECT array_to_json(t) FROM ('
-      || 'SELECT * FROM crosstab('
-      || '''SELECT year_mid, dc_mdb_code, sex, age, pop FROM zaf.tbl_pop_proj ORDER BY 1,2,3'','
-      || '''SELECT DISTINCT age FROM zaf.tbl_pop_proj ORDER BY 1'') '
-      || 'AS (year integer, code varchar(6), gender varchar(6), ' || left(query_str, -2) || ')) AS t;';
-   RETURN QUERY EXECUTE result;
-END;
-$aa$ LANGUAGE plpgsql;
+CREATE OR REPLACE FUNCTION zaf.pivotcode(tablename varchar, rowc varchar, colc varchar, cellc varchar, celldatatype varchar) RETURNS varchar LANGUAGE plpgsql AS $$
+   DECLARE
+      dynsql1 varchar;
+      dynsql2 varchar;
+      columnlist varchar;
+   BEGIN
+      -- (1) Retrieve list of column names
+      dynsql1 = 'SELECT string_agg(DISTINCT ''_''||'||colc||'||'' '||celldatatype||''', '', '' ORDER BY ''_''||'||colc||'||'' '||celldatatype||''') FROM '||tablename||';';
+      EXECUTE dynsql1 INTO columnlist;
+      RAISE NOTICE 'Query here is:\n %', columnlist;
+   END;
+$$;
+
+
+zaf.pivotcode(zaf.tbl_pop_agegender,  )
 /*
 CREATE OR REPLACE FUNCTION f_mycross(text, text)
    RETURNS TABLE (
