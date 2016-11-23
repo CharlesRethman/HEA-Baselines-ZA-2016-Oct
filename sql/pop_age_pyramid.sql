@@ -16,6 +16,10 @@ CREATE VIEW zaf.vw_pop_age_pyramid AS
       "25-29_f"::numeric / total_pop::numeric AS "pc_25-29_f",
       "30-34_m"::numeric / total_pop::numeric AS "pc_30-34_m",
       "30-34_f"::numeric / total_pop::numeric AS "pc_30-34_f",
+      "35-39_m"::numeric / total_pop::numeric AS "pc_35-39_m",
+      "35-39_f"::numeric / total_pop::numeric AS "pc_35-39_f",
+      "40-44_m"::numeric / total_pop::numeric AS "pc_40-44_m",
+      "40-44_f"::numeric / total_pop::numeric AS "pc_40-44_f",
       adult_m::numeric / total_pop::numeric AS pc_adult_m,
       adult_f::numeric / total_pop::numeric AS pc_adult_f,
       "60-64_f"::numeric / total_pop::numeric AS "pc_60-64_f",
@@ -25,7 +29,10 @@ CREATE VIEW zaf.vw_pop_age_pyramid AS
       "70-74_f"::numeric / total_pop::numeric AS "pc_70-74_f",
       "75-79_m"::numeric / total_pop::numeric AS "pc_75-79_m",
       "75-79_f"::numeric / total_pop::numeric AS "pc_75-79_f",
-      elder::numeric / total_pop::numeric AS pc_elder,
+      "80-84_m"::numeric / total_pop::numeric AS "pc_80-85_m",
+      "80-84_f"::numeric / total_pop::numeric AS "pc_80-85_f",
+      "85+_m"::numeric / total_pop::numeric AS "pc_85+_m",
+      "85+_f"::numeric / total_pop::numeric AS "pc_85+_f",
       u5_m,
       u5_f,
       "5-9_m",
@@ -40,6 +47,10 @@ CREATE VIEW zaf.vw_pop_age_pyramid AS
       "25-29_f",
       "30-34_m",
       "30-34_f",
+      "35-39_m",
+      "35-39_f",
+      "40-44_m",
+      "40-44_f",
       adult_m,
       adult_f,
       "60-64_f",
@@ -49,7 +60,10 @@ CREATE VIEW zaf.vw_pop_age_pyramid AS
       "70-74_f",
       "75-79_m",
       "75-79_f",
-      elder,
+      "80-84_m",
+      "80-84_f",
+      "85+_m",
+      "85+_f",
       total_pop
    FROM
       (
@@ -66,9 +80,9 @@ CREATE VIEW zaf.vw_pop_age_pyramid AS
             sum(m_20_24) AS "20-24_m",
             sum(m_25_29) AS "25-29_m",
             sum(m_30_34) AS "30-34_m",
+            sum(m_35_39) AS "35-39_m",
+            sum(m_40_44) AS "40-44_m",
             sum(
-               m_35_39 +
-               m_40_44 +
                m_45_49 +
                m_50_54 +
                m_55_59 +
@@ -77,9 +91,9 @@ CREATE VIEW zaf.vw_pop_age_pyramid AS
             sum(f_20_24) AS "20-24_f",
             sum(f_25_29) AS "25-29_f",
             sum(f_30_34) AS "30-34_f",
+            sum(f_35_39) AS "35-39_f",
+            sum(f_40_44) AS "40-44_f",
             sum(
-               f_35_39 +
-               f_40_44 +
                f_45_49 +
                f_50_54 +
                f_55_59
@@ -91,12 +105,10 @@ CREATE VIEW zaf.vw_pop_age_pyramid AS
             sum(f_70_74) AS "70-74_f",
             sum(m_75_79) AS "75-79_m",
             sum(f_75_79) AS "75-79_f",
-            sum(
-               m_80_84 +
-               f_80_84 +
-               m_85plus +
-               f_85plus
-            ) AS elder
+            sum(m_80_84) AS "80-84_m",
+            sum(f_80_84) AS "80-84_f",
+            sum(m_85plus) AS "85+_m",
+            sum(f_85plus) AS "85+_f"
          FROM
             zaf.tbl_pop_agegender_05y AS f,
             zaf.demog_sas AS g,
@@ -168,10 +180,14 @@ SELECT
    round("pc_20-24_m", 6) AS "20-24",
    round("pc_25-29_m", 6) AS "25-29",
    round("pc_30-34_m", 6) AS "30-34",
+   round("pc_35-39_m", 6) AS "35-39",
+   round("pc_40-44_m", 6) AS "40-44",
    (round(pc_adult_m * 100, 2))::text || ' (' || (round(pc_adult_m, 5))::text || ')' AS adult,
    round("pc_65-69_m", 6) AS "65-69",
    round("pc_70-74_m", 6) AS "70-74",
-   round("pc_75-79_m", 6) AS "75-79"
+   round("pc_75-79_m", 6) AS "75-79",
+   round("pc_80-85_m", 6) AS "80-84",
+   round("pc_85+_m", 6) AS "85+"
 --   (round(pc_elder * 100, 2))::text || ' (' || (round(pc_elder, 5))::text || ')' AS elder
 FROM
    zaf.vw_pop_age_pyramid
@@ -185,10 +201,14 @@ UNION SELECT
    round("pc_20-24_f", 6) AS "20-24",
    round("pc_25-29_f", 6) AS "25-29",
    round("pc_30-34_f", 6) AS "30-34",
+   round("pc_35-39_f", 6) AS "35-39",
+   round("pc_40-44_f", 6) AS "40-44",
    (round(pc_adult_f * 100, 2))::text || ' (' || (round(pc_adult_f, 5))::text || ')' AS  adult,
    round("pc_65-69_f", 6) AS "65-69",
    round("pc_70-74_f", 6) AS "70-74",
-   round("pc_75-79_f", 6) AS "75-79"
+   round("pc_75-79_f", 6) AS "75-79",
+   round("pc_80-85_f", 6) AS "80-84",
+   round("pc_85+_f", 6) AS "85+"
 FROM
    zaf.vw_pop_age_pyramid
 
