@@ -1,4 +1,4 @@
-DROP VIEW IF EXISTS zaf.vw_pop_age_pyramid;
+DROP VIEW IF EXISTS "zaf"."vw_age-gender_pyramid";
 CREATE VIEW "zaf"."vw_age-gender_pyramid" AS
    SELECT
       m.lz_code,
