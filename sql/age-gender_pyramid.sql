@@ -1,5 +1,5 @@
 DROP VIEW IF EXISTS zaf.vw_pop_age_pyramid;
-CREATE VIEW zaf.vw_pop_age_pyramid AS
+CREATE VIEW "zaf"."vw_age-gender_pyramid" AS
    SELECT
       m.lz_code,
       u5_m::numeric / total_pop::numeric AS "pc_u5_m",
@@ -199,7 +199,7 @@ COPY (
       round("pc_80-85_m" * -1, 6) AS "80-84",
       round("pc_85+_m" * -1, 6) AS "85+"
    FROM
-      zaf.vw_pop_age_pyramid
+      "zaf"."vw_age-gender_pyramid"
 
    UNION SELECT
       lz_code AS lz,
@@ -222,14 +222,14 @@ COPY (
       round("pc_80-85_f", 6) AS "80-84",
       round("pc_85+_f", 6) AS "85+"
    FROM
-      zaf.vw_pop_age_pyramid
+      "zaf"."vw_age-gender_pyramid"
 
    ORDER BY
       lz,
       gender
 )
 TO
-	'/Users/Charles/Documents/hea_baselines/south_africa/baselines_surveys/2016_lp_mp/reports/pop_age_pyramid.csv'
+	'/Users/Charles/Documents/hea_baselines/south_africa/baselines_surveys/2016_lp_mp/reports/age-gender_pyramid.csv'
 WITH (
 	FORMAT CSV, DELIMITER ',', HEADER TRUE
 )
