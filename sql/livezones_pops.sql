@@ -1,23 +1,25 @@
-COPY (
+--COPY (
 	SELECT
-		'''' || pr_name || '''' AS pr_name,
-		pr_code,
-		'''' || dc_name || '''' AS dc_name,
-		f.dc_code,
-		'''' || mn_name || '''' AS mn_name,
-		mn_code,
-		'''' || mp_name || '''' AS mp_name,
-		mp_code,
-		'''' || sp_name || '''' AS sp_name,
-		sp_code,
+		pr_name,
+--		pr_code,
+		dc_name,
+--		f.dc_code,
+		mn_name,
+--		mn_code,
+--		mp_name,
+--		mp_code,
+--		sp_name,
+--		sp_code,
 		f.sa_code AS sa_code,
 		total_m + total_f AS pop_size,
-		(total_m + total_f) * i.pop_c / m.pop_y AS pop_curr,
-		round((total_m + total_f) * i.pop_c / m.pop_y, 0) AS pop_curr_approx,
+--		(total_m + total_f) * i.pop_c / m.pop_y AS pop_curr,
+		round((total_m + total_f)::numeric * i.pop_c / m.pop_y, 0) AS pop_curr_approx,
+		i.pop_c / m.pop_y AS change,
+--		i.pop_c::numeric / m.pop_y::numeric AS change_num,
 		f.lz_code AS lz_code,
-		'''' || lz_name || '''' AS lz_name,
-		'''' || lz_abbrev || '''' AS lz_abbrev,
-		'''' || f.lz_code || ': ' || lz_name || ' (' || lz_abbrev || ')''' AS lz
+		lz_name,
+		lz_abbrev
+--		f.lz_code || ': ' || lz_name || ' (' || lz_abbrev || ')' AS lz
 	FROM
 		zaf.demog_sas AS f,
 		zaf.tbl_pop_agegender_05y AS g,
@@ -46,13 +48,14 @@ COPY (
 		AND
 			f.dc_code = m.dc_code
 		AND
-			(f.lz_code = 59101 OR f.lz_code = 59104 OR f.lz_code = 59201 OR f.lz_code = 59205 OR f.lz_code = 59303)
+			(f.pr_code = 9 OR f.pr_code = 8)
+/*			(f.lz_code = 59101 OR f.lz_code = 59104 OR f.lz_code = 59201 OR f.lz_code = 59205 OR f.lz_code = 59303)*/
 	ORDER BY
 		pr_name, dc_name, mn_name, mp_name, sp_name, f.sa_code
-)
+/*)
 TO
 	'/Users/Charles/Documents/hea_baselines/south_africa/baselines_surveys/2016_lp_mp/sampling/livezones_pops.csv'
 WITH (
 	FORMAT CSV, DELIMITER ',', HEADER TRUE
-)
+)*/
 ;
