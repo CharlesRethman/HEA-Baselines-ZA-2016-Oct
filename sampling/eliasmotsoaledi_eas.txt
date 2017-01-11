@@ -1,0 +1,166 @@
+     mn_name     | mn_code |       mp_name       | mp_code |       sp_name       |  sp_code  | ea_code  | lz_code
+-----------------+---------+---------------------+---------+---------------------+-----------+----------+---------
+Elias Motsoaledi |     984 | Kgobokwane          |  984038 | Kgobokwane SP       | 984038001 | 98410237 |   59205
+Elias Motsoaledi |     984 | Mpheleng            |  984051 | Mpheleng SP         | 984051001 | 98410185 |   59205
+Elias Motsoaledi |     984 | Ntwane              |  984072 | Ntwane SP           | 984072001 | 98410029 |   59205
+Elias Motsoaledi |     984 | Moteti              |  984056 | Moteti SP           | 984056002 | 98410132 |   59205
+Elias Motsoaledi |     984 | Witfontein          |  984057 | Witfontein SP       | 984057001 | 98410192 |   59205
+Elias Motsoaledi |     984 | Elandsdoring        |  984065 | Elandsdoring C      | 984065004 | 98410138 |   59205
+Elias Motsoaledi |     984 | Ntwane              |  984072 | Ntwane SP           | 984072001 | 98410038 |   59205
+Elias Motsoaledi |     984 | Thabakhubedu        |  984073 | Thabakhubedu SP     | 984073001 | 98410017 |   59205
+Elias Motsoaledi |     984 | Ten Morgan          |  984060 | Ten Morgan SP       | 984060001 | 98410199 |   59205
+Elias Motsoaledi |     984 | Phukukane           |  984062 | Phukukane SP        | 984062001 | 98410114 |   59205
+Elias Motsoaledi |     984 | Naganeng            |  984044 | Naganeng SP         | 984044001 | 98410234 |   59205
+Elias Motsoaledi |     984 | Phukukane           |  984062 | Phukukane SP        | 984062001 | 98410118 |   59205
+Elias Motsoaledi |     984 | Kgobokwane          |  984038 | Kgobokwane SP       | 984038001 | 98410242 |   59205
+Elias Motsoaledi |     984 | Uitspanning A       |  984068 | Uitspanning A SP    | 984068001 | 98410152 |   59205
+Elias Motsoaledi |     984 | Ntwane              |  984072 | Ntwane SP           | 984072001 | 98410033 |   59205
+Elias Motsoaledi |     984 | Kgapamadi           |  984039 | Kgapamadi SP        | 984039001 | 98410246 |   59205
+Elias Motsoaledi |     984 | Naganeng            |  984044 | Naganeng SP         | 984044001 | 98410310 |   59205
+Elias Motsoaledi |     984 | Moteti              |  984056 | Moteti SP           | 984056002 | 98410126 |   59205
+Elias Motsoaledi |     984 | Phukukane           |  984062 | Phukukane SP        | 984062001 | 98410119 |   59205
+Elias Motsoaledi |     984 | Ntwane              |  984072 | Ntwane SP           | 984072001 | 98410032 |   59205
+Elias Motsoaledi |     984 | Ditshego            |  984059 | Ditshego SP         | 984059001 | 98410125 |   59205
+Elias Motsoaledi |     984 | Magakadimeng        |  984052 | Magakadimeng SP     | 984052001 | 98410173 |   59205
+Elias Motsoaledi |     984 | Phukukane           |  984062 | Phukukane SP        | 984062001 | 98410164 |   59205
+Elias Motsoaledi |     984 | Mpheleng            |  984051 | Mpheleng SP         | 984051001 | 98410180 |   59205
+Elias Motsoaledi |     984 | Kgobokwane          |  984038 | Kgobokwane SP       | 984038001 | 98410240 |   59205
+Elias Motsoaledi |     984 | Moteti              |  984056 | Moteti SP           | 984056002 | 98410195 |   59205
+Elias Motsoaledi |     984 | Dennilton           |  984063 | Dennilton SP        | 984063001 | 98410163 |   59205
+Elias Motsoaledi |     984 | Mpheleng            |  984051 | Mpheleng SP         | 984051001 | 98410178 |   59205
+Elias Motsoaledi |     984 | Kikvorschfontein    |  984061 | Kikvorschfontein SP | 984061001 | 98410112 |   59205
+Elias Motsoaledi |     984 | Mpheleng            |  984051 | Mpheleng SP         | 984051001 | 98410176 |   59205
+Elias Motsoaledi |     984 | Kgobokwane          |  984038 | Kgobokwane SP       | 984038001 | 98410241 |   59205
+Elias Motsoaledi |     984 | Waalkraal           |  984040 | Waalkraal  SP       | 984040001 | 98410253 |   59205
+Elias Motsoaledi |     984 | Moteti              |  984056 | Moteti SP           | 984056002 | 98410205 |   59205
+Elias Motsoaledi |     984 | Kgobokwane          |  984038 | Kgobokwane SP       | 984038001 | 98410308 |   59205
+Elias Motsoaledi |     984 | Witfontein          |  984057 | Witfontein SP       | 984057001 | 98410191 |   59205
+Elias Motsoaledi |     984 | Moteti              |  984056 | Moteti B            | 984056001 | 98410202 |   59205
+Elias Motsoaledi |     984 | Mpheleng            |  984051 | Mpheleng SP         | 984051001 | 98410186 |   59205
+Elias Motsoaledi |     984 | Thabakhubedu        |  984073 | Thabakhubedu SP     | 984073001 | 98410013 |   59205
+Elias Motsoaledi |     984 | Uitspanning B       |  984067 | Uitspanning B SP    | 984067001 | 98410154 |   59205
+Elias Motsoaledi |     984 | Kgobokwane          |  984038 | Kgobokwane SP       | 984038001 | 98410244 |   59205
+Elias Motsoaledi |     984 | Thabakhubedu        |  984073 | Thabakhubedu SP     | 984073001 | 98410009 |   59205
+Elias Motsoaledi |     984 | Moteti              |  984056 | Moteti B            | 984056001 | 98410122 |   59205
+Elias Motsoaledi |     984 | Kgobokwane          |  984038 | Kgobokwane SP       | 984038001 | 98410239 |   59205
+Elias Motsoaledi |     984 | Thabakhubedu        |  984073 | Thabakhubedu SP     | 984073001 | 98410014 |   59205
+Elias Motsoaledi |     984 | Moteti              |  984056 | Moteti SP           | 984056002 | 98410196 |   59205
+Elias Motsoaledi |     984 | Mpheleng            |  984051 | Mpheleng SP         | 984051001 | 98410182 |   59205
+Elias Motsoaledi |     984 | Magakadimeng        |  984052 | Magakadimeng SP     | 984052001 | 98410174 |   59205
+Elias Motsoaledi |     984 | Five Morgan         |  984054 | Five Morgan SP      | 984054001 | 98410187 |   59205
+Elias Motsoaledi |     984 | Phukukane           |  984062 | Phukukane SP        | 984062001 | 98410113 |   59205
+Elias Motsoaledi |     984 | Ntwane              |  984072 | Ntwane SP           | 984072001 | 98410019 |   59205
+Elias Motsoaledi |     984 | Moteti              |  984056 | Moteti SP           | 984056002 | 98410134 |   59205
+Elias Motsoaledi |     984 | Kikvorschfontein    |  984061 | Kikvorschfontein SP | 984061001 | 98410110 |   59205
+Elias Motsoaledi |     984 | Witfontein          |  984057 | Witfontein SP       | 984057001 | 98410131 |   59205
+Elias Motsoaledi |     984 | Thabakhubedu        |  984073 | Thabakhubedu SP     | 984073001 | 98410011 |   59205
+Elias Motsoaledi |     984 | Five Morgan         |  984054 | Five Morgan SP      | 984054001 | 98410165 |   59205
+Elias Motsoaledi |     984 | Moteti              |  984056 | Moteti SP           | 984056002 | 98410208 |   59205
+Elias Motsoaledi |     984 | Stompo              |  984048 | Stompo SP           | 984048001 | 98410260 |   59205
+Elias Motsoaledi |     984 | Ntwane              |  984072 | Ntwane SP           | 984072001 | 98410016 |   59205
+Elias Motsoaledi |     984 | Elandsdoorn         |  984069 | Elandsdoorn SP      | 984069001 | 98410149 |   59205
+Elias Motsoaledi |     984 | Moteti              |  984056 | Moteti SP           | 984056002 | 98410123 |   59205
+Elias Motsoaledi |     984 | Lehwelere           |  984041 | Lehwelere SP        | 984041001 | 98410228 |   59205
+Elias Motsoaledi |     984 | Dennilton           |  984063 | Dennilton SP        | 984063001 | 98410168 |   59205
+Elias Motsoaledi |     984 | Witfontein          |  984057 | Witfontein SP       | 984057001 | 98410190 |   59205
+Elias Motsoaledi |     984 | Phukukane           |  984062 | Phukukane SP        | 984062001 | 98410115 |   59205
+Elias Motsoaledi |     984 | Magakadimeng        |  984052 | Magakadimeng SP     | 984052001 | 98410172 |   59205
+Elias Motsoaledi |     984 | Moteti              |  984056 | Moteti SP           | 984056002 | 98410137 |   59205
+Elias Motsoaledi |     984 | Mpheleng            |  984051 | Mpheleng SP         | 984051001 | 98410181 |   59205
+Elias Motsoaledi |     984 | Lehwelere           |  984041 | Lehwelere SP        | 984041001 | 98410232 |   59205
+Elias Motsoaledi |     984 | Theareng            |  984055 | Theareng SP         | 984055001 | 98410116 |   59205
+Elias Motsoaledi |     984 | Phukukane           |  984062 | Phukukane SP        | 984062001 | 98410117 |   59205
+Elias Motsoaledi |     984 | Ntwane              |  984072 | Ntwane SP           | 984072001 | 98410021 |   59205
+Elias Motsoaledi |     984 | GaMatlala           |  984042 | GaMatlala SP        | 984042001 | 98410225 |   59205
+Elias Motsoaledi |     984 | Stompo              |  984048 | Stompo SP           | 984048001 | 98410261 |   59205
+Elias Motsoaledi |     984 | Elias Motsoaledi NU |  984002 | Elias Motsoaledi NU | 984002002 | 98410249 |   59205
+Elias Motsoaledi |     984 | Elandsdoring        |  984065 | Elandsdoring A      | 984065001 | 98410143 |   59205
+Elias Motsoaledi |     984 | Elias Motsoaledi NU |  984002 | Elias Motsoaledi NU | 984002002 | 98410169 |   59205
+Elias Motsoaledi |     984 | Mpheleng            |  984051 | Mpheleng SP         | 984051001 | 98410179 |   59205
+Elias Motsoaledi |     984 | Elias Motsoaledi NU |  984002 | Elias Motsoaledi NU | 984002002 | 98410035 |   59205
+Elias Motsoaledi |     984 | Ditshego            |  984059 | Ditshego SP         | 984059001 | 98410124 |   59205
+Elias Motsoaledi |     984 | Kgobokwane          |  984038 | Kgobokwane SP       | 984038001 | 98410238 |   59205
+Elias Motsoaledi |     984 | Kgobokwane          |  984038 | Kgobokwane SP       | 984038001 | 98410247 |   59205
+Elias Motsoaledi |     984 | Ntwane              |  984072 | Ntwane SP           | 984072001 | 98410020 |   59205
+Elias Motsoaledi |     984 | Phooko              |  984064 | Phooko SP           | 984064001 | 98410106 |   59205
+Elias Motsoaledi |     984 | Elias Motsoaledi NU |  984002 | Elias Motsoaledi NU | 984002002 | 98410121 |   59205
+Elias Motsoaledi |     984 | Thabakhubedu        |  984073 | Thabakhubedu SP     | 984073001 | 98410008 |   59205
+Elias Motsoaledi |     984 | Phookwane           |  984066 | Phookwane SP        | 984066001 | 98410094 |   59205
+Elias Motsoaledi |     984 | Thabakhubedu        |  984073 | Thabakhubedu SP     | 984073001 | 98410015 |   59205
+Elias Motsoaledi |     984 | Elias Motsoaledi NU |  984002 | Elias Motsoaledi NU | 984002002 | 98410311 |   59205
+Elias Motsoaledi |     984 | Kikvorschfontein    |  984061 | Kikvorschfontein SP | 984061001 | 98410193 |   59205
+Elias Motsoaledi |     984 | Kgobokwane          |  984038 | Kgobokwane SP       | 984038001 | 98410307 |   59205
+Elias Motsoaledi |     984 | Lehwelere           |  984041 | Lehwelere SP        | 984041001 | 98410231 |   59205
+Elias Motsoaledi |     984 | Kikvorschfontein    |  984061 | Kikvorschfontein SP | 984061001 | 98410109 |   59205
+Elias Motsoaledi |     984 | Elias Motsoaledi NU |  984002 | Elias Motsoaledi NU | 984002002 | 98410022 |   59205
+Elias Motsoaledi |     984 | Ntwane              |  984072 | Ntwane SP           | 984072001 | 98410036 |   59205
+Elias Motsoaledi |     984 | Elias Motsoaledi NU |  984002 | Elias Motsoaledi NU | 984002002 | 98410233 |   59205
+Elias Motsoaledi |     984 | Elandsdoring        |  984065 | Tambo Square        | 984065003 | 98410101 |   59205
+Elias Motsoaledi |     984 | Elandsdoring        |  984065 | Elandsdoring C      | 984065004 | 98410091 |   59205
+Elias Motsoaledi |     984 | Uitspanning B       |  984067 | Uitspanning B SP    | 984067001 | 98410155 |   59205
+Elias Motsoaledi |     984 | Elandsdoring        |  984065 | Elandsdoring F      | 984065002 | 98410097 |   59205
+Elias Motsoaledi |     984 | Kgobokwane          |  984038 | Kgobokwane SP       | 984038001 | 98410235 |   59205
+Elias Motsoaledi |     984 | Kgobokwane          |  984038 | Kgobokwane SP       | 984038001 | 98410245 |   59205
+Elias Motsoaledi |     984 | Moteti              |  984056 | Moteti SP           | 984056002 | 98410133 |   59205
+Elias Motsoaledi |     984 | Lehwelere           |  984041 | Lehwelere SP        | 984041001 | 98410229 |   59205
+Elias Motsoaledi |     984 | Ten Morgan          |  984060 | Ten Morgan SP       | 984060001 | 98410197 |   59205
+Elias Motsoaledi |     984 | Kgobokwane          |  984038 | Kgobokwane SP       | 984038001 | 98410312 |   59205
+Elias Motsoaledi |     984 | Kikvorschfontein    |  984061 | Kikvorschfontein SP | 984061001 | 98410198 |   59205
+Elias Motsoaledi |     984 | Ntwane              |  984072 | Ntwane SP           | 984072001 | 98410037 |   59205
+Elias Motsoaledi |     984 | Moteti              |  984056 | Moteti SP           | 984056002 | 98410201 |   59205
+Elias Motsoaledi |     984 | Dennilton           |  984063 | Dennilton SP        | 984063001 | 98410162 |   59205
+Elias Motsoaledi |     984 | Mpheleng            |  984051 | Mpheleng SP         | 984051001 | 98410184 |   59205
+Elias Motsoaledi |     984 | Moteti              |  984056 | Moteti B            | 984056001 | 98410204 |   59205
+Elias Motsoaledi |     984 | Moteti              |  984056 | Moteti B            | 984056001 | 98410211 |   59205
+Elias Motsoaledi |     984 | Dennilton           |  984063 | Dennilton SP        | 984063001 | 98410166 |   59205
+Elias Motsoaledi |     984 | Stompo              |  984048 | Stompo SP           | 984048001 | 98410259 |   59205
+Elias Motsoaledi |     984 | Dennilton           |  984063 | Dennilton SP        | 984063001 | 98410107 |   59205
+Elias Motsoaledi |     984 | Moteti              |  984056 | Moteti SP           | 984056002 | 98410130 |   59205
+Elias Motsoaledi |     984 | Moteti              |  984056 | Moteti SP           | 984056002 | 98410135 |   59205
+Elias Motsoaledi |     984 | Uitspanning A       |  984068 | Uitspanning A SP    | 984068001 | 98410153 |   59205
+Elias Motsoaledi |     984 | Elias Motsoaledi NU |  984002 | Elias Motsoaledi NU | 984002002 | 98410006 |   59205
+Elias Motsoaledi |     984 | Kikvorschfontein    |  984061 | Kikvorschfontein SP | 984061001 | 98410108 |   59205
+Elias Motsoaledi |     984 | Lusaka              |  984053 | Lusaka SP           | 984053001 | 98410188 |   59205
+Elias Motsoaledi |     984 | Elias Motsoaledi NU |  984002 | Elias Motsoaledi NU | 984002002 | 98410150 |   59205
+Elias Motsoaledi |     984 | Moteti              |  984056 | Moteti SP           | 984056002 | 98410128 |   59205
+Elias Motsoaledi |     984 | Mpheleng            |  984051 | Mpheleng SP         | 984051001 | 98410177 |   59205
+Elias Motsoaledi |     984 | Elias Motsoaledi NU |  984002 | Elias Motsoaledi NU | 984002002 | 98410189 |   59205
+Elias Motsoaledi |     984 | Kikvorschfontein    |  984061 | Kikvorschfontein SP | 984061001 | 98410159 |   59205
+Elias Motsoaledi |     984 | Elias Motsoaledi NU |  984002 | Elias Motsoaledi NU | 984002002 | 98410151 |   59205
+Elias Motsoaledi |     984 | Theareng            |  984055 | Theareng SP         | 984055001 | 98410120 |   59205
+Elias Motsoaledi |     984 | Stompo              |  984048 | Stompo SP           | 984048001 | 98410258 |   59205
+Elias Motsoaledi |     984 | Ten Morgan          |  984060 | Ten Morgan SP       | 984060001 | 98410194 |   59205
+Elias Motsoaledi |     984 | Kgobokwane          |  984038 | Kgobokwane SP       | 984038001 | 98410243 |   59205
+Elias Motsoaledi |     984 | Witfontein          |  984057 | Witfontein SP       | 984057001 | 98410210 |   59205
+Elias Motsoaledi |     984 | Ntwane              |  984072 | Ntwane SP           | 984072001 | 98410018 |   59205
+Elias Motsoaledi |     984 | Elias Motsoaledi NU |  984002 | Elias Motsoaledi NU | 984002002 | 98410093 |   59205
+Elias Motsoaledi |     984 | Magakadimeng        |  984052 | Magakadimeng SP     | 984052001 | 98410170 |   59205
+Elias Motsoaledi |     984 | Ntwane              |  984072 | Ntwane SP           | 984072001 | 98410024 |   59205
+Elias Motsoaledi |     984 | Moteti              |  984056 | Moteti SP           | 984056002 | 98410209 |   59205
+Elias Motsoaledi |     984 | Kgobokwane          |  984038 | Kgobokwane SP       | 984038001 | 98410309 |   59205
+Elias Motsoaledi |     984 | Thabakhubedu        |  984073 | Thabakhubedu SP     | 984073001 | 98410007 |   59205
+Elias Motsoaledi |     984 | Ntwane              |  984072 | Ntwane SP           | 984072001 | 98410027 |   59205
+Elias Motsoaledi |     984 | Moteti              |  984056 | Moteti SP           | 984056002 | 98410200 |   59205
+Elias Motsoaledi |     984 | Ntwane              |  984072 | Ntwane SP           | 984072001 | 98410031 |   59205
+Elias Motsoaledi |     984 | Mpheleng            |  984051 | Mpheleng SP         | 984051001 | 98410183 |   59205
+Elias Motsoaledi |     984 | Moteti              |  984056 | Moteti SP           | 984056002 | 98410127 |   59205
+Elias Motsoaledi |     984 | Lehwelere           |  984041 | Lehwelere SP        | 984041001 | 98410230 |   59205
+Elias Motsoaledi |     984 | Ntwane              |  984072 | Ntwane SP           | 984072001 | 98410034 |   59205
+Elias Motsoaledi |     984 | Magakadimeng        |  984052 | Magakadimeng SP     | 984052001 | 98410171 |   59205
+Elias Motsoaledi |     984 | Kikvorschfontein    |  984061 | Kikvorschfontein SP | 984061001 | 98410111 |   59205
+Elias Motsoaledi |     984 | Moteti              |  984056 | Moteti B            | 984056001 | 98410203 |   59205
+Elias Motsoaledi |     984 | Mpheleng            |  984051 | Mpheleng SP         | 984051001 | 98410175 |   59205
+Elias Motsoaledi |     984 | Moteti              |  984056 | Moteti SP           | 984056002 | 98410129 |   59205
+Elias Motsoaledi |     984 | Moteti              |  984056 | Moteti SP           | 984056002 | 98410206 |   59205
+Elias Motsoaledi |     984 | Dennilton           |  984063 | Dennilton SP        | 984063001 | 98410167 |   59205
+Elias Motsoaledi |     984 | Dithabaneng         |  984070 | Dithabaneng SP      | 984070001 | 98410148 |   59205
+Elias Motsoaledi |     984 | Ntwane              |  984072 | Ntwane SP           | 984072001 | 98410023 |   59205
+Elias Motsoaledi |     984 | Mogomane            |  984050 | Mogomane SP         | 984050001 | 98410248 |   59205
+Elias Motsoaledi |     984 | Thabakhubedu        |  984073 | Thabakhubedu SP     | 984073001 | 98410010 |   59205
+Elias Motsoaledi |     984 | Moteti              |  984056 | Moteti SP           | 984056002 | 98410136 |   59205
+Elias Motsoaledi |     984 | Kgobokwane          |  984038 | Kgobokwane SP       | 984038001 | 98410236 |   59205
+Elias Motsoaledi |     984 | Kikvorschfontein    |  984061 | Kikvorschfontein SP | 984061001 | 98410160 |   59205
+Elias Motsoaledi |     984 | Ntwane              |  984072 | Ntwane SP           | 984072001 | 98410030 |   59205
+Elias Motsoaledi |     984 | Kikvorschfontein    |  984061 | Kikvorschfontein SP | 984061001 | 98410161 |   59205
+Elias Motsoaledi |     984 | Moteti              |  984056 | Moteti SP           | 984056002 | 98410207 |   59205
+(163 rows)

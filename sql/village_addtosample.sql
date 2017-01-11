@@ -9,7 +9,8 @@ INSERT INTO zaf.tbl_sampled_villages (
 		sp_name,
 		sp_code,
 		lz_code,
-		'hea' AS survey,
+-- NB: Place your survey type here as 'hea', 'both' or 'continuum'
+		'both' AS survey,
 -- NB: Place your required sample date in here in yyyy-mm-dd format!
 		date '2016-10-04' AS sampled_date
 	FROM
@@ -21,6 +22,6 @@ INSERT INTO zaf.tbl_sampled_villages (
 		AND
 			sp_code IN (
 -- NB: Place your required sub-place (sp_code) values in here!
-				VALUES (862005001), (863005003)
+				VALUES (984051001), (984062001), (984073001)
 			)
 ;
