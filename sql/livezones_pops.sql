@@ -1,14 +1,14 @@
---COPY
---	(
+COPY
+	(
 		SELECT
 			f.pr_name,
---			pr_code,
+			pr_code,
 			dc_name,
---			f.dc_code,
+			f.dc_code,
 			mn_name,
---			f.mn_code,
+			f.mn_code,
 			mp_name,
---			mp_code,
+			mp_code,
 			sp_name,
 			sp_code,
 			f.sa_code AS sa_code,
@@ -16,11 +16,11 @@
 			round((total_m + total_f)::numeric * i.pop_c / m.pop_y, 0) AS pop_curr,
 			round(pop_mn_y::numeric * i.pop_c / m.pop_y, 0) AS mn_pop_cur,
 			i.pop_c AS dc_pop_curr,
-			pr_pop_curr
---			f.lz_code AS lz_code,
---			lz_name,
---			lz_abbrev,
---			f.lz_code || ': ' || lz_name || ' (' || lz_abbrev || ')' AS lz
+			pr_pop_curr,
+			f.lz_code AS lz_code,
+			lz_name,
+			lz_abbrev,
+			f.lz_code || ': ' || lz_name || ' (' || lz_abbrev || ')' AS lz
 		FROM
 			zaf.demog_sas AS f,
 			zaf.tbl_pop_agegender_05y AS g,
@@ -80,10 +80,10 @@
 			mp_name,
 			sp_name,
 			sa_code
---	)
---TO
---	'/Users/Charles/Documents/hea_baselines/south_africa/baselines_surveys/2016_lp_mp/sampling/livezones_pops.csv'
---WITH (
---	FORMAT CSV, DELIMITER ',', HEADER TRUE
---)
+	)
+TO
+	'/Users/Charles/Documents/hea_baselines/south_africa/baselines_surveys/2016_lp_mp/sampling/livezones_pops.csv'
+WITH (
+	FORMAT CSV, DELIMITER ',', HEADER TRUE
+)
 ;
