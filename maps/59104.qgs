@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis projectname="Map for baselines assessment sampling in South Africa (Mpumalanga &amp; Limpopo):  Livelihood zone 59104" version="2.16.3">
+<qgis projectname="Map for baselines assessment sampling in South Africa (Mpumalanga &amp; Limpopo):  Livelihood zone 59104" version="2.18.0">
   <title>Map for baselines assessment sampling in South Africa (Mpumalanga &amp; Limpopo):  Livelihood zone 59104</title>
   <autotransaction active="0"/>
   <evaluateDefaultValues active="0"/>
@@ -360,7 +360,7 @@
       </filegroup>
     </legendlayer>
   </legend>
-  <Composer title="lz_survey_sites_1" visible="1">
+  <Composer title="lz_survey_sites_1" visible="0">
     <Composition resizeToContentsMarginLeft="0" snapping="0" showPages="1" guidesVisible="1" resizeToContentsMarginTop="0" worldFileMap="" alignmentSnap="1" printResolution="200" paperWidth="210" gridVisible="0" snapGridOffsetX="0" smartGuides="1" snapGridOffsetY="0" resizeToContentsMarginRight="0" snapTolerancePixels="5" printAsRaster="1" generateWorldFile="0" paperHeight="297" numPages="1" snapGridResolution="10" resizeToContentsMarginBottom="0">
       <symbol alpha="1" clip_to_extent="1" type="fill" name="">
         <layer pass="0" class="SimpleFill" locked="0">
@@ -383,7 +383,7 @@
         <fillColor2 alpha="255" red="255" blue="255" green="255"/>
         <strokeColor alpha="255" red="0" blue="0" green="0"/>
         <textColor alpha="255" red="0" blue="0" green="0"/>
-        <ComposerItem pagey="275.873" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="101.655" y="275.873" visibility="1" zValue="13" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="93.8707" outlineWidth="0.3" excludeFromExports="0" uuid="{fedea091-2e16-4a13-bb9c-3c53ed162f6c}" height="9.37969" itemRotation="0" frame="false" pagex="101.655">
+        <ComposerItem pagey="275.873" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="101.655" y="275.873" visibility="1" zValue="5" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="93.7738" outlineWidth="0.3" excludeFromExports="0" uuid="{fedea091-2e16-4a13-bb9c-3c53ed162f6c}" height="9.37969" itemRotation="0" frame="false" pagex="101.655">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
@@ -574,6 +574,24 @@
       <vectorjoins/>
       <layerDependencies/>
       <expressionfields/>
+      <defaults>
+        <default field="gid" expression=""/>
+        <default field="sa_code" expression=""/>
+        <default field="sp_code" expression=""/>
+        <default field="sp_name" expression=""/>
+        <default field="mp_code" expression=""/>
+        <default field="mp_name" expression=""/>
+        <default field="mn_mdb_code" expression=""/>
+        <default field="mn_code" expression=""/>
+        <default field="mn_name" expression=""/>
+        <default field="dc_mdb_code" expression=""/>
+        <default field="dc_code" expression=""/>
+        <default field="dc_name" expression=""/>
+        <default field="pr_mdb_code" expression=""/>
+        <default field="pr_code" expression=""/>
+        <default field="pr_name" expression=""/>
+        <default field="lz_code" expression=""/>
+      </defaults>
       <map-layer-style-manager current="">
         <map-layer-style name=""/>
       </map-layer-style-manager>
@@ -865,6 +883,24 @@
       </SingleCategoryDiagramRenderer>
       <DiagramLayerSettings yPosColumn="-1" showColumn="-1" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
       <annotationform>../../../livelihood_zones/province_zn/maps</annotationform>
+      <aliases>
+        <alias field="gid" index="0" name=""/>
+        <alias field="sa_code" index="1" name=""/>
+        <alias field="sp_code" index="2" name=""/>
+        <alias field="sp_name" index="3" name=""/>
+        <alias field="mp_code" index="4" name=""/>
+        <alias field="mp_name" index="5" name=""/>
+        <alias field="mn_mdb_code" index="6" name=""/>
+        <alias field="mn_code" index="7" name=""/>
+        <alias field="mn_name" index="8" name=""/>
+        <alias field="dc_mdb_code" index="9" name=""/>
+        <alias field="dc_code" index="10" name=""/>
+        <alias field="dc_name" index="11" name=""/>
+        <alias field="pr_mdb_code" index="12" name=""/>
+        <alias field="pr_code" index="13" name=""/>
+        <alias field="pr_name" index="14" name=""/>
+        <alias field="lz_code" index="15" name=""/>
+      </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions default="-1"/>
@@ -1051,6 +1087,18 @@ def my_form_open(dialog, layer, feature):
       <vectorjoins/>
       <layerDependencies/>
       <expressionfields/>
+      <defaults>
+        <default field="gid" expression=""/>
+        <default field="province" expression=""/>
+        <default field="abbrev" expression=""/>
+        <default field="prov_iso2_code" expression=""/>
+        <default field="prov_code" expression=""/>
+        <default field="prov_mdb_code" expression=""/>
+        <default field="type" expression=""/>
+        <default field="area_ha" expression=""/>
+        <default field="aea_srid" expression=""/>
+        <default field="lcc_srid" expression=""/>
+      </defaults>
       <map-layer-style-manager current="">
         <map-layer-style name=""/>
       </map-layer-style-manager>
@@ -1361,6 +1409,18 @@ def my_form_open(dialog, layer, feature):
       </SingleCategoryDiagramRenderer>
       <DiagramLayerSettings yPosColumn="-1" showColumn="-1" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
       <annotationform>../../../livelihood_zones/national/maps</annotationform>
+      <aliases>
+        <alias field="gid" index="0" name=""/>
+        <alias field="province" index="1" name=""/>
+        <alias field="abbrev" index="2" name=""/>
+        <alias field="prov_iso2_code" index="3" name=""/>
+        <alias field="prov_code" index="4" name=""/>
+        <alias field="prov_mdb_code" index="5" name=""/>
+        <alias field="type" index="6" name=""/>
+        <alias field="area_ha" index="7" name=""/>
+        <alias field="aea_srid" index="8" name=""/>
+        <alias field="lcc_srid" index="9" name=""/>
+      </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions default="-1"/>
@@ -1446,6 +1506,18 @@ def my_form_open(dialog, layer, feature):
       <vectorjoins/>
       <layerDependencies/>
       <expressionfields/>
+      <defaults>
+        <default field="gid" expression=""/>
+        <default field="province" expression=""/>
+        <default field="abbrev" expression=""/>
+        <default field="prov_iso2_code" expression=""/>
+        <default field="prov_code" expression=""/>
+        <default field="prov_mdb_code" expression=""/>
+        <default field="type" expression=""/>
+        <default field="area_ha" expression=""/>
+        <default field="aea_srid" expression=""/>
+        <default field="lcc_srid" expression=""/>
+      </defaults>
       <map-layer-style-manager current="">
         <map-layer-style name=""/>
       </map-layer-style-manager>
@@ -1759,6 +1831,18 @@ def my_form_open(dialog, layer, feature):
       </SingleCategoryDiagramRenderer>
       <DiagramLayerSettings yPosColumn="-1" showColumn="-1" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
       <annotationform>../../../livelihood_zones/national/maps</annotationform>
+      <aliases>
+        <alias field="gid" index="0" name=""/>
+        <alias field="province" index="1" name=""/>
+        <alias field="abbrev" index="2" name=""/>
+        <alias field="prov_iso2_code" index="3" name=""/>
+        <alias field="prov_code" index="4" name=""/>
+        <alias field="prov_mdb_code" index="5" name=""/>
+        <alias field="type" index="6" name=""/>
+        <alias field="area_ha" index="7" name=""/>
+        <alias field="aea_srid" index="8" name=""/>
+        <alias field="lcc_srid" index="9" name=""/>
+      </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions default="-1"/>
@@ -1844,6 +1928,16 @@ def my_form_open(dialog, layer, feature):
       <vectorjoins/>
       <layerDependencies/>
       <expressionfields/>
+      <defaults>
+        <default field="gid" expression=""/>
+        <default field="cat_code" expression=""/>
+        <default field="category" expression=""/>
+        <default field="dc_name" expression=""/>
+        <default field="dc_mdb_code" expression=""/>
+        <default field="pr_name" expression=""/>
+        <default field="area_ha" expression=""/>
+        <default field="dc_code" expression=""/>
+      </defaults>
       <map-layer-style-manager current="">
         <map-layer-style name=""/>
       </map-layer-style-manager>
@@ -2131,6 +2225,16 @@ def my_form_open(dialog, layer, feature):
       </SingleCategoryDiagramRenderer>
       <DiagramLayerSettings yPosColumn="-1" showColumn="-1" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
       <annotationform>../../../livelihood_zones/national/maps</annotationform>
+      <aliases>
+        <alias field="gid" index="0" name=""/>
+        <alias field="cat_code" index="1" name=""/>
+        <alias field="category" index="2" name=""/>
+        <alias field="dc_name" index="3" name=""/>
+        <alias field="dc_mdb_code" index="4" name=""/>
+        <alias field="pr_name" index="5" name=""/>
+        <alias field="area_ha" index="6" name=""/>
+        <alias field="dc_code" index="7" name=""/>
+      </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions default="-1"/>
@@ -2214,6 +2318,16 @@ def my_form_open(dialog, layer, feature):
       <vectorjoins/>
       <layerDependencies/>
       <expressionfields/>
+      <defaults>
+        <default field="gid" expression=""/>
+        <default field="cat_code" expression=""/>
+        <default field="category" expression=""/>
+        <default field="mn_name" expression=""/>
+        <default field="mn_mdb_code" expression=""/>
+        <default field="dc_name" expression=""/>
+        <default field="area_ha" expression=""/>
+        <default field="mn_code" expression=""/>
+      </defaults>
       <map-layer-style-manager current="">
         <map-layer-style name=""/>
       </map-layer-style-manager>
@@ -2501,6 +2615,16 @@ def my_form_open(dialog, layer, feature):
       </SingleCategoryDiagramRenderer>
       <DiagramLayerSettings yPosColumn="-1" showColumn="-1" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
       <annotationform>../../../livelihood_zones/national/maps</annotationform>
+      <aliases>
+        <alias field="gid" index="0" name=""/>
+        <alias field="cat_code" index="1" name=""/>
+        <alias field="category" index="2" name=""/>
+        <alias field="mn_name" index="3" name=""/>
+        <alias field="mn_mdb_code" index="4" name=""/>
+        <alias field="dc_name" index="5" name=""/>
+        <alias field="area_ha" index="6" name=""/>
+        <alias field="mn_code" index="7" name=""/>
+      </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions default="-1"/>
@@ -2584,6 +2708,24 @@ def my_form_open(dialog, layer, feature):
       <vectorjoins/>
       <layerDependencies/>
       <expressionfields/>
+      <defaults>
+        <default field="gid" expression=""/>
+        <default field="sa_code" expression=""/>
+        <default field="sp_code" expression=""/>
+        <default field="sp_name" expression=""/>
+        <default field="mp_code" expression=""/>
+        <default field="mp_name" expression=""/>
+        <default field="mn_mdb_code" expression=""/>
+        <default field="mn_code" expression=""/>
+        <default field="mn_name" expression=""/>
+        <default field="dc_mdb_code" expression=""/>
+        <default field="dc_code" expression=""/>
+        <default field="dc_name" expression=""/>
+        <default field="pr_mdb_code" expression=""/>
+        <default field="pr_code" expression=""/>
+        <default field="pr_name" expression=""/>
+        <default field="lz_code" expression=""/>
+      </defaults>
       <map-layer-style-manager current="">
         <map-layer-style name=""/>
       </map-layer-style-manager>
@@ -5021,6 +5163,24 @@ def my_form_open(dialog, layer, feature):
       </SingleCategoryDiagramRenderer>
       <DiagramLayerSettings yPosColumn="-1" showColumn="-1" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
       <annotationform>../../../livelihood_zones/province_zn/maps</annotationform>
+      <aliases>
+        <alias field="gid" index="0" name=""/>
+        <alias field="sa_code" index="1" name=""/>
+        <alias field="sp_code" index="2" name=""/>
+        <alias field="sp_name" index="3" name=""/>
+        <alias field="mp_code" index="4" name=""/>
+        <alias field="mp_name" index="5" name=""/>
+        <alias field="mn_mdb_code" index="6" name=""/>
+        <alias field="mn_code" index="7" name=""/>
+        <alias field="mn_name" index="8" name=""/>
+        <alias field="dc_mdb_code" index="9" name=""/>
+        <alias field="dc_code" index="10" name=""/>
+        <alias field="dc_name" index="11" name=""/>
+        <alias field="pr_mdb_code" index="12" name=""/>
+        <alias field="pr_code" index="13" name=""/>
+        <alias field="pr_name" index="14" name=""/>
+        <alias field="lz_code" index="15" name=""/>
+      </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions default="-1"/>
@@ -5106,6 +5266,14 @@ def my_form_open(dialog, layer, feature):
       <vectorjoins/>
       <layerDependencies/>
       <expressionfields/>
+      <defaults>
+        <default field="gid" expression=""/>
+        <default field="line_style" expression=""/>
+        <default field="line_name" expression=""/>
+        <default field="line_orient" expression=""/>
+        <default field="dash_begin" expression=""/>
+        <default field="dash_position" expression=""/>
+      </defaults>
       <map-layer-style-manager current="">
         <map-layer-style name=""/>
       </map-layer-style-manager>
@@ -5408,6 +5576,14 @@ def my_form_open(dialog, layer, feature):
         <selectedonly on=""/>
       </labelattributes>
       <annotationform>../../../livelihood_zones/national/maps</annotationform>
+      <aliases>
+        <alias field="gid" index="0" name=""/>
+        <alias field="line_style" index="1" name=""/>
+        <alias field="line_name" index="2" name=""/>
+        <alias field="line_orient" index="3" name=""/>
+        <alias field="dash_begin" index="4" name=""/>
+        <alias field="dash_position" index="5" name=""/>
+      </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions default="-1"/>
@@ -5459,6 +5635,14 @@ def my_form_open(dialog, layer, feature):
       <vectorjoins/>
       <layerDependencies/>
       <expressionfields/>
+      <defaults>
+        <default field="gid" expression=""/>
+        <default field="dot_decdeg" expression=""/>
+        <default field="dot_position" expression=""/>
+        <default field="dot_unit" expression=""/>
+        <default field="dot_name" expression=""/>
+        <default field="dot_orient" expression=""/>
+      </defaults>
       <map-layer-style-manager current="">
         <map-layer-style name=""/>
       </map-layer-style-manager>
@@ -5690,6 +5874,14 @@ def my_form_open(dialog, layer, feature):
         <selectedonly on=""/>
       </labelattributes>
       <annotationform>../../../livelihood_zones/National/_national</annotationform>
+      <aliases>
+        <alias field="gid" index="0" name=""/>
+        <alias field="dot_decdeg" index="1" name=""/>
+        <alias field="dot_position" index="2" name=""/>
+        <alias field="dot_unit" index="3" name=""/>
+        <alias field="dot_name" index="4" name=""/>
+        <alias field="dot_orient" index="5" name=""/>
+      </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions default="0"/>
@@ -5741,6 +5933,12 @@ def my_form_open(dialog, layer, feature):
       <vectorjoins/>
       <layerDependencies/>
       <expressionfields/>
+      <defaults>
+        <default field="gid" expression=""/>
+        <default field="line_style" expression=""/>
+        <default field="line_name" expression=""/>
+        <default field="line_orient" expression=""/>
+      </defaults>
       <map-layer-style-manager current="">
         <map-layer-style name=""/>
       </map-layer-style-manager>
@@ -6037,6 +6235,12 @@ def my_form_open(dialog, layer, feature):
         <selectedonly on=""/>
       </labelattributes>
       <annotationform>../../../livelihood_zones/national/maps</annotationform>
+      <aliases>
+        <alias field="gid" index="0" name=""/>
+        <alias field="line_style" index="1" name=""/>
+        <alias field="line_name" index="2" name=""/>
+        <alias field="line_orient" index="3" name=""/>
+      </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions default="0"/>
@@ -6088,6 +6292,10 @@ def my_form_open(dialog, layer, feature):
       <vectorjoins/>
       <layerDependencies/>
       <expressionfields/>
+      <defaults>
+        <default field="gid" expression=""/>
+        <default field="area_name" expression=""/>
+      </defaults>
       <map-layer-style-manager current="">
         <map-layer-style name=""/>
       </map-layer-style-manager>
@@ -6290,6 +6498,10 @@ def my_form_open(dialog, layer, feature):
         <selectedonly on=""/>
       </labelattributes>
       <annotationform>../../../livelihood_zones/national/maps</annotationform>
+      <aliases>
+        <alias field="gid" index="0" name=""/>
+        <alias field="area_name" index="1" name=""/>
+      </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions default="0"/>
@@ -6341,6 +6553,12 @@ def my_form_open(dialog, layer, feature):
       <vectorjoins/>
       <layerDependencies/>
       <expressionfields/>
+      <defaults>
+        <default field="gid" expression=""/>
+        <default field="line_style" expression=""/>
+        <default field="line_name" expression=""/>
+        <default field="line_orient" expression=""/>
+      </defaults>
       <map-layer-style-manager current="">
         <map-layer-style name=""/>
       </map-layer-style-manager>
@@ -6709,6 +6927,12 @@ def my_form_open(dialog, layer, feature):
         <selectedonly on=""/>
       </labelattributes>
       <annotationform>../../../livelihood_zones/national/maps</annotationform>
+      <aliases>
+        <alias field="gid" index="0" name=""/>
+        <alias field="line_style" index="1" name=""/>
+        <alias field="line_name" index="2" name=""/>
+        <alias field="line_orient" index="3" name=""/>
+      </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions default="0"/>
@@ -6766,6 +6990,16 @@ def my_form_open(dialog, layer, feature):
       <vectorjoins/>
       <layerDependencies/>
       <expressionfields/>
+      <defaults>
+        <default field="gid" expression=""/>
+        <default field="line_pos" expression=""/>
+        <default field="line_name" expression=""/>
+        <default field="line_res" expression=""/>
+        <default field="line_type" expression=""/>
+        <default field="line_num" expression=""/>
+        <default field="line_int_dd" expression=""/>
+        <default field="line_int_min" expression=""/>
+      </defaults>
       <map-layer-style-manager current="">
         <map-layer-style name=""/>
       </map-layer-style-manager>
@@ -7037,6 +7271,16 @@ def my_form_open(dialog, layer, feature):
       </SingleCategoryDiagramRenderer>
       <DiagramLayerSettings yPosColumn="-1" showColumn="-1" linePlacementFlags="10" placement="2" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
       <annotationform>../../../livelihood_zones/National/_national</annotationform>
+      <aliases>
+        <alias field="gid" index="0" name=""/>
+        <alias field="line_pos" index="1" name=""/>
+        <alias field="line_name" index="2" name=""/>
+        <alias field="line_res" index="3" name=""/>
+        <alias field="line_type" index="4" name=""/>
+        <alias field="line_num" index="5" name=""/>
+        <alias field="line_int_dd" index="6" name=""/>
+        <alias field="line_int_min" index="7" name=""/>
+      </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions default="-1"/>
@@ -7120,6 +7364,18 @@ def my_form_open(dialog, layer, feature):
       <vectorjoins/>
       <layerDependencies/>
       <expressionfields/>
+      <defaults>
+        <default field="gid" expression=""/>
+        <default field="riv_name" expression=""/>
+        <default field="riv_alias" expression=""/>
+        <default field="riv_class" expression=""/>
+        <default field="riv_primary" expression=""/>
+        <default field="riv_order" expression=""/>
+        <default field="riv_end" expression=""/>
+        <default field="reachcode" expression=""/>
+        <default field="riv_sorter" expression=""/>
+        <default field="len_km" expression=""/>
+      </defaults>
       <map-layer-style-manager current="">
         <map-layer-style name=""/>
       </map-layer-style-manager>
@@ -7541,6 +7797,18 @@ def my_form_open(dialog, layer, feature):
       </SingleCategoryDiagramRenderer>
       <DiagramLayerSettings yPosColumn="-1" showColumn="-1" linePlacementFlags="10" placement="2" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
       <annotationform>../../../livelihood_zones/national/maps</annotationform>
+      <aliases>
+        <alias field="gid" index="0" name=""/>
+        <alias field="riv_name" index="1" name=""/>
+        <alias field="riv_alias" index="2" name=""/>
+        <alias field="riv_class" index="3" name=""/>
+        <alias field="riv_primary" index="4" name=""/>
+        <alias field="riv_order" index="5" name=""/>
+        <alias field="riv_end" index="6" name=""/>
+        <alias field="reachcode" index="7" name=""/>
+        <alias field="riv_sorter" index="8" name=""/>
+        <alias field="len_km" index="9" name=""/>
+      </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions default="-1"/>
@@ -7626,6 +7894,12 @@ def my_form_open(dialog, layer, feature):
       <vectorjoins/>
       <layerDependencies/>
       <expressionfields/>
+      <defaults>
+        <default field="gid" expression=""/>
+        <default field="name" expression=""/>
+        <default field="type" expression=""/>
+        <default field="len_km" expression=""/>
+      </defaults>
       <map-layer-style-manager current="">
         <map-layer-style name=""/>
       </map-layer-style-manager>
@@ -7862,6 +8136,12 @@ def my_form_open(dialog, layer, feature):
         <selectedonly on=""/>
       </labelattributes>
       <annotationform>../../../livelihood_zones/national/maps</annotationform>
+      <aliases>
+        <alias field="gid" index="0" name=""/>
+        <alias field="name" index="1" name=""/>
+        <alias field="type" index="2" name=""/>
+        <alias field="len_km" index="3" name=""/>
+      </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions default="0"/>
@@ -7919,6 +8199,35 @@ def my_form_open(dialog, layer, feature):
       <vectorjoins/>
       <layerDependencies/>
       <expressionfields/>
+      <defaults>
+        <default field="gid" expression=""/>
+        <default field="osm_id" expression=""/>
+        <default field="highway" expression=""/>
+        <default field="name" expression=""/>
+        <default field="ref" expression=""/>
+        <default field="maxspeed" expression=""/>
+        <default field="oneway" expression=""/>
+        <default field="access" expression=""/>
+        <default field="bicycle" expression=""/>
+        <default field="foot" expression=""/>
+        <default field="horse" expression=""/>
+        <default field="motor_vehicle" expression=""/>
+        <default field="motorcar" expression=""/>
+        <default field="bridge" expression=""/>
+        <default field="cutting" expression=""/>
+        <default field="embankment" expression=""/>
+        <default field="tunnel" expression=""/>
+        <default field="service" expression=""/>
+        <default field="toll" expression=""/>
+        <default field="surface" expression=""/>
+        <default field="width" expression=""/>
+        <default field="construction" expression=""/>
+        <default field="layer" expression=""/>
+        <default field="tracktype" expression=""/>
+        <default field="junction" expression=""/>
+        <default field="disused" expression=""/>
+        <default field="z_order" expression=""/>
+      </defaults>
       <map-layer-style-manager current="">
         <map-layer-style name=""/>
       </map-layer-style-manager>
@@ -9155,6 +9464,35 @@ def my_form_open(dialog, layer, feature):
       </SingleCategoryDiagramRenderer>
       <DiagramLayerSettings yPosColumn="-1" showColumn="-1" linePlacementFlags="10" placement="2" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
       <annotationform>../../../livelihood_zones/province_zn/maps</annotationform>
+      <aliases>
+        <alias field="gid" index="0" name=""/>
+        <alias field="osm_id" index="1" name=""/>
+        <alias field="highway" index="2" name=""/>
+        <alias field="name" index="3" name=""/>
+        <alias field="ref" index="4" name=""/>
+        <alias field="maxspeed" index="5" name=""/>
+        <alias field="oneway" index="6" name=""/>
+        <alias field="access" index="7" name=""/>
+        <alias field="bicycle" index="8" name=""/>
+        <alias field="foot" index="9" name=""/>
+        <alias field="horse" index="10" name=""/>
+        <alias field="motor_vehicle" index="11" name=""/>
+        <alias field="motorcar" index="12" name=""/>
+        <alias field="bridge" index="13" name=""/>
+        <alias field="cutting" index="14" name=""/>
+        <alias field="embankment" index="15" name=""/>
+        <alias field="tunnel" index="16" name=""/>
+        <alias field="service" index="17" name=""/>
+        <alias field="toll" index="18" name=""/>
+        <alias field="surface" index="19" name=""/>
+        <alias field="width" index="20" name=""/>
+        <alias field="construction" index="21" name=""/>
+        <alias field="layer" index="22" name=""/>
+        <alias field="tracktype" index="23" name=""/>
+        <alias field="junction" index="24" name=""/>
+        <alias field="disused" index="25" name=""/>
+        <alias field="z_order" index="26" name=""/>
+      </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions default="-1"/>
@@ -9257,6 +9595,12 @@ def my_form_open(dialog, layer, feature):
       <vectorjoins/>
       <layerDependencies/>
       <expressionfields/>
+      <defaults>
+        <default field="gid" expression=""/>
+        <default field="landcap" expression=""/>
+        <default field="descr" expression=""/>
+        <default field="grouping" expression=""/>
+      </defaults>
       <map-layer-style-manager current="">
         <map-layer-style name=""/>
       </map-layer-style-manager>
@@ -9465,6 +9809,12 @@ def my_form_open(dialog, layer, feature):
         <selectedonly on=""/>
       </labelattributes>
       <annotationform>../../../livelihood_zones/national/maps</annotationform>
+      <aliases>
+        <alias field="gid" index="0" name=""/>
+        <alias field="landcap" index="1" name=""/>
+        <alias field="descr" index="2" name=""/>
+        <alias field="grouping" index="3" name=""/>
+      </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions default="0"/>
@@ -9522,6 +9872,14 @@ def my_form_open(dialog, layer, feature):
       <vectorjoins/>
       <layerDependencies/>
       <expressionfields/>
+      <defaults>
+        <default field="gid" expression=""/>
+        <default field="lz_code" expression=""/>
+        <default field="lz_abbrev" expression=""/>
+        <default field="lz_name" expression=""/>
+        <default field="descr" expression=""/>
+        <default field="area_ha" expression=""/>
+      </defaults>
       <map-layer-style-manager current="">
         <map-layer-style name=""/>
       </map-layer-style-manager>
@@ -10078,6 +10436,14 @@ def my_form_open(dialog, layer, feature):
         <selectedonly on=""/>
       </labelattributes>
       <annotationform>../../../livelihood_zones/national/maps</annotationform>
+      <aliases>
+        <alias field="gid" index="0" name=""/>
+        <alias field="lz_code" index="1" name=""/>
+        <alias field="lz_abbrev" index="2" name=""/>
+        <alias field="lz_name" index="3" name=""/>
+        <alias field="descr" index="4" name=""/>
+        <alias field="area_ha" index="5" name=""/>
+      </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions default="0"/>
@@ -10129,6 +10495,14 @@ def my_form_open(dialog, layer, feature):
       <vectorjoins/>
       <layerDependencies/>
       <expressionfields/>
+      <defaults>
+        <default field="gid" expression=""/>
+        <default field="lz_code" expression=""/>
+        <default field="lz_abbrev" expression=""/>
+        <default field="lz_name" expression=""/>
+        <default field="descr" expression=""/>
+        <default field="area_ha" expression=""/>
+      </defaults>
       <map-layer-style-manager current="">
         <map-layer-style name=""/>
       </map-layer-style-manager>
@@ -10599,6 +10973,14 @@ def my_form_open(dialog, layer, feature):
         <selectedonly on=""/>
       </labelattributes>
       <annotationform>../../../livelihood_zones/national/maps</annotationform>
+      <aliases>
+        <alias field="gid" index="0" name=""/>
+        <alias field="lz_code" index="1" name=""/>
+        <alias field="lz_abbrev" index="2" name=""/>
+        <alias field="lz_name" index="3" name=""/>
+        <alias field="descr" index="4" name=""/>
+        <alias field="area_ha" index="5" name=""/>
+      </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions default="0"/>
@@ -10656,6 +11038,15 @@ def my_form_open(dialog, layer, feature):
       <vectorjoins/>
       <layerDependencies/>
       <expressionfields/>
+      <defaults>
+        <default field="gid" expression=""/>
+        <default field="lz_code" expression=""/>
+        <default field="lz_abbrev" expression=""/>
+        <default field="lz_name" expression=""/>
+        <default field="descr" expression=""/>
+        <default field="area_ha" expression=""/>
+        <default field="multi" expression=""/>
+      </defaults>
       <map-layer-style-manager current="">
         <map-layer-style name=""/>
       </map-layer-style-manager>
@@ -11408,6 +11799,15 @@ def my_form_open(dialog, layer, feature):
       </SingleCategoryDiagramRenderer>
       <DiagramLayerSettings yPosColumn="-1" showColumn="-1" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
       <annotationform>../../../livelihood_zones/national/maps</annotationform>
+      <aliases>
+        <alias field="gid" index="0" name=""/>
+        <alias field="lz_code" index="1" name=""/>
+        <alias field="lz_abbrev" index="2" name=""/>
+        <alias field="lz_name" index="3" name=""/>
+        <alias field="descr" index="4" name=""/>
+        <alias field="area_ha" index="5" name=""/>
+        <alias field="multi" index="6" name=""/>
+      </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions default="-1"/>
@@ -11490,6 +11890,14 @@ def my_form_open(dialog, layer, feature):
       <vectorjoins/>
       <layerDependencies/>
       <expressionfields/>
+      <defaults>
+        <default field="gid" expression=""/>
+        <default field="lz_code" expression=""/>
+        <default field="lz_abbrev" expression=""/>
+        <default field="lz_name" expression=""/>
+        <default field="descr" expression=""/>
+        <default field="area_ha" expression=""/>
+      </defaults>
       <map-layer-style-manager current="">
         <map-layer-style name=""/>
       </map-layer-style-manager>
@@ -12154,6 +12562,14 @@ def my_form_open(dialog, layer, feature):
       </SingleCategoryDiagramRenderer>
       <DiagramLayerSettings yPosColumn="-1" showColumn="-1" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
       <annotationform>../../../livelihood_zones/national/maps</annotationform>
+      <aliases>
+        <alias field="gid" index="0" name=""/>
+        <alias field="lz_code" index="1" name=""/>
+        <alias field="lz_abbrev" index="2" name=""/>
+        <alias field="lz_name" index="3" name=""/>
+        <alias field="descr" index="4" name=""/>
+        <alias field="area_ha" index="5" name=""/>
+      </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions default="-1"/>
@@ -12229,6 +12645,14 @@ def my_form_open(dialog, layer, feature):
       <vectorjoins/>
       <layerDependencies/>
       <expressionfields/>
+      <defaults>
+        <default field="gid" expression=""/>
+        <default field="lz_code" expression=""/>
+        <default field="lz_abbrev" expression=""/>
+        <default field="lz_name" expression=""/>
+        <default field="descr" expression=""/>
+        <default field="area_ha" expression=""/>
+      </defaults>
       <map-layer-style-manager current="">
         <map-layer-style name=""/>
       </map-layer-style-manager>
@@ -13031,6 +13455,14 @@ def my_form_open(dialog, layer, feature):
         <selectedonly on=""/>
       </labelattributes>
       <annotationform>../../../livelihood_zones/national/maps</annotationform>
+      <aliases>
+        <alias field="gid" index="0" name=""/>
+        <alias field="lz_code" index="1" name=""/>
+        <alias field="lz_abbrev" index="2" name=""/>
+        <alias field="lz_name" index="3" name=""/>
+        <alias field="descr" index="4" name=""/>
+        <alias field="area_ha" index="5" name=""/>
+      </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions default="0"/>
@@ -13082,6 +13514,14 @@ def my_form_open(dialog, layer, feature):
       <vectorjoins/>
       <layerDependencies/>
       <expressionfields/>
+      <defaults>
+        <default field="gid" expression=""/>
+        <default field="lz_code" expression=""/>
+        <default field="lz_abbrev" expression=""/>
+        <default field="lz_name" expression=""/>
+        <default field="descr" expression=""/>
+        <default field="area_ha" expression=""/>
+      </defaults>
       <map-layer-style-manager current="">
         <map-layer-style name=""/>
       </map-layer-style-manager>
@@ -13522,6 +13962,14 @@ def my_form_open(dialog, layer, feature):
         <selectedonly on=""/>
       </labelattributes>
       <annotationform>../../../livelihood_zones/national/maps</annotationform>
+      <aliases>
+        <alias field="gid" index="0" name=""/>
+        <alias field="lz_code" index="1" name=""/>
+        <alias field="lz_abbrev" index="2" name=""/>
+        <alias field="lz_name" index="3" name=""/>
+        <alias field="descr" index="4" name=""/>
+        <alias field="area_ha" index="5" name=""/>
+      </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions default="0"/>
@@ -13573,6 +14021,14 @@ def my_form_open(dialog, layer, feature):
       <vectorjoins/>
       <layerDependencies/>
       <expressionfields/>
+      <defaults>
+        <default field="gid" expression=""/>
+        <default field="lz_code" expression=""/>
+        <default field="lz_abbrev" expression=""/>
+        <default field="lz_name" expression=""/>
+        <default field="descr" expression=""/>
+        <default field="area_ha" expression=""/>
+      </defaults>
       <map-layer-style-manager current="">
         <map-layer-style name=""/>
       </map-layer-style-manager>
@@ -14645,6 +15101,14 @@ def my_form_open(dialog, layer, feature):
         <selectedonly on=""/>
       </labelattributes>
       <annotationform>../../../livelihood_zones/national/maps</annotationform>
+      <aliases>
+        <alias field="gid" index="0" name=""/>
+        <alias field="lz_code" index="1" name=""/>
+        <alias field="lz_abbrev" index="2" name=""/>
+        <alias field="lz_name" index="3" name=""/>
+        <alias field="descr" index="4" name=""/>
+        <alias field="area_ha" index="5" name=""/>
+      </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions default="0"/>
@@ -14696,6 +15160,14 @@ def my_form_open(dialog, layer, feature):
       <vectorjoins/>
       <layerDependencies/>
       <expressionfields/>
+      <defaults>
+        <default field="gid" expression=""/>
+        <default field="lz_code" expression=""/>
+        <default field="lz_abbrev" expression=""/>
+        <default field="lz_name" expression=""/>
+        <default field="descr" expression=""/>
+        <default field="area_ha" expression=""/>
+      </defaults>
       <map-layer-style-manager current="">
         <map-layer-style name=""/>
       </map-layer-style-manager>
@@ -15038,6 +15510,14 @@ def my_form_open(dialog, layer, feature):
         <selectedonly on=""/>
       </labelattributes>
       <annotationform>../../../livelihood_zones/national/maps</annotationform>
+      <aliases>
+        <alias field="gid" index="0" name=""/>
+        <alias field="lz_code" index="1" name=""/>
+        <alias field="lz_abbrev" index="2" name=""/>
+        <alias field="lz_name" index="3" name=""/>
+        <alias field="descr" index="4" name=""/>
+        <alias field="area_ha" index="5" name=""/>
+      </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions default="0"/>
@@ -15089,6 +15569,14 @@ def my_form_open(dialog, layer, feature):
       <vectorjoins/>
       <layerDependencies/>
       <expressionfields/>
+      <defaults>
+        <default field="gid" expression=""/>
+        <default field="lz_code" expression=""/>
+        <default field="lz_abbrev" expression=""/>
+        <default field="lz_name" expression=""/>
+        <default field="descr" expression=""/>
+        <default field="area_ha" expression=""/>
+      </defaults>
       <map-layer-style-manager current="">
         <map-layer-style name=""/>
       </map-layer-style-manager>
@@ -15543,6 +16031,14 @@ def my_form_open(dialog, layer, feature):
         <selectedonly on=""/>
       </labelattributes>
       <annotationform>../../../livelihood_zones/national/maps</annotationform>
+      <aliases>
+        <alias field="gid" index="0" name=""/>
+        <alias field="lz_code" index="1" name=""/>
+        <alias field="lz_abbrev" index="2" name=""/>
+        <alias field="lz_name" index="3" name=""/>
+        <alias field="descr" index="4" name=""/>
+        <alias field="area_ha" index="5" name=""/>
+      </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions default="0"/>
@@ -15594,6 +16090,14 @@ def my_form_open(dialog, layer, feature):
       <vectorjoins/>
       <layerDependencies/>
       <expressionfields/>
+      <defaults>
+        <default field="gid" expression=""/>
+        <default field="lz_code" expression=""/>
+        <default field="lz_abbrev" expression=""/>
+        <default field="lz_name" expression=""/>
+        <default field="descr" expression=""/>
+        <default field="area_ha" expression=""/>
+      </defaults>
       <map-layer-style-manager current="">
         <map-layer-style name=""/>
       </map-layer-style-manager>
@@ -16062,6 +16566,14 @@ def my_form_open(dialog, layer, feature):
         <selectedonly on=""/>
       </labelattributes>
       <annotationform>../../../livelihood_zones/national/maps</annotationform>
+      <aliases>
+        <alias field="gid" index="0" name=""/>
+        <alias field="lz_code" index="1" name=""/>
+        <alias field="lz_abbrev" index="2" name=""/>
+        <alias field="lz_name" index="3" name=""/>
+        <alias field="descr" index="4" name=""/>
+        <alias field="area_ha" index="5" name=""/>
+      </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions default="0"/>
@@ -16113,6 +16625,29 @@ def my_form_open(dialog, layer, feature):
       <vectorjoins/>
       <layerDependencies/>
       <expressionfields/>
+      <defaults>
+        <default field="gid" expression=""/>
+        <default field="name" expression=""/>
+        <default field="old_name" expression=""/>
+        <default field="place_name" expression=""/>
+        <default field="pc_region" expression=""/>
+        <default field="prov_abbrev" expression=""/>
+        <default field="munic_name" expression=""/>
+        <default field="mp_name" expression=""/>
+        <default field="sp_name" expression=""/>
+        <default field="city_name" expression=""/>
+        <default field="prov_cap" expression=""/>
+        <default field="harbour" expression=""/>
+        <default field="checked" expression=""/>
+        <default field="label_side" expression=""/>
+        <default field="type" expression=""/>
+        <default field="size" expression=""/>
+        <default field="popular" expression=""/>
+        <default field="class" expression=""/>
+        <default field="in_tlc" expression=""/>
+        <default field="longitude" expression=""/>
+        <default field="latitude" expression=""/>
+      </defaults>
       <map-layer-style-manager current="">
         <map-layer-style name=""/>
       </map-layer-style-manager>
@@ -16504,6 +17039,29 @@ def my_form_open(dialog, layer, feature):
       </SingleCategoryDiagramRenderer>
       <DiagramLayerSettings yPosColumn="-1" showColumn="-1" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
       <annotationform>../../../livelihood_zones/national/maps</annotationform>
+      <aliases>
+        <alias field="gid" index="0" name=""/>
+        <alias field="name" index="1" name=""/>
+        <alias field="old_name" index="2" name=""/>
+        <alias field="place_name" index="3" name=""/>
+        <alias field="pc_region" index="4" name=""/>
+        <alias field="prov_abbrev" index="5" name=""/>
+        <alias field="munic_name" index="6" name=""/>
+        <alias field="mp_name" index="7" name=""/>
+        <alias field="sp_name" index="8" name=""/>
+        <alias field="city_name" index="9" name=""/>
+        <alias field="prov_cap" index="10" name=""/>
+        <alias field="harbour" index="11" name=""/>
+        <alias field="checked" index="12" name=""/>
+        <alias field="label_side" index="13" name=""/>
+        <alias field="type" index="14" name=""/>
+        <alias field="size" index="15" name=""/>
+        <alias field="popular" index="16" name=""/>
+        <alias field="class" index="17" name=""/>
+        <alias field="in_tlc" index="18" name=""/>
+        <alias field="longitude" index="19" name=""/>
+        <alias field="latitude" index="20" name=""/>
+      </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions default="-1"/>
@@ -16594,6 +17152,24 @@ def my_form_open(dialog, layer, feature):
       <vectorjoins/>
       <layerDependencies/>
       <expressionfields/>
+      <defaults>
+        <default field="gid" expression=""/>
+        <default field="sa_code" expression=""/>
+        <default field="village_name" expression=""/>
+        <default field="village_code" expression=""/>
+        <default field="main_place_name" expression=""/>
+        <default field="main_place_code" expression=""/>
+        <default field="municipality_name" expression=""/>
+        <default field="municipality_code" expression=""/>
+        <default field="district_name" expression=""/>
+        <default field="district_code" expression=""/>
+        <default field="province_name" expression=""/>
+        <default field="province_code" expression=""/>
+        <default field="lz_code" expression=""/>
+        <default field="pop" expression=""/>
+        <default field="survey" expression=""/>
+        <default field="sampled_date" expression=""/>
+      </defaults>
       <map-layer-style-manager current="">
         <map-layer-style name=""/>
       </map-layer-style-manager>
@@ -16890,6 +17466,24 @@ def my_form_open(dialog, layer, feature):
         <selectedonly on=""/>
       </labelattributes>
       <annotationform>../../../livelihood_zones/province_zn/maps</annotationform>
+      <aliases>
+        <alias field="gid" index="0" name=""/>
+        <alias field="sa_code" index="1" name=""/>
+        <alias field="village_name" index="2" name=""/>
+        <alias field="village_code" index="3" name=""/>
+        <alias field="main_place_name" index="4" name=""/>
+        <alias field="main_place_code" index="5" name=""/>
+        <alias field="municipality_name" index="6" name=""/>
+        <alias field="municipality_code" index="7" name=""/>
+        <alias field="district_name" index="8" name=""/>
+        <alias field="district_code" index="9" name=""/>
+        <alias field="province_name" index="10" name=""/>
+        <alias field="province_code" index="11" name=""/>
+        <alias field="lz_code" index="12" name=""/>
+        <alias field="pop" index="13" name=""/>
+        <alias field="survey" index="14" name=""/>
+        <alias field="sampled_date" index="15" name=""/>
+      </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions default="-1"/>
@@ -16941,6 +17535,22 @@ def my_form_open(dialog, layer, feature):
       <vectorjoins/>
       <layerDependencies/>
       <expressionfields/>
+      <defaults>
+        <default field="village_code" expression=""/>
+        <default field="village_name" expression=""/>
+        <default field="main_place_name" expression=""/>
+        <default field="main_place_code" expression=""/>
+        <default field="municipality_name" expression=""/>
+        <default field="municipality_code" expression=""/>
+        <default field="district_name" expression=""/>
+        <default field="district_code" expression=""/>
+        <default field="province_name" expression=""/>
+        <default field="province_code" expression=""/>
+        <default field="centroid" expression=""/>
+        <default field="approx_coord" expression=""/>
+        <default field="survey" expression=""/>
+        <default field="sampled_date" expression=""/>
+      </defaults>
       <map-layer-style-manager current="">
         <map-layer-style name=""/>
       </map-layer-style-manager>
@@ -17309,6 +17919,22 @@ def my_form_open(dialog, layer, feature):
       </SingleCategoryDiagramRenderer>
       <DiagramLayerSettings yPosColumn="-1" showColumn="-1" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
       <annotationform>../../../livelihood_zones/province_zn/maps</annotationform>
+      <aliases>
+        <alias field="village_code" index="0" name=""/>
+        <alias field="village_name" index="1" name=""/>
+        <alias field="main_place_name" index="2" name=""/>
+        <alias field="main_place_code" index="3" name=""/>
+        <alias field="municipality_name" index="4" name=""/>
+        <alias field="municipality_code" index="5" name=""/>
+        <alias field="district_name" index="6" name=""/>
+        <alias field="district_code" index="7" name=""/>
+        <alias field="province_name" index="8" name=""/>
+        <alias field="province_code" index="9" name=""/>
+        <alias field="centroid" index="10" name=""/>
+        <alias field="approx_coord" index="11" name=""/>
+        <alias field="survey" index="12" name=""/>
+        <alias field="sampled_date" index="13" name=""/>
+      </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions default="-1"/>
@@ -17392,6 +18018,23 @@ def my_form_open(dialog, layer, feature):
       <vectorjoins/>
       <layerDependencies/>
       <expressionfields/>
+      <defaults>
+        <default field="gid" expression=""/>
+        <default field="ea_code" expression=""/>
+        <default field="village_name" expression=""/>
+        <default field="village_code" expression=""/>
+        <default field="main_place_name" expression=""/>
+        <default field="main_place_code" expression=""/>
+        <default field="municipality_name" expression=""/>
+        <default field="municipality_code" expression=""/>
+        <default field="district_name" expression=""/>
+        <default field="district_code" expression=""/>
+        <default field="province_name" expression=""/>
+        <default field="province_code" expression=""/>
+        <default field="lz" expression=""/>
+        <default field="village_pop" expression=""/>
+        <default field="survey" expression=""/>
+      </defaults>
       <map-layer-style-manager current="">
         <map-layer-style name=""/>
       </map-layer-style-manager>
@@ -17633,6 +18276,23 @@ def my_form_open(dialog, layer, feature):
         <selectedonly on=""/>
       </labelattributes>
       <annotationform>../../2016_fs_zn/maps</annotationform>
+      <aliases>
+        <alias field="gid" index="0" name=""/>
+        <alias field="ea_code" index="1" name=""/>
+        <alias field="village_name" index="2" name=""/>
+        <alias field="village_code" index="3" name=""/>
+        <alias field="main_place_name" index="4" name=""/>
+        <alias field="main_place_code" index="5" name=""/>
+        <alias field="municipality_name" index="6" name=""/>
+        <alias field="municipality_code" index="7" name=""/>
+        <alias field="district_name" index="8" name=""/>
+        <alias field="district_code" index="9" name=""/>
+        <alias field="province_name" index="10" name=""/>
+        <alias field="province_code" index="11" name=""/>
+        <alias field="lz" index="12" name=""/>
+        <alias field="village_pop" index="13" name=""/>
+        <alias field="survey" index="14" name=""/>
+      </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions default="0"/>
