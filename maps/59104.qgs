@@ -35,6 +35,9 @@
     <layer-tree-layer expanded="0" checked="Qt::Checked" id="infra_railways20141016122124065" name="Railways">
       <customproperties/>
     </layer-tree-layer>
+    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="landtenure_farms20170210163046444" name="Landtenure_farms">
+      <customproperties/>
+    </layer-tree-layer>
     <layer-tree-layer expanded="1" checked="Qt::Checked" id="landcap_200720141002171835073" name="Dams and water bodies">
       <customproperties/>
     </layer-tree-layer>
@@ -57,9 +60,6 @@
       <customproperties/>
     </layer-tree-layer>
     <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="vw_sampled_eas20160219112108684" name="Vw_sampled_eas">
-      <customproperties/>
-    </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="landtenure_farms20170209133330989" name="Landtenure_farms">
       <customproperties/>
     </layer-tree-layer>
     <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="vw_sampled_20160220160216173604551" name="Sampled villages">
@@ -126,10 +126,10 @@
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>-915497.20465117995627224</xmin>
-      <ymin>-1017924.82844082766678184</ymin>
-      <xmax>-874164.98796801385469735</xmax>
-      <ymax>-934419.3127230656100437</ymax>
+      <xmin>44269.32436953462456586</xmin>
+      <ymin>-54566.35821969045355218</ymin>
+      <xmax>62001.96597682580613764</xmax>
+      <ymax>-18740.22787187860376434</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -155,8 +155,8 @@
       <layer_coordinate_transform destAuthId="USER:100102" srcAuthId="USER:100100" srcDatumTransform="-1" destDatumTransform="-1" layerid="settlemt_towns20141016122322026"/>
       <layer_coordinate_transform destAuthId="USER:100102" srcAuthId="USER:100101" srcDatumTransform="-1" destDatumTransform="-1" layerid="admin2_provs20150127153317162"/>
       <layer_coordinate_transform destAuthId="USER:100102" srcAuthId="USER:100106" srcDatumTransform="-1" destDatumTransform="-1" layerid="livezones20140927140420118"/>
-      <layer_coordinate_transform destAuthId="USER:100102" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="ShadedRelief20150428103937905"/>
       <layer_coordinate_transform destAuthId="USER:100102" srcAuthId="" srcDatumTransform="-1" destDatumTransform="-1" layerid="landtenure_farms20170209133330989"/>
+      <layer_coordinate_transform destAuthId="USER:100102" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="ShadedRelief20150428103937905"/>
       <layer_coordinate_transform destAuthId="USER:100102" srcAuthId="" srcDatumTransform="-1" destDatumTransform="-1" layerid="demog_sas_ofa20170208115542760"/>
       <layer_coordinate_transform destAuthId="USER:100102" srcAuthId="USER:100100" srcDatumTransform="-1" destDatumTransform="-1" layerid="infra_railways20141016122124065"/>
       <layer_coordinate_transform destAuthId="USER:100102" srcAuthId="USER:100100" srcDatumTransform="-1" destDatumTransform="-1" layerid="admin3_dists20150206151031498"/>
@@ -171,6 +171,7 @@
       <layer_coordinate_transform destAuthId="USER:100102" srcAuthId="USER:100100" srcDatumTransform="-1" destDatumTransform="-1" layerid="demog_sas20160215161354993"/>
       <layer_coordinate_transform destAuthId="USER:100102" srcAuthId="USER:100100" srcDatumTransform="-1" destDatumTransform="-1" layerid="livezones_urban20141002125523242"/>
       <layer_coordinate_transform destAuthId="USER:100102" srcAuthId="USER:100101" srcDatumTransform="-1" destDatumTransform="-1" layerid="livezones20140916175207252"/>
+      <layer_coordinate_transform destAuthId="USER:100102" srcAuthId="USER:100100" srcDatumTransform="-1" destDatumTransform="-1" layerid="landtenure_farms20170210163046444"/>
       <layer_coordinate_transform destAuthId="USER:100102" srcAuthId="USER:100105" srcDatumTransform="-1" destDatumTransform="-1" layerid="livezones20140918113914885"/>
     </layer_coordinate_transform_info>
   </mapcanvas>
@@ -207,7 +208,7 @@
       <item>vw_sampled_eas20160219112108684</item>
       <item>vw_sampled_centroids20160222222805082</item>
       <item>Demog_sas_copy20161027165739097</item>
-      <item>landtenure_farms20170209133330989</item>
+      <item>landtenure_farms20170210163046444</item>
     </custom-order>
   </layer-tree-canvas>
   <legend updateDrawingOrder="true">
@@ -261,6 +262,11 @@
         <legendlayerfile isInOverview="0" layerid="infra_railways20141016122124065" visible="1"/>
       </filegroup>
     </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Landtenure_farms" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="landtenure_farms20170210163046444" visible="0"/>
+      </filegroup>
+    </legendlayer>
     <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Dams and water bodies" showFeatureCount="0">
       <filegroup open="true" hidden="false">
         <legendlayerfile isInOverview="0" layerid="landcap_200720141002171835073" visible="1"/>
@@ -299,11 +305,6 @@
     <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Vw_sampled_eas" showFeatureCount="0">
       <filegroup open="true" hidden="false">
         <legendlayerfile isInOverview="0" layerid="vw_sampled_eas20160219112108684" visible="0"/>
-      </filegroup>
-    </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Landtenure_farms" showFeatureCount="0">
-      <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="landtenure_farms20170209133330989" visible="1"/>
       </filegroup>
     </legendlayer>
     <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Sampled villages" showFeatureCount="0">
@@ -563,6 +564,12 @@
   </Composer>
   <projectlayers>
     <maplayer simplifyAlgorithm="0" minimumScale="100000" maximumScale="1e+08" simplifyDrawingHints="1" readOnly="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <extent>
+        <xmin>-805223.125</xmin>
+        <ymin>-719840.75</ymin>
+        <xmax>779751.75</xmax>
+        <ymax>702378.8125</ymax>
+      </extent>
       <id>Demog_sas_copy20161027165739097</id>
       <datasource>dbname='albers_ea' host=Localhost port=5432 user='Charles' sslmode=disable key='gid' srid=201100 type=MultiPolygon table="zaf"."demog_sas" (the_geom) sql=</datasource>
       <keywordList>
@@ -9855,19 +9862,19 @@ def my_form_open(dialog, layer, feature):
       </globe>
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" readOnly="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-      <id>landtenure_farms20170209133330989</id>
-      <datasource>dbname='albers_ea' host=rds-pg-instance.cbh4lew5anpm.eu-west-1.rds.amazonaws.com port=5432 sslmode=allow key='gid' srid=201100 type=MultiPolygon table="zaf"."landtenure_farms" (the_geom) sql=</datasource>
+      <id>landtenure_farms20170210163046444</id>
+      <datasource>dbname='albers_ea' host=Localhost port=5432 user='Charles' sslmode=disable key='gid' srid=201100 type=MultiPolygon table="zaf"."landtenure_farms" (the_geom) sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
       <layername>Landtenure_farms</layername>
       <srs>
         <spatialrefsys>
-          <proj4>+proj=aea +lat_1=-24 +lat_2=-33 +lat_0=-28 +lon_0=25 +x_0=0 +y_0=0 +ellps=WGS84 +datum=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
-          <srsid>0</srsid>
+          <proj4>+proj=aea +lat_1=-24.2 +lat_2=-32.8 +lat_0=-28.5 +lon_0=25.1 +x_0=0 +y_0=0 +ellps=WGS84 +datum=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>100100</srsid>
           <srid>0</srid>
-          <authid></authid>
-          <description></description>
+          <authid>USER:100100</authid>
+          <description>201100 South Africa Albers Equal Area</description>
           <projectionacronym>aea</projectionacronym>
           <ellipsoidacronym>WGS84</ellipsoidacronym>
           <geographicflag>false</geographicflag>
@@ -9982,16 +9989,16 @@ def my_form_open(dialog, layer, feature):
           <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
             <layer pass="0" class="SimpleFill" locked="0">
               <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="color" v="57,173,101,255"/>
+              <prop k="color" v="167,140,225,255"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
-              <prop k="outline_color" v="227,26,28,255"/>
+              <prop k="outline_color" v="252,0,0,255"/>
               <prop k="outline_style" v="solid"/>
               <prop k="outline_width" v="0.1"/>
               <prop k="outline_width_unit" v="MM"/>
-              <prop k="style" v="no"/>
+              <prop k="style" v="b_diagonal"/>
             </layer>
           </symbol>
         </symbols>
@@ -10144,7 +10151,7 @@ def my_form_open(dialog, layer, feature):
       </customproperties>
       <blendMode>0</blendMode>
       <featureBlendMode>0</featureBlendMode>
-      <layerTransparency>0</layerTransparency>
+      <layerTransparency>36</layerTransparency>
       <displayfield>farmname</displayfield>
       <label>0</label>
       <labelattributes>
@@ -10224,7 +10231,7 @@ def my_form_open(dialog, layer, feature):
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions default="-1"/>
-      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="-2147483648">
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="1191933250">
         <columns>
           <column width="-1" hidden="0" type="field" name="gid"/>
           <column width="-1" hidden="0" type="field" name="ag_cad_id"/>
@@ -18858,7 +18865,7 @@ def my_form_open(dialog, layer, feature):
         <value>vw_sampled_20160220160216173604551</value>
         <value>vw_sampled_centroids20160222222805082</value>
         <value>vw_sampled_eas20160219112108684</value>
-        <value>landtenure_farms20170209133330989</value>
+        <value>landtenure_farms20170210163046444</value>
       </LayerSnappingList>
       <LayerSnappingEnabledList type="QStringList">
         <value>enabled</value>
