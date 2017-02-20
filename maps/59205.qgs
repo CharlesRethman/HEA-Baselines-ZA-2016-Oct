@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis projectname="Map for baselines assessment sampling in South Africa (Mpumalanga &amp; Limpopo):  Livelihood zone 59205" version="2.18.0">
+<qgis projectname="Map for baselines assessment sampling in South Africa (Mpumalanga &amp; Limpopo):  Livelihood zone 59205" version="2.18.2">
   <title>Map for baselines assessment sampling in South Africa (Mpumalanga &amp; Limpopo):  Livelihood zone 59205</title>
   <autotransaction active="0"/>
   <evaluateDefaultValues active="0"/>
@@ -126,10 +126,10 @@
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>-142355.16548886330565438</xmin>
-      <ymin>47184.20809057931182906</ymin>
-      <xmax>-93749.05013767328637186</xmax>
-      <ymax>85534.43310266817570664</ymax>
+      <xmin>-137025.34188494679983705</xmin>
+      <ymin>36708.34790357101883274</ymin>
+      <xmax>-88419.22653375678055454</xmax>
+      <ymax>75058.57291565988271032</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -165,6 +165,7 @@
       <layer_coordinate_transform destAuthId="USER:100102" srcAuthId="USER:100100" srcDatumTransform="-1" destDatumTransform="-1" layerid="admin4_munics20150206151234955"/>
       <layer_coordinate_transform destAuthId="USER:100102" srcAuthId="USER:100100" srcDatumTransform="-1" destDatumTransform="-1" layerid="landcap_200720141002171835073"/>
       <layer_coordinate_transform destAuthId="USER:100102" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="infra_tfares_osm20151212205144669"/>
+      <layer_coordinate_transform destAuthId="USER:100102" srcAuthId="USER:100100" srcDatumTransform="-1" destDatumTransform="-1" layerid="vw_sampled_eas20160219112108684"/>
       <layer_coordinate_transform destAuthId="USER:100102" srcAuthId="USER:100100" srcDatumTransform="-1" destDatumTransform="-1" layerid="hydro_rivers20141016122058195"/>
       <layer_coordinate_transform destAuthId="USER:100102" srcAuthId="USER:100101" srcDatumTransform="-1" destDatumTransform="-1" layerid="admin2_provs20150127152636327"/>
       <layer_coordinate_transform destAuthId="USER:100102" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="demog_sas20160219173457651"/>
@@ -18679,7 +18680,7 @@ def my_form_open(dialog, layer, feature):
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
-      <attributeactions default="0"/>
+      <attributeactions default="-1"/>
       <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
         <columns/>
       </attributetableconfig>
