@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis projectname="Map for baselines assessment sampling in South Africa (Mpumalanga &amp; Limpopo):  Livelihood zone 59201" version="2.18.0">
+<qgis projectname="Map for baselines assessment sampling in South Africa (Mpumalanga &amp; Limpopo):  Livelihood zone 59201" version="2.18.2">
   <title>Map for baselines assessment sampling in South Africa (Mpumalanga &amp; Limpopo):  Livelihood zone 59201</title>
   <autotransaction active="0"/>
   <evaluateDefaultValues active="0"/>
@@ -743,7 +743,7 @@
       </customproperties>
     </Composition>
   </Composer>
-  <Composer title="lz_survey_sites_3" visible="0">
+  <Composer title="lz_survey_sites_3" visible="1">
     <Composition resizeToContentsMarginLeft="0" snapping="0" showPages="1" guidesVisible="1" resizeToContentsMarginTop="0" worldFileMap="" alignmentSnap="1" printResolution="200" paperWidth="210" gridVisible="0" snapGridOffsetX="0" smartGuides="1" snapGridOffsetY="0" resizeToContentsMarginRight="0" snapTolerancePixels="5" printAsRaster="1" generateWorldFile="0" paperHeight="297" numPages="1" snapGridResolution="10" resizeToContentsMarginBottom="0">
       <symbol alpha="1" clip_to_extent="1" type="fill" name="">
         <layer pass="0" class="SimpleFill" locked="0">
@@ -917,7 +917,7 @@
           <annotationFontProperties description="Helvetica Neue,13,-1,5,50,0,0,0,0,0" style=""/>
         </ComposerMapGrid>
         <AtlasMap scalingMode="2" atlasDriven="0" margin="0.10000000000000001"/>
-        <ComposerItem pagey="12.8352" page="1" id="" lastValidViewScaleFactor="4.15767" positionMode="0" positionLock="false" x="14.5748" y="12.8352" visibility="1" zValue="1" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="180.85" outlineWidth="0.3" excludeFromExports="0" uuid="{d62cc533-b283-41f8-acc6-9facd7cadec3}" height="272.053" itemRotation="0" frame="true" pagex="14.5748">
+        <ComposerItem pagey="12.8352" page="1" id="" lastValidViewScaleFactor="2.13975" positionMode="0" positionLock="false" x="14.5748" y="12.8352" visibility="1" zValue="1" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="180.85" outlineWidth="0.3" excludeFromExports="0" uuid="{d62cc533-b283-41f8-acc6-9facd7cadec3}" height="272.053" itemRotation="0" frame="true" pagex="14.5748">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
