@@ -128,7 +128,7 @@
     <extent>
       <xmin>-137025.34188494679983705</xmin>
       <ymin>36708.34790357101883274</ymin>
-      <xmax>-88419.22653375678055454</xmax>
+      <xmax>-88419.22653375676600263</xmax>
       <ymax>75058.57291565988271032</ymax>
     </extent>
     <rotation>0</rotation>
@@ -373,7 +373,7 @@
       </filegroup>
     </legendlayer>
   </legend>
-  <Composer title="lz_survey_sites_1" visible="0">
+  <Composer title="lz_survey_sites_1" visible="1">
     <Composition resizeToContentsMarginLeft="0" snapping="0" showPages="1" guidesVisible="1" resizeToContentsMarginTop="0" worldFileMap="" alignmentSnap="1" printResolution="200" paperWidth="297" gridVisible="0" snapGridOffsetX="0" smartGuides="1" snapGridOffsetY="0" resizeToContentsMarginRight="0" snapTolerancePixels="5" printAsRaster="1" generateWorldFile="0" paperHeight="210" numPages="1" snapGridResolution="10" resizeToContentsMarginBottom="0">
       <symbol alpha="1" clip_to_extent="1" type="fill" name="">
         <layer pass="0" class="SimpleFill" locked="0">
